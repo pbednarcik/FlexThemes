@@ -1,8 +1,7 @@
 # Visual Studio-inspired themes for JetBrains IDEs
 
-These are the themes I always missed in JetBrains IDEs. Moving from Visual Studio to Rider was always a bit of a
-struggle for me: Visual Studio’s interface is so polished, with calm colors, clear panel edges and easy-to-read code.
-This collection brings that clarity to JetBrains tools.
+Visual Studio’s themes were always a pleasure to work with, and Rider never felt quite the same. These themes bring
+Visual Studio’s calm colors, clear panel edges and easy-to-read code to JetBrains IDEs.
 
 One bundle with nine appearances for **Rider, IntelliJ IDEA, GoLand and PyCharm**. They share panel-separation rules
 and semantic language mappings while retaining each theme's own colours.
