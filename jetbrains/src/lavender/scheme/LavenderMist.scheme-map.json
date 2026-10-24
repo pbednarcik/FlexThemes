@@ -1,0 +1,500 @@
+{
+  "extends": "../../common/scheme/Common.scheme-base.json",
+  "name": "Lavender Mist",
+  "fileName": "LavenderMist",
+  "baseSchemeFile": "theme-pack/colorSchemes/VisualStudioLight.xml",
+  "vsBase": "Blue",
+  "snapshot": "Blue",
+  "defaultOn": "#FFFFFF",
+  "colors": {
+    "LINE_NUMBERS_COLOR": {
+      "value": "#6E6A80",
+      "element": "Line numbers. Visual Studio's 7A7A7A is 4.29:1 on white, below the minimum",
+      "status": "designed"
+    },
+    "LINE_NUMBER_ON_CARET_ROW_COLOR": {
+      "value": "#5C2D91",
+      "element": "Line number of the caret row",
+      "status": "designed"
+    },
+    "CARET_ROW_COLOR": {
+      "value": "#F4F1FB",
+      "element": "Caret line: a faint lavender fill (Visual Studio outlines the line; Rider can only fill it)",
+      "status": "designed"
+    },
+    "CARET_COLOR": {
+      "value": "#5C2D91",
+      "element": "Caret",
+      "status": "designed"
+    },
+    "SELECTION_BACKGROUND": {
+      "value": "#D8C8F5",
+      "element": "Text selection",
+      "status": "designed"
+    },
+    "GUTTER_BACKGROUND": {
+      "value": "#FAF9FE",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "EDITOR_GUTTER_BACKGROUND": {
+      "value": "#FAF9FE",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "INDENT_GUIDE": {
+      "value": "#DAD4E5",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    },
+    "SELECTED_INDENT_GUIDE": {
+      "value": "#A497B9",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    }
+  },
+  "attributes": {
+    "TEXT": {
+      "FOREGROUND": "#000000",
+      "BACKGROUND": "#FFFFFF",
+      "element": "Plain text: Blue's text colour on white. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "DEFAULT_KEYWORD": {
+      "FOREGROUND": "#0E05FE",
+      "element": "Keyword. Visual Studio's hue (0000FF), deepened. Lavender palette: keyword blue, 8.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CONTROL_FLOW_KEYWORD": {
+      "FOREGROUND": "#6E2BB8",
+      "element": "Control-flow keyword: if, foreach, return. Visual Studio's purple (8F08C4), deepened",
+      "status": "designed"
+    },
+    "ReSharper.CONTROL_TRANSFER_KEYWORD": {
+      "FOREGROUND": "#6E2BB8",
+      "element": "Control-transfer keyword: break, continue, goto",
+      "status": "designed"
+    },
+    "DEFAULT_STRING": {
+      "FOREGROUND": "#B4011C",
+      "element": "String. Visual Studio's A31515, slightly softened. Lavender palette: string red, 7.1:1",
+      "status": "designed"
+    },
+    "DEFAULT_LINE_COMMENT": {
+      "FOREGROUND": "#027A1F",
+      "element": "Line comment. Visual Studio's 008000, softened to a calmer green at the same contrast. Lavender palette: comment green, 5.5:1",
+      "status": "designed"
+    },
+    "DEFAULT_BLOCK_COMMENT": {
+      "FOREGROUND": "#027A1F",
+      "element": "Block comment. Lavender palette: comment green, 5.5:1",
+      "status": "designed"
+    },
+    "DEFAULT_DOC_COMMENT": {
+      "FOREGROUND": "#027A1F",
+      "element": "Doc comment text. Lavender palette: comment green, 5.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT": {
+      "FOREGROUND": "#027A1F",
+      "element": "C# doc comment text. Lavender palette: comment green, 5.5:1",
+      "status": "designed"
+    },
+    "DEFAULT_DOC_COMMENT_TAG": {
+      "FOREGROUND": "#5F5A74",
+      "element": "Doc comment tag. Visual Studio's grey 808080 is 3.9:1, below the minimum",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT_TAG_NAME": {
+      "FOREGROUND": "#5F5A74",
+      "element": "C# doc comment tag name",
+      "status": "designed"
+    },
+    "TODO_DEFAULT_ATTRIBUTES": {
+      "FOREGROUND": "#1B63A0",
+      "FONT_TYPE": 1,
+      "element": "TODO comment, bold",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Class name. Visual Studio's teal 2B91AF is 3.64:1 on white, below the minimum; the same hue, deepened. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Static class name. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Static class name (generic). Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Record name. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Struct name. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Struct name (generic). Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Record struct name. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_INTERFACE_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Interface name. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Enum name. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.ENUM_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Enum name (generic). Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Delegate name. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Delegate name (generic). Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Type parameter. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "Type parameter (generic). Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#804601",
+      "element": "Method name. Visual Studio's brown 74531F turned slightly warmer. Lavender palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "DEFAULT_INSTANCE_METHOD": {
+      "FOREGROUND": "#804601",
+      "element": "Generic method name, which Rider also uses for C# methods (seen in a Periwinkle Night capture); kept equal to the C# method colour instead of the inherited 74531F. Lavender palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "DEFAULT_STATIC_METHOD": {
+      "FOREGROUND": "#804601",
+      "element": "Generic static method name, as above. Lavender palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#804601",
+      "element": "Static method name. Lavender palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_LOCAL_FUNCTION_IDENTIFIER": {
+      "FOREGROUND": "#804601",
+      "element": "Local function name. Lavender palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#804601",
+      "element": "Extension method name. Lavender palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "ReSharper.EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#804601",
+      "element": "Extension method name (generic). Lavender palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Local variable. Visual Studio's navy 1F377F, a touch brighter. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Mutable local variable. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Mutable local variable (generic). Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Parameter, in plum so values from outside the method stand apart from locals (Visual Studio colours both navy). Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "DEFAULT_PARAMETER": {
+      "FOREGROUND": "#000000",
+      "element": "Parameter, generic fallback. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_FIELD_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Field, in jade (Visual Studio leaves members as plain text). Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_FIELD_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Static field. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_CONSTANT_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Constant. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Property. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Static property. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_EVENT_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Event. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Property (generic). Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.EVENT_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Event (generic). Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "DEFAULT_INSTANCE_FIELD": {
+      "FOREGROUND": "#000000",
+      "element": "Field, generic fallback. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "DEFAULT_STATIC_FIELD": {
+      "FOREGROUND": "#000000",
+      "element": "Static field, generic fallback. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Namespace. Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Namespace (generic). Lavender palette: names and plain text in pure black",
+      "status": "designed"
+    },
+    "INLAY_DEFAULT": {
+      "FOREGROUND": "#5F5A74",
+      "BACKGROUND": "#F1EEF9",
+      "element": "Inlay hints: C# parameter names and inferred types in Rider. The platform default 7A7A7A on EDEDED is 3.7:1; measured in Rider as the colour its C# hints actually use (7A7A7A)",
+      "status": "designed"
+    },
+    "INLAY_TEXT_WITHOUT_BACKGROUND": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Inlay hint text without a chip. Platform default 7A7A7A is 4.3:1",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_DEFAULT": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Inlay button. Platform default 9DA0A8 is 2.6:1",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_FOCUSED": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Inlay button, focused",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_HOVERED": {
+      "FOREGROUND": "#5F5A74",
+      "element": "Inlay button, hovered",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_HINT": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Inlay button hint. Platform default 818594 is 3.7:1",
+      "status": "designed"
+    },
+    "INLINE_SUGGESTION": {
+      "FOREGROUND": "#6E6A80",
+      "FONT_TYPE": 2,
+      "element": "AI inline completion (ghost text), italic. Platform default 808080 is 3.95:1",
+      "status": "designed"
+    },
+    "CODE_VISION_DEFAULT": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Code Vision (usages, author). JetBrains' 949494 is 3.0:1",
+      "status": "designed"
+    },
+    "INLINE_PARAMETER_HINT": {
+      "FOREGROUND": "#5F5A74",
+      "BACKGROUND": "#F1EEF9",
+      "element": "Parameter name hints on a lavender chip. JetBrains' 7A7A7A on F3EBC2 is 3.6:1",
+      "status": "designed"
+    },
+    "INLINE_PARAMETER_HINT_HIGHLIGHTED": {
+      "FOREGROUND": "#3F3866",
+      "BACKGROUND": "#E2D9F6",
+      "element": "Parameter hint of the argument at the caret",
+      "status": "designed"
+    },
+    "ReSharper.CPP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "C++ class. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "C++ enum. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_LOCAL_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "C++ local typedef. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "C++ overloaded operator. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "C++ struct. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "C++ typedef. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_UNION_IDENTIFIER": {
+      "FOREGROUND": "#047887",
+      "element": "C++ union. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "HYPERLINK_ATTRIBUTES": {
+      "FOREGROUND": "#5C2D91",
+      "element": "Link in the editor, in the accent",
+      "status": "designed"
+    },
+    "CTRL_CLICKABLE": {
+      "FOREGROUND": "#5C2D91",
+      "element": "Ctrl+hover navigation link",
+      "status": "designed"
+    },
+    "CUSTOM_LINE_COMMENT_ATTRIBUTES": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Line comment in custom file types",
+      "status": "designed"
+    },
+    "CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Block comment in custom file types",
+      "status": "designed"
+    },
+    "DEBUGGER_INLINED_VALUES": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Debugger inline values",
+      "status": "designed"
+    },
+    "ReSharper.IL_CODE_LABEL": {
+      "FOREGROUND": "#6E6A80",
+      "element": "IL viewer label",
+      "status": "designed"
+    },
+    "ReSharper.JS_XML_DOCUMENTATION_COMMENT": {
+      "FOREGROUND": "#5F5A74",
+      "element": "JavaScript XML doc comment",
+      "status": "designed"
+    },
+    "ReSharper.LATE_BOUND_IDENTIFIER": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Late-bound identifier (VB)",
+      "status": "designed"
+    },
+    "CONSOLE_GRAY_OUTPUT": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Console grey (run and test output)",
+      "status": "designed"
+    },
+    "LOG_EXPIRED_ENTRY": {
+      "FOREGROUND": "#6E6A80",
+      "element": "Expired log entry",
+      "status": "designed"
+    },
+    "DEFAULT_NUMBER": {
+      "FOREGROUND": "#000000",
+      "element": "Existing DEFAULT_NUMBER colour pinned as the cross-language palette anchor",
+      "status": "inherited"
+    },
+    "NOT_USED_ELEMENT_ATTRIBUTES": {
+      "FOREGROUND": "#6E6A80",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    },
+    "TYPE_PARAMETER_NAME_ATTRIBUTES": {
+      "FOREGROUND": "#047887",
+      "element": "Type parameter, generic fallback. Platform default 20999D is 3.4:1. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "DEFAULT_CLASS_NAME": {
+      "FOREGROUND": "#047887",
+      "element": "Class name, generic fallback for other languages. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    },
+    "DEFAULT_INTERFACE_NAME": {
+      "FOREGROUND": "#047887",
+      "element": "Interface name, generic fallback. Lavender palette: type teal, 5.2:1",
+      "status": "designed"
+    }
+  },
+  "unmapped": [],
+  "languageMappings": "src/common/language-mappings.json",
+  "semanticRoles": {
+    "keyword": "DEFAULT_KEYWORD",
+    "type": "ReSharper.CSHARP_CLASS_IDENTIFIER",
+    "function": "ReSharper.CSHARP_METHOD_IDENTIFIER",
+    "local": "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER",
+    "parameter": "ReSharper.CSHARP_PARAMETER_IDENTIFIER",
+    "member": "ReSharper.CSHARP_FIELD_IDENTIFIER",
+    "string": "DEFAULT_STRING",
+    "number": "DEFAULT_NUMBER",
+    "comment": "DEFAULT_LINE_COMMENT",
+    "docTag": "DEFAULT_DOC_COMMENT_TAG",
+    "escape": "DEFAULT_VALID_STRING_ESCAPE",
+    "invalidEscape": "DEFAULT_INVALID_STRING_ESCAPE",
+    "metadata": "DEFAULT_METADATA",
+    "text": "TEXT",
+    "predefined": "DEFAULT_KEYWORD",
+    "control": "ReSharper.CONTROL_FLOW_KEYWORD",
+    "interface": "ReSharper.CSHARP_INTERFACE_IDENTIFIER",
+    "struct": "ReSharper.CSHARP_STRUCT_IDENTIFIER",
+    "enum": "ReSharper.CSHARP_ENUM_IDENTIFIER",
+    "delegate": "ReSharper.CSHARP_DELEGATE_IDENTIFIER",
+    "typeParameter": "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER",
+    "docComment": "ReSharper.CSHARP_DOC_COMMENT"
+  }
+}

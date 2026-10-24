@@ -1,0 +1,407 @@
+{
+  "extends": "../../common/theme/Common.theme-base.json",
+  "name": "Blue Mist",
+  "fileName": "BlueMist",
+  "providerId": "blue-mist",
+  "author": "Peter Bednarčík. Colours from Microsoft's Visual Studio Blue theme where marked ms-blue; structure from JetBrains' Islands Light theme (Apache-2.0)",
+  "dark": false,
+  "parentTheme": "Islands Light",
+  "baseThemeFile": "platform/themes/islands/ManyIslandsLight.theme.json",
+  "vsBase": "Blue",
+  "snapshot": "Blue",
+  "schemeMap": "BlueMist",
+  "editorScheme": "Blue Mist",
+  "sourceNote": "Blue Mist is inspired by the Visual Studio 2019/2022 **Blue** theme, on Rider's Islands layout. Rows marked **ms-blue** follow that theme's colours; Visual Studio 2026 no longer ships Blue. Rows marked **designed** fill gaps Blue does not cover. Blue's dark frame (5D6B99) and dark captions are left out: Rider's icons measure 1.06:1 on that frame, and Rider has no key for caption text. A row with a contrast figure is checked by the build: text at least 4.5:1 (WCAG 2.2), icons at least 3:1. Panel/header separation follows the Periwinkle Night clarity rules using this theme's own hue; those UI adjustments are marked designed, while the existing syntax palette is preserved.",
+  "colors": {
+    "layer-0-bg": {
+      "value": "#A2B4E3",
+      "element": "Window frame: title row, gaps between panels, tool window strips. A periwinkle-blue between Blue's light command bar (CCD5F0) and its dark frame (5D6B99): 0.1 used CCD5F0 and read too close to Lavender Mist; the dark frame cannot be used because Islands draws dark text and icons on it. 0.3 used 8A9FD9, where title-row text measured 6.4:1 but only APCA Lc 51 and read as hard to read; A2B4E3 gives Lc 61 (8.1:1) with white panels still standing out at 2.0:1",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "layer-0-bg-inline": {
+      "value": "vs:Environment|CommandBarGradientBegin",
+      "element": "Band on the frame: status bar, info bar. Blue's command bar colour; a band closer to the frame (A3B3E0) failed the build with the status bar's secondary text at 3.5:1",
+      "status": "ms-blue",
+      "under": "$text-default"
+    },
+    "main-window-bg-alt": {
+      "value": "$layer-0-bg-inline",
+      "element": "Alternate window background (Rider concept)",
+      "status": "ms-blue"
+    },
+    "layer-0-border": {
+      "value": "#879AC7",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "layer-0-border-inline": {
+      "value": "#7C91CC",
+      "element": "Inline borders on the frame",
+      "status": "designed"
+    },
+    "layer-1-bg": {
+      "value": "vs:Environment|ToolWindowBackground",
+      "element": "Dialogs and settings",
+      "status": "ms-blue"
+    },
+    "layer-1-bg-inline": {
+      "value": "#FFFFFF",
+      "element": "Input fields in dialogs",
+      "status": "designed"
+    },
+    "layer-1-border": {
+      "value": "#CCD3EC",
+      "element": "Dialog borders",
+      "status": "designed"
+    },
+    "layer-1-border-inline": {
+      "value": "#E1E6F5",
+      "element": "Separators in dialogs",
+      "status": "designed"
+    },
+    "layer-2-bg": {
+      "value": "#FFFFFF",
+      "element": "Popups, menus, notifications",
+      "status": "designed"
+    },
+    "layer-2-bg-inline": {
+      "value": "vs:Environment|CommandBarMenuBackgroundGradientBegin",
+      "element": "Inline areas in popups: Blue's menu fill",
+      "status": "ms-blue"
+    },
+    "layer-2-border": {
+      "value": "#CCD3EC",
+      "element": "Popup border",
+      "status": "designed"
+    },
+    "layer-2-border-inline": {
+      "value": "#E1E6F5",
+      "element": "Separators in popups",
+      "status": "designed"
+    },
+    "popup-border-windows": {
+      "value": "#B8C2E6",
+      "element": "Outer popup border on Windows",
+      "status": "designed"
+    },
+    "editor-bg": {
+      "value": "#FFFFFF",
+      "element": "Editor background. Blue sets none, so Visual Studio falls back to white",
+      "status": "designed"
+    },
+    "editor-bg-inline": {
+      "value": "vs:Environment|CommandBarMenuBackgroundGradientBegin",
+      "element": "In-editor search field and floating toolbars",
+      "status": "ms-blue"
+    },
+    "editor-border-alt": {
+      "value": "#879AC7",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "tool-window-bg": {
+      "value": "vs:Environment|ToolWindowBackground",
+      "element": "Tool window body",
+      "status": "ms-blue"
+    },
+    "tool-window-bg-alt": {
+      "value": "$tool-window-bg",
+      "element": "Alternate tool window background",
+      "status": "ms-blue"
+    },
+    "tool-window-border": {
+      "value": "#879AC7",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "text-default": {
+      "value": "vs:TreeView|Background|fg",
+      "element": "Primary text",
+      "status": "ms-blue",
+      "on": "$tool-window-bg"
+    },
+    "text-muted": {
+      "value": "#4E5670",
+      "element": "Secondary text: counts, paths, hints",
+      "status": "designed",
+      "on": "$tool-window-bg"
+    },
+    "text-secondary": {
+      "value": "#4E5670",
+      "element": "Info text and shortcuts",
+      "status": "designed",
+      "on": "$layer-2-bg"
+    },
+    "text-link": {
+      "value": "vs:Environment|ControlLinkText",
+      "element": "Links",
+      "status": "ms-blue",
+      "on": "$layer-2-bg"
+    },
+    "text-over-accent": {
+      "value": "#FFFFFF",
+      "element": "Text on the accent (default button)",
+      "status": "designed",
+      "on": "$accent-brand-bg"
+    },
+    "accent-brand-bg": {
+      "value": "vs:Environment|TitleBarInactive",
+      "element": "Accent: default button, focus ring, toggles. Blue's navy caption colour",
+      "status": "ms-blue"
+    },
+    "accent-brand-border": {
+      "value": "vs:Environment|TitleBarInactive",
+      "element": "Accent border and focus ring",
+      "status": "ms-blue",
+      "on": "$layer-1-bg",
+      "minContrast": 3
+    },
+    "accent-brand-bg-secondary": {
+      "value": "vs:Environment|CommandBarMenuBackgroundGradientBegin",
+      "element": "Informational banner",
+      "status": "ms-blue"
+    },
+    "accent-brand-border-secondary": {
+      "value": "#A9B5DD",
+      "element": "Informational banner border",
+      "status": "designed"
+    },
+    "selection-bg-active": {
+      "value": "vs:TreeView|SelectedItemActive",
+      "element": "Selected row, focused",
+      "status": "ms-blue",
+      "under": "$text-default"
+    },
+    "selection-bg-active-muted": {
+      "value": "vs:Environment|FileTabLastActiveGradientTop",
+      "element": "Light selection",
+      "status": "ms-blue"
+    },
+    "selection-bg-inactive": {
+      "value": "vs:TreeView|SelectedItemInactive",
+      "element": "Selected row, not focused",
+      "status": "ms-blue",
+      "under": "$text-default"
+    },
+    "tab-bg-hovered": {
+      "value": "vs:Environment|FileTabHotGradientTop",
+      "element": "Hovered editor tab",
+      "status": "ms-blue",
+      "under": "$text-default"
+    },
+    "toolbar-selected-bg": {
+      "value": "vs:Environment|FileTabHotGradientTop",
+      "element": "Selected tool window button on the strip",
+      "status": "ms-blue"
+    },
+    "toolbar-selected-bg-hovered": {
+      "value": "#AEBBEC",
+      "element": "Hovered selected tool window button",
+      "status": "designed"
+    },
+    "tab-selected-border-active": {
+      "value": "vs:Environment|TitleBarInactive",
+      "element": "Selected tab indicator",
+      "status": "ms-blue"
+    },
+    "tab-selected-border-inactive": {
+      "value": "#A9B5DD",
+      "element": "Selected tab indicator, unfocused group",
+      "status": "designed"
+    },
+    "popup-completion-match-text": {
+      "value": "vs:Environment|TitleBarInactive",
+      "element": "Matched characters in completion",
+      "status": "ms-blue",
+      "on": "$layer-2-bg"
+    },
+    "main-window-bg": {
+      "value": "$layer-0-bg",
+      "element": "Window frame and panel gaps use the frame layer, independently of dialog surfaces",
+      "status": "designed"
+    },
+    "tool-window-border-inline": {
+      "value": "#879AC7",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border": {
+      "value": "#879AC7",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border-inline": {
+      "value": "#879AC7",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    }
+  },
+  "ui": {
+    "Island.borderColor": {
+      "value": "#879AC7",
+      "element": "Panel outlines: palette-specific clarity baseline",
+      "status": "designed"
+    },
+    "Island.borderWidth": {
+      "raw": 8,
+      "vsValue": "panel clarity rule",
+      "element": "Eight-pixel gap between panels",
+      "status": "designed"
+    },
+    "Island.borderWidth.compact": {
+      "raw": 8,
+      "vsValue": "panel clarity rule",
+      "element": "Eight-pixel gap between panels",
+      "status": "designed"
+    },
+    "MainToolbar.Dropdown.background": {
+      "value": "vs:Environment|FileTabLastActiveGradientTop",
+      "element": "Pills on the title row. A navy title row was tried and measured in Rider: Islands fills the title row with the window colour and ignores MainToolbar.background, but still applies the white text and switches the header icons to light variants, so everything vanished",
+      "status": "ms-blue",
+      "under": "$text-default"
+    },
+    "MainToolbar.Dropdown.hoverBackground": {
+      "value": "vs:Environment|FileTabHotGradientTop",
+      "element": "Title row pill, hovered",
+      "status": "ms-blue"
+    },
+    "MainToolbar.Dropdown.transparentHoverBackground": {
+      "value": "vs:Environment|FileTabHotGradientTop",
+      "element": "Title row pill, hovered",
+      "status": "ms-blue"
+    },
+    "MainToolbar.Dropdown.pressedBackground": {
+      "value": "#AEBBEC",
+      "element": "Title row pill, pressed",
+      "status": "designed"
+    },
+    "EditorTabs.background": {
+      "value": "vs:Environment|FileTabLastActiveGradientTop",
+      "element": "Editor tab well",
+      "status": "ms-blue",
+      "under": "vs:Environment|FileTabLastActiveText"
+    },
+    "EditorTabs.underlinedTabBackground": {
+      "value": "vs:Environment|FileTabSelectedGradientTop",
+      "element": "Active editor tab: Blue's gold",
+      "status": "ms-blue",
+      "under": "vs:Environment|FileTabSelectedText"
+    },
+    "EditorTabs.underlinedTabForeground": {
+      "value": "vs:Environment|FileTabSelectedText",
+      "element": "Active editor tab text",
+      "status": "ms-blue",
+      "on": "vs:Environment|FileTabSelectedGradientTop"
+    },
+    "EditorTabs.underlinedBorderColor": {
+      "value": "#D9A94E",
+      "element": "Active editor tab outline, a darker gold",
+      "status": "designed"
+    },
+    "EditorTabs.underlineColor": {
+      "value": "#B8862B",
+      "element": "Active tab indicator in gold",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlineColor": {
+      "value": "#A9B5DD",
+      "element": "Selected tab indicator, unfocused group",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlinedTabBackground": {
+      "value": "#FBE9C6",
+      "element": "Active tab when the editor is not focused: a paler gold",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "StatusBar.background": {
+      "value": "$layer-0-bg-inline",
+      "element": "Status bar. Blue's is dark (40508D); a dark status bar was measured unreadable in Rider in Morning Mist",
+      "status": "ms-blue",
+      "under": "$text-muted"
+    },
+    "MemoryIndicator.allocatedBackground": {
+      "value": "#EEF1FB",
+      "element": "Memory indicator, allocated heap",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "MemoryIndicator.usedBackground": {
+      "value": "#BBC6F1",
+      "element": "Memory indicator, used heap",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "ToolWindow.Header.background": {
+      "value": "#D1DCF3",
+      "element": "Focused header in this theme's original hue",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "ToolWindow.Header.inactiveBackground": {
+      "value": "#E6ECF9",
+      "element": "Inactive header remains distinct from its pane body",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "Tree.selectionBackground": {
+      "value": "$selection-bg-active",
+      "element": "Selected row in a focused tree",
+      "status": "ms-blue"
+    },
+    "Tree.selectionForeground": {
+      "value": "vs:TreeView|SelectedItemActive|fg",
+      "element": "Text of the selected row",
+      "status": "ms-blue",
+      "on": "$selection-bg-active"
+    },
+    "Tree.selectionInactiveBackground": {
+      "value": "$selection-bg-inactive",
+      "element": "Selected row, tree not focused",
+      "status": "ms-blue"
+    },
+    "List.selectionBackground": {
+      "value": "$selection-bg-active",
+      "element": "Selected row in a focused list",
+      "status": "ms-blue"
+    },
+    "List.selectionForeground": {
+      "value": "vs:TreeView|SelectedItemActive|fg",
+      "element": "Text of the selected row in a list",
+      "status": "ms-blue",
+      "on": "$selection-bg-active"
+    },
+    "List.selectionInactiveBackground": {
+      "value": "$selection-bg-inactive",
+      "element": "Selected row, list not focused",
+      "status": "ms-blue"
+    },
+    "EditorTabs.inactiveUnderlinedTabBorderColor": {
+      "value": "#A9B5DD",
+      "element": "Quieter selected-tab outline after focus leaves the pane",
+      "status": "designed"
+    },
+    "ToolWindow.HeaderTab.underlinedTabForeground": {
+      "value": "#1E1E1E",
+      "element": "Native tool-window tab text matches the focused editor-tab foreground",
+      "status": "designed",
+      "on": "#F5CC84"
+    },
+    "ToolWindow.HeaderTab.underlinedTabInactiveForeground": {
+      "value": "#1E1E1E",
+      "element": "Native inactive tool-window tab text remains readable on the inactive fill",
+      "status": "designed",
+      "on": "#FBE9C6"
+    }
+  },
+  "iconPalette": {
+    "#6C707E": {
+      "value": "#2B3350",
+      "element": "Icon stroke colour, IDE-wide: a deep navy, so icons on the blue frame and the tool window strips stay well above 3:1",
+      "status": "designed",
+      "on": "$layer-0-bg",
+      "minContrast": 3
+    }
+  }
+}

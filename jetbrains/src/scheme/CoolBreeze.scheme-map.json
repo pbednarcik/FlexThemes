@@ -1,0 +1,501 @@
+{
+  "extends": "../common/scheme/Common.scheme-base.json",
+  "name": "Morning Mist",
+  "fileName": "MorningMist",
+  "baseSchemeFile": "theme-pack/colorSchemes/VisualStudioLight.xml",
+  "vsBase": "Light",
+  "vsTint": "CoolBreeze",
+  "defaultOn": "#FFFFFF",
+  "colors": {
+    "LINE_NUMBERS_COLOR": {
+      "value": "#6E6E6E",
+      "element": "Contrast refinement using this family's muted palette",
+      "status": "designed"
+    },
+    "LINE_NUMBER_ON_CARET_ROW_COLOR": {
+      "value": "vs:Text Editor MEF Items|Selected Line Number|fg",
+      "element": "Line number of the current line",
+      "status": "vs-data"
+    },
+    "ADDED_LINES_COLOR": {
+      "value": "vs:Text Editor MEF Items|Track additions in documents under source control",
+      "element": "Gutter mark: added lines",
+      "status": "vs-data"
+    },
+    "MODIFIED_LINES_COLOR": {
+      "value": "vs:Text Editor MEF Items|Track modifications in documents under source control",
+      "element": "Gutter mark: modified lines",
+      "status": "vs-data"
+    },
+    "DELETED_LINES_COLOR": {
+      "value": "vs:Text Editor MEF Items|Track deletions in documents under source control",
+      "element": "Gutter mark: deleted lines",
+      "status": "vs-data"
+    },
+    "CONSOLE_BACKGROUND_KEY": {
+      "value": "vs:Output Window|Plain Text",
+      "element": "Output window background",
+      "status": "vs-data"
+    },
+    "LOOKUP_COLOR": {
+      "value": "vs:EditorOverride|PopupBackground",
+      "element": "IntelliSense list background",
+      "status": "vs-data"
+    },
+    "DOCUMENTATION_COLOR": {
+      "value": "vs:EditorOverride|PopupBackground",
+      "element": "Quick Info and IntelliSense list background (the completion popup takes its background from this scheme colour)",
+      "status": "vs-data"
+    },
+    "INFORMATION_HINT": {
+      "value": "vs:EditorOverride|PopupBackground",
+      "element": "Editor hint background",
+      "status": "vs-data"
+    },
+    "ScrollBar.trackColor": {
+      "value": "vs:Text Editor MEF Items|OverviewMarginBackground",
+      "element": "Editor scroll bar track",
+      "status": "vs-data"
+    },
+    "ScrollBar.hoverTrackColor": {
+      "value": "vs:Text Editor MEF Items|OverviewMarginBackground",
+      "element": "Editor scroll bar track, hovered",
+      "status": "vs-data"
+    },
+    "ScrollBar.background": {
+      "value": "vs:Text Editor MEF Items|OverviewMarginBackground",
+      "element": "Editor scroll bar background",
+      "status": "vs-data"
+    },
+    "ScrollBar.thumbColor": {
+      "value": "vs:Environment|ScrollBarThumbBackground",
+      "element": "Scroll bar thumb (legacy Environment category; Visual Studio 2026 may draw a Fluent thumb instead)",
+      "status": "vs-data"
+    },
+    "ScrollBar.thumbBorderColor": {
+      "value": "vs:Environment|ScrollBarThumbBorder",
+      "element": "Scroll bar thumb border",
+      "status": "vs-data"
+    },
+    "ScrollBar.hoverThumbColor": {
+      "value": "vs:Environment|ScrollBarThumbMouseOverBackground",
+      "element": "Scroll bar thumb, hovered",
+      "status": "vs-data"
+    },
+    "ScrollBar.hoverThumbBorderColor": {
+      "value": "vs:Environment|ScrollBarThumbMouseOverBorder",
+      "element": "Scroll bar thumb border, hovered",
+      "status": "vs-data"
+    },
+    "GUTTER_BACKGROUND": {
+      "value": "#F7FAFC",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "EDITOR_GUTTER_BACKGROUND": {
+      "value": "#F7FAFC",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "INDENT_GUIDE": {
+      "value": "#D3DBE5",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    },
+    "SELECTED_INDENT_GUIDE": {
+      "value": "#93A3B8",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    }
+  },
+  "attributes": {
+    "ReSharper.CSHARP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|class name|fg",
+      "element": "C# class",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|class name|fg",
+      "element": "C# static class",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|class name|fg",
+      "element": "Static class (language-neutral key)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_RECORD_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|class name|fg",
+      "element": "C# record (VS classifies a record class as a class)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|struct name|fg",
+      "element": "C# struct",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.STRUCT_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|struct name|fg",
+      "element": "Struct (language-neutral key)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_RECORD_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|struct name|fg",
+      "element": "C# record struct",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_INTERFACE_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|interface name|fg",
+      "element": "C# interface",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|enum name|fg",
+      "element": "C# enum",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.ENUM_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|enum name|fg",
+      "element": "Enum (language-neutral key)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|delegate name|fg",
+      "element": "C# delegate",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|delegate name|fg",
+      "element": "Delegate (language-neutral key)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|type parameter name|fg",
+      "element": "C# type parameter",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|type parameter name|fg",
+      "element": "Type parameter (language-neutral key)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_METHOD_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|method name|fg",
+      "element": "C# method",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_STATIC_METHOD_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|method name|fg",
+      "element": "C# static method",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_LOCAL_FUNCTION_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|method name|fg",
+      "element": "C# local function",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|extension method name|fg",
+      "element": "C# extension method (JetBrains' scheme uses teal 048A8B here; VS uses the method colour)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|extension method name|fg",
+      "element": "Extension method (language-neutral key)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_OVERLOADED_OPERATOR": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|operator - overloaded|fg",
+      "element": "C# overloaded operator",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|local name|fg",
+      "element": "C# local variable",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|local name|fg",
+      "element": "C# reassigned local variable (VS does not distinguish it)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|local name|fg",
+      "element": "Reassigned local variable (language-neutral key)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|parameter name|fg",
+      "element": "C# parameter",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "C# namespace. VS theme data has no 'namespace name' entry in Light or in Dark, so VS draws it as plain text; black is the automatic plain-text colour, not a decoded value. JetBrains' scheme uses navy 00048B",
+      "status": "inferred",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Namespace (language-neutral key); same reasoning",
+      "status": "inferred",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CONTROL_FLOW_KEYWORD": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|keyword - control|fg",
+      "element": "Control keywords: if, else, foreach, while, switch (JetBrains' scheme uses 800080)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CONTROL_TRANSFER_KEYWORD": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|keyword - control|fg",
+      "element": "Control keywords: return, break, continue, throw",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_PREPROCESSOR_KEYWORD": {
+      "FOREGROUND": "vs:Text Editor MEF Items|Preprocessor Keyword|fg",
+      "element": "C# preprocessor keyword",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.PREPROCESSOR_KEYWORD": {
+      "FOREGROUND": "vs:Text Editor MEF Items|Preprocessor Keyword|fg",
+      "element": "Preprocessor keyword (language-neutral key)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "DEFAULT_VALID_STRING_ESCAPE": {
+      "FOREGROUND": "vs:Text Editor MEF Items|string - escape character|fg",
+      "element": "String escape sequence (JetBrains' scheme uses FF007F)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_ESCAPE_CHARACTER_1": {
+      "FOREGROUND": "vs:Text Editor MEF Items|string - escape character|fg",
+      "element": "C# string escape sequence",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_ESCAPE_CHARACTER_2": {
+      "FOREGROUND": "vs:Text Editor MEF Items|string - escape character|fg",
+      "element": "C# string escape sequence, alternate",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.STRING_ESCAPE_CHARACTER_2": {
+      "FOREGROUND": "vs:Text Editor MEF Items|string - escape character|fg",
+      "element": "String escape sequence, alternate (language-neutral key)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|xml doc comment - text|fg",
+      "element": "XML doc comment text",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT_TAG_NAME": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|xml doc comment - name|fg",
+      "element": "XML doc comment tag name",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT_ATTRIBUTE": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|xml doc comment - attribute name|fg",
+      "element": "XML doc comment attribute name",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT_ATTRIBUTE_VALUE": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|xml doc comment - attribute value|fg",
+      "element": "XML doc comment attribute value",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "DEFAULT_DOC_COMMENT": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|xml doc comment - text|fg",
+      "element": "Doc comment text (platform fallback)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "DEFAULT_DOC_COMMENT_TAG": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|xml doc comment - name|fg",
+      "element": "Doc comment tag (platform fallback; JetBrains' scheme uses 333494)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "DEFAULT_DOC_COMMENT_TAG_VALUE": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|xml doc comment - attribute value|fg",
+      "element": "Doc comment tag value (platform fallback)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "INLINE_PARAMETER_HINT": {
+      "BACKGROUND": "vs:Text Editor MEF Items|inlay hints parameter",
+      "FOREGROUND": "vs:Text Editor MEF Items|inlay hints parameter|fg",
+      "element": "Inline parameter name hints",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "UNMATCHED_BRACE_ATTRIBUTES": {
+      "FOREGROUND": "vs:Text Editor MEF Items|mismatched brace|fg",
+      "BACKGROUND": null,
+      "element": "Mismatched brace (VS colours the brace itself and draws no background)",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "CODE_VISION_DEFAULT": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Contrast refinement using this family's muted palette",
+      "status": "designed"
+    },
+    "DEFAULT_KEYWORD": {
+      "FOREGROUND": "#0000FF",
+      "element": "Keyword. Absent from VS Light theme data; JetBrains' value is now confirmed by sampling",
+      "status": "measured",
+      "measured": "0000FF",
+      "sample": "vs-2-separations text 'private' 598,266-690,290 (230 of 333 core pixels) and 'nameof'",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "DEFAULT_LINE_COMMENT": {
+      "FOREGROUND": "#008000",
+      "element": "Line comment; C# comments inherit it. Absent from VS Light theme data; JetBrains' scheme uses 007F00",
+      "status": "measured",
+      "measured": "008000",
+      "sample": "vs-4 text '// var lineItems' 1000,262-1300,282 (400 of 837 core pixels)",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "DEFAULT_BLOCK_COMMENT": {
+      "FOREGROUND": "#008000",
+      "element": "Block comment; VS paints block and line comments alike",
+      "status": "measured",
+      "measured": "008000",
+      "sample": "vs-4, same sample as the line comment",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "TODO_DEFAULT_ATTRIBUTES": {
+      "FOREGROUND": "#008DD9",
+      "FONT_TYPE": 1,
+      "element": "TODO comment, bold. Painted by ReSharper in Visual Studio, not by the VS theme; JetBrains' scheme uses 00008B",
+      "status": "measured",
+      "measured": "008DD9",
+      "sample": "vs-4 text 'TODO: unfinished code' 1110,462-1700,480 (1496 of 2590 core pixels)",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "DEFAULT_CLASS_NAME": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|class name|fg",
+      "element": "Class and interface name, generic fallback for other languages: Visual Studio's type colour",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "DEFAULT_INTERFACE_NAME": {
+      "FOREGROUND": "vs:Roslyn Text Editor MEF Items|class name|fg",
+      "element": "Class and interface name, generic fallback for other languages: Visual Studio's type colour",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "INLAY_DEFAULT": {
+      "FOREGROUND": "vs:Text Editor MEF Items|inlay hints parameter|fg",
+      "BACKGROUND": "vs:Text Editor MEF Items|inlay hints parameter",
+      "element": "Inlay hints as Rider draws them for C# (parameter names, inferred types): Visual Studio's inlay hint colours",
+      "status": "vs-data",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes deepen it"
+    },
+    "TEXT": {
+      "FOREGROUND": "#000000",
+      "element": "Existing TEXT colour pinned as the cross-language palette anchor",
+      "status": "inherited"
+    },
+    "DEFAULT_NUMBER": {
+      "FOREGROUND": "#000000",
+      "element": "Existing DEFAULT_NUMBER colour pinned as the cross-language palette anchor",
+      "status": "inherited"
+    },
+    "NOT_USED_ELEMENT_ATTRIBUTES": {
+      "FOREGROUND": "#6E6E6E",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    }
+  },
+  "unmapped": [
+    {
+      "vs": "Roslyn Text Editor MEF Items|string - verbatim|fg",
+      "reason": "Rider has no separate attribute for verbatim strings; they use the ordinary string colour"
+    },
+    {
+      "vs": "Bracket colours sampled in vs-2-separations: parentheses 9400D3, braces 9ACD32",
+      "reason": "Left as is. In Rider the colours come from the third-party Rainbow Brackets plugin (keys ROUND_/SQUARE_/SQUIGGLY_/ANGLE_BRACKETS_RAINBOW_COLOR0..9, confirmed from the plugin's public source; its default B4960A was sampled in Rider). VS colours by overall nesting depth and the plugin per bracket type, so an exact match is impossible anyway, and the VS values are not theme defaults but come from an extension or setting outside the export"
+    },
+    {
+      "vs": "Text Editor MEF Items|CurrentLineActiveFormat = C8C8C8",
+      "reason": "Visual Studio outlines the current line and does not fill it; Rider can only fill the caret row, so JetBrains' faint F8F8F8 fill is kept"
+    },
+    {
+      "vs": "Text Editor MEF Items|Selected Text = 5CA9E5",
+      "reason": "Visual Studio paints the selection with an opacity that is not in the theme data; JetBrains' ADD6FF is kept until a selection is sampled"
+    },
+    {
+      "vs": "String (Light)",
+      "reason": "Absent from the Visual Studio theme files because Light is the built-in default. JetBrains' value A31515 is kept until sampled; keyword and comment are measured"
+    }
+  ],
+  "contrastExempt": {
+    "ReSharper.CPP_CLASS_IDENTIFIER": "C++ type in Visual Studio's type colour 2B91AF (3.64:1), inherited from JetBrains' Visual Studio Light scheme; kept in the faithful theme",
+    "ReSharper.CPP_ENUM_IDENTIFIER": "C++ type in Visual Studio's type colour 2B91AF (3.64:1), inherited from JetBrains' Visual Studio Light scheme; kept in the faithful theme",
+    "ReSharper.CPP_LOCAL_TYPEDEF_IDENTIFIER": "C++ type in Visual Studio's type colour 2B91AF (3.64:1), inherited from JetBrains' Visual Studio Light scheme; kept in the faithful theme",
+    "ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER": "C++ type in Visual Studio's type colour 2B91AF (3.64:1), inherited from JetBrains' Visual Studio Light scheme; kept in the faithful theme",
+    "ReSharper.CPP_STRUCT_IDENTIFIER": "C++ type in Visual Studio's type colour 2B91AF (3.64:1), inherited from JetBrains' Visual Studio Light scheme; kept in the faithful theme",
+    "ReSharper.CPP_TYPEDEF_IDENTIFIER": "C++ type in Visual Studio's type colour 2B91AF (3.64:1), inherited from JetBrains' Visual Studio Light scheme; kept in the faithful theme",
+    "ReSharper.CPP_UNION_IDENTIFIER": "C++ type in Visual Studio's type colour 2B91AF (3.64:1), inherited from JetBrains' Visual Studio Light scheme; kept in the faithful theme"
+  },
+  "languageMappings": "src/common/language-mappings.json",
+  "semanticRoles": {
+    "keyword": "DEFAULT_KEYWORD",
+    "type": "ReSharper.CSHARP_CLASS_IDENTIFIER",
+    "function": "ReSharper.CSHARP_METHOD_IDENTIFIER",
+    "local": "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER",
+    "parameter": "ReSharper.CSHARP_PARAMETER_IDENTIFIER",
+    "member": "TEXT",
+    "string": "DEFAULT_STRING",
+    "number": "DEFAULT_NUMBER",
+    "comment": "DEFAULT_LINE_COMMENT",
+    "docTag": "DEFAULT_DOC_COMMENT_TAG",
+    "escape": "DEFAULT_VALID_STRING_ESCAPE",
+    "invalidEscape": "DEFAULT_INVALID_STRING_ESCAPE",
+    "metadata": "DEFAULT_METADATA",
+    "text": "TEXT",
+    "predefined": "DEFAULT_KEYWORD",
+    "control": "ReSharper.CONTROL_FLOW_KEYWORD",
+    "interface": "ReSharper.CSHARP_INTERFACE_IDENTIFIER",
+    "struct": "ReSharper.CSHARP_STRUCT_IDENTIFIER",
+    "enum": "ReSharper.CSHARP_ENUM_IDENTIFIER",
+    "delegate": "ReSharper.CSHARP_DELEGATE_IDENTIFIER",
+    "typeParameter": "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER",
+    "docComment": "ReSharper.CSHARP_DOC_COMMENT"
+  }
+}

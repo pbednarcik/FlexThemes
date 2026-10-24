@@ -1,0 +1,79 @@
+{
+  "extends": "Lavender.theme-base.json",
+  "name": "Lavender Mist Blue",
+  "fileName": "LavenderMistBlue",
+  "providerId": "lavender-mist-blue",
+  "ui": {
+    "EditorTabs.underlinedTabBackground": {
+      "value": "#C4D5FF",
+      "element": "Focused selected tab fill in this appearance's own palette",
+      "status": "designed"
+    },
+    "EditorTabs.underlinedTabForeground": {
+      "value": "#5C2D91",
+      "element": "Active editor tab text in the accent",
+      "status": "designed",
+      "on": "#C4D5FF"
+    },
+    "EditorTabs.underlinedBorderColor": {
+      "value": "#5C2D91",
+      "element": "Active editor tab outline",
+      "status": "designed"
+    },
+    "ToolWindow.Header.background": {
+      "value": "#D0DCF4",
+      "element": "Focused header in this theme's original hue",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "Tree.selectionBackground": {
+      "value": "vs:TreeView|SelectedItemActive",
+      "element": "Selected row in a focused tree: Blue's periwinkle",
+      "status": "ms-blue"
+    },
+    "Tree.selectionForeground": {
+      "value": "vs:TreeView|SelectedItemActive|fg",
+      "element": "Text of the selected row",
+      "status": "ms-blue",
+      "on": "vs:TreeView|SelectedItemActive"
+    },
+    "List.selectionBackground": {
+      "value": "vs:TreeView|SelectedItemActive",
+      "element": "Selected row in a focused list",
+      "status": "ms-blue"
+    },
+    "List.selectionForeground": {
+      "value": "vs:TreeView|SelectedItemActive|fg",
+      "element": "Text of the selected row in a list",
+      "status": "ms-blue",
+      "on": "vs:TreeView|SelectedItemActive"
+    },
+    "EditorTabs.inactiveUnderlinedTabBackground": {
+      "value": "#F4F2FB",
+      "element": "Quieter selected-tab fill after focus leaves the pane; readable with its native tab text",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlinedTabBorderColor": {
+      "value": "#BDB6E0",
+      "element": "Quieter selected-tab outline after focus leaves the pane",
+      "status": "designed"
+    },
+    "Tree.selectionInactiveBackground": {
+      "value": "#E6E7EF",
+      "element": "Quieter file selection after focus leaves the project tree",
+      "status": "designed"
+    },
+    "ToolWindow.HeaderTab.underlinedTabForeground": {
+      "value": "#5C2D91",
+      "element": "Native tool-window tab text matches the focused editor-tab foreground",
+      "status": "designed",
+      "on": "#C4D5FF"
+    },
+    "ToolWindow.HeaderTab.underlinedTabInactiveForeground": {
+      "value": "#5C2D91",
+      "element": "Native inactive tool-window tab text remains readable on the inactive fill",
+      "status": "designed",
+      "on": "#F4F2FB"
+    }
+  }
+}

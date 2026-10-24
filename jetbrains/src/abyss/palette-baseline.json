@@ -1,0 +1,38 @@
+{
+  "review": "0.7.0 contrast refinements; all other fields independently preserved by src/common/editor-contrast.json.",
+  "schemes": {
+    "colorSchemes/Abyss.xml": "f1661dfda3385f17ebf2cc7ba503b4d29ee186dd7aa455b41e008b8e6180dde4"
+  },
+  "paletteAnchors": {
+    "colorSchemes/Abyss.xml": {
+      "keyword": "#FD9E85",
+      "type": "#2DCCA2",
+      "function": "#DAB33A",
+      "local": "#D9E4E2",
+      "parameter": "#D9E4E2",
+      "member": "#D9E4E2",
+      "string": "#4AC1FE",
+      "number": "#D9E4E2",
+      "comment": "#869D81",
+      "docTag": "#8FAFA9",
+      "escape": "#F7C08F",
+      "invalidEscape": "#F28B82",
+      "metadata": "#BBB529",
+      "text": "#D9E4E2",
+      "predefined": "#FD9E85",
+      "control": "#FD9E85",
+      "interface": "#2DCCA2",
+      "struct": "#2DCCA2",
+      "enum": "#2DCCA2",
+      "delegate": "#2DCCA2",
+      "typeParameter": "#2DCCA2",
+      "docComment": "#869D81"
+    }
+  },
+  "gutters": {
+    "colorSchemes/Abyss.xml": {
+      "gutter": "#13282F",
+      "withoutGuttersSha256": "df0f69c9fc1258587e2c0945ad6ca55b9d7b03425d5e36b6eea49b0c6b6fdb94"
+    }
+  }
+}

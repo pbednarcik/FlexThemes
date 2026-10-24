@@ -1,0 +1,286 @@
+{
+  "extends": "Common.theme-base.json",
+  "colors": {
+    "grad-g1-amber-a1": {
+      "value": "#72403780 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, amber group (a1): JetBrains' dark 724037 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g1-amber-a1-transparent": {
+      "value": "$grad-g1-amber-a1@0",
+      "element": "Transparent end of the amber project gradient",
+      "status": "designed"
+    },
+    "grad-g1-amber-a1-secondary": {
+      "value": "#311C2B80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, amber group (a1-secondary): JetBrains' dark 311C2B mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g1-amber-a2": {
+      "value": "#36212B80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, amber group (a2): JetBrains' dark 36212B mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g1-amber-bg": {
+      "value": "#291D1980 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, amber group (bg): JetBrains' dark 291D19 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g2-rust-a1": {
+      "value": "#5F461C80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, rust group (a1): JetBrains' dark 5F461C mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g2-rust-a1-transparent": {
+      "value": "$grad-g2-rust-a1@0",
+      "element": "Transparent end of the rust project gradient",
+      "status": "designed"
+    },
+    "grad-g2-rust-a1-secondary": {
+      "value": "#25220E80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, rust group (a1-secondary): JetBrains' dark 25220E mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g2-rust-a2": {
+      "value": "#2E250F80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, rust group (a2): JetBrains' dark 2E250F mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g2-rust-bg": {
+      "value": "#21240F80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, rust group (bg): JetBrains' dark 21240F mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g3-olive-a1": {
+      "value": "#4F4F1C80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, olive group (a1): JetBrains' dark 4F4F1C mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g3-olive-a1-transparent": {
+      "value": "$grad-g3-olive-a1@0",
+      "element": "Transparent end of the olive project gradient",
+      "status": "designed"
+    },
+    "grad-g3-olive-a1-secondary": {
+      "value": "#16222680 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, olive group (a1-secondary): JetBrains' dark 162226 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g3-olive-a2": {
+      "value": "#212B1680 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, olive group (a2): JetBrains' dark 212B16 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g3-olive-bg": {
+      "value": "#17262380 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, olive group (bg): JetBrains' dark 172623 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g4-sky-a1": {
+      "value": "#254D6F80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, sky group (a1): JetBrains' dark 254D6F mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g4-sky-a1-transparent": {
+      "value": "$grad-g4-sky-a1@0",
+      "element": "Transparent end of the sky project gradient",
+      "status": "designed"
+    },
+    "grad-g4-sky-a1-secondary": {
+      "value": "#1A203380 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, sky group (a1-secondary): JetBrains' dark 1A2033 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g4-sky-a2": {
+      "value": "#20234180 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, sky group (a2): JetBrains' dark 202341 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g4-sky-bg": {
+      "value": "#1D1F2F80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, sky group (bg): JetBrains' dark 1D1F2F mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g5-cobalt-a1": {
+      "value": "#3F448D80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, cobalt group (a1): JetBrains' dark 3F448D mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g5-cobalt-a1-transparent": {
+      "value": "$grad-g5-cobalt-a1@0",
+      "element": "Transparent end of the cobalt project gradient",
+      "status": "designed"
+    },
+    "grad-g5-cobalt-a1-secondary": {
+      "value": "#18223080 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, cobalt group (a1-secondary): JetBrains' dark 182230 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g5-cobalt-a2": {
+      "value": "#2D213B80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, cobalt group (a2): JetBrains' dark 2D213B mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g5-cobalt-bg": {
+      "value": "#1A232D80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, cobalt group (bg): JetBrains' dark 1A232D mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g6-plum-a1": {
+      "value": "#723B5680 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, plum group (a1): JetBrains' dark 723B56 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g6-plum-a1-transparent": {
+      "value": "$grad-g6-plum-a1@0",
+      "element": "Transparent end of the plum project gradient",
+      "status": "designed"
+    },
+    "grad-g6-plum-a1-secondary": {
+      "value": "#271E2980 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, plum group (a1-secondary): JetBrains' dark 271E29 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g6-plum-a2": {
+      "value": "#30223A80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, plum group (a2): JetBrains' dark 30223A mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g6-plum-bg": {
+      "value": "#27202680 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, plum group (bg): JetBrains' dark 272026 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g7-violet-a1": {
+      "value": "#633D7580 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, violet group (a1): JetBrains' dark 633D75 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g7-violet-a1-transparent": {
+      "value": "$grad-g7-violet-a1@0",
+      "element": "Transparent end of the violet project gradient",
+      "status": "designed"
+    },
+    "grad-g7-violet-a1-secondary": {
+      "value": "#21213B80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, violet group (a1-secondary): JetBrains' dark 21213B mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g7-violet-a2": {
+      "value": "#20244180 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, violet group (a2): JetBrains' dark 202441 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g7-violet-bg": {
+      "value": "#1C223580 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, violet group (bg): JetBrains' dark 1C2235 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g8-ocean-a1": {
+      "value": "#22534B80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, ocean group (a1): JetBrains' dark 22534B mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g8-ocean-a1-transparent": {
+      "value": "$grad-g8-ocean-a1@0",
+      "element": "Transparent end of the ocean project gradient",
+      "status": "designed"
+    },
+    "grad-g8-ocean-a1-secondary": {
+      "value": "#16252280 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, ocean group (a1-secondary): JetBrains' dark 162522 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g8-ocean-a2": {
+      "value": "#16273780 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, ocean group (a2): JetBrains' dark 162737 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g8-ocean-bg": {
+      "value": "#1A222E80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, ocean group (bg): JetBrains' dark 1A222E mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g9-grass-a1": {
+      "value": "#2D522E80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, grass group (a1): JetBrains' dark 2D522E mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g9-grass-a1-transparent": {
+      "value": "$grad-g9-grass-a1@0",
+      "element": "Transparent end of the grass project gradient",
+      "status": "designed"
+    },
+    "grad-g9-grass-a1-secondary": {
+      "value": "#1E231580 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, grass group (a1-secondary): JetBrains' dark 1E2315 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g9-grass-a2": {
+      "value": "#1B292180 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, grass group (a2): JetBrains' dark 1B2921 mixed half and half with the frame",
+      "status": "designed"
+    },
+    "grad-g9-grass-bg": {
+      "value": "#22231A80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, grass group (bg): JetBrains' dark 22231A mixed half and half with the frame",
+      "status": "designed"
+    },
+    "text-error": {
+      "value": "#F28B82",
+      "element": "Error text on dark surfaces: a light red that stays readable (JetBrains' dark red-100 is used as a base)",
+      "status": "designed",
+      "on": "$layer-1-bg"
+    },
+    "text-warning": {
+      "value": "#E8B95A",
+      "element": "Warning text on dark surfaces",
+      "status": "designed",
+      "on": "$layer-1-bg"
+    },
+    "icon-over-accent": {
+      "value": "$text-over-accent",
+      "element": "Icons on the accent, such as the selected tool window button: the theme's text-on-accent colour. JetBrains' white was 2.2:1 on Periwinkle Night's lilac and 1.5:1 on Abyss's mint",
+      "status": "designed",
+      "on": "$accent-brand-bg",
+      "minContrast": 3
+    },
+    "got-it-bg": {
+      "value": "$accent-brand-bg-secondary",
+      "element": "Onboarding tooltips (Got It, learning tips): the theme's banner colour instead of JetBrains' blue-60",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "got-it-border": {
+      "value": "$accent-brand-border-secondary",
+      "element": "Onboarding tooltip border",
+      "status": "designed"
+    },
+    "got-it-text-link": {
+      "value": "$text-link",
+      "element": "Links in onboarding tooltips",
+      "status": "designed",
+      "on": "$got-it-bg"
+    }
+  },
+  "ui": {
+    "ToolWindow.Button.selectedBackground": {
+      "value": "$accent-brand-bg",
+      "element": "Selected tool window button on the side strip: stays on the accent with the dark icon, while the dark themes move toolbar-selected-bg-active (which JetBrains uses for both) to a deeper shade for the header-tab pills",
+      "status": "designed",
+      "under": "$icon-over-accent",
+      "minContrast": 3
+    },
+    "List.Tag.foreground": {
+      "value": "$text-muted",
+      "element": "Small tags in lists. JetBrains' 868A91 on 393B40 is 3.2:1",
+      "status": "designed",
+      "on": "#393B40"
+    }
+  },
+  "iconPalette": {
+    "Checkbox.Background.Selected": null,
+    "Checkbox.Border.Selected": null,
+    "Checkbox.Focus.Wide": null
+  }
+}

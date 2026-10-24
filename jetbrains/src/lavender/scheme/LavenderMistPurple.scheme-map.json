@@ -1,0 +1,194 @@
+{
+  "extends": "LavenderMist.scheme-map.json",
+  "name": "Lavender Mist Purple",
+  "fileName": "LavenderMistPurple",
+  "attributes": {
+    "DEFAULT_KEYWORD": {
+      "FOREGROUND": "#8704D4",
+      "element": "Keyword. Lavender palette, as Periwinkle Islands: keyword violet, 7.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CONTROL_FLOW_KEYWORD": {
+      "FOREGROUND": "#8704D4",
+      "element": "Control-flow keyword in the keyword violet (Lavender palette); a blue here would sit on the blue types",
+      "status": "designed"
+    },
+    "ReSharper.CONTROL_TRANSFER_KEYWORD": {
+      "FOREGROUND": "#8704D4",
+      "element": "Control-flow keyword in the keyword violet (Lavender palette); a blue here would sit on the blue types",
+      "status": "designed"
+    },
+    "NOT_USED_ELEMENT_ATTRIBUTES": {
+      "FOREGROUND": "#6E6A80",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    },
+    "TYPE_PARAMETER_NAME_ATTRIBUTES": {
+      "FOREGROUND": "#036CD1",
+      "element": "Type parameter, generic fallback. Platform default 20999D is 3.4:1. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "DEFAULT_CLASS_NAME": {
+      "FOREGROUND": "#036CD1",
+      "element": "Class name, generic fallback for other languages. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "DEFAULT_INTERFACE_NAME": {
+      "FOREGROUND": "#036CD1",
+      "element": "Interface name, generic fallback. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Class name. Visual Studio's teal 2B91AF is 3.64:1 on white, below the minimum; the same hue, deepened. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Static class name. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Static class name (generic). Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Record name. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Struct name. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Struct name (generic). Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Record struct name. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_INTERFACE_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Interface name. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Enum name. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.ENUM_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Enum name (generic). Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Delegate name. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Delegate name (generic). Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Type parameter. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "Type parameter (generic). Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CPP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "C++ class. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CPP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "C++ enum. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CPP_LOCAL_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "C++ local typedef. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "C++ overloaded operator. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CPP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "C++ struct. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CPP_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "C++ typedef. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    },
+    "ReSharper.CPP_UNION_IDENTIFIER": {
+      "FOREGROUND": "#036CD1",
+      "element": "C++ union. Lavender palette, as Periwinkle Islands: type blue 036CD1, 5.2:1 (a hair deeper than Periwinkle's 036ED4 to clear this scheme's caret line F4F1FB at 4.6:1)",
+      "status": "designed"
+    }
+  },
+  "languageMappings": "src/common/language-mappings.json",
+  "semanticRoles": {
+    "keyword": "DEFAULT_KEYWORD",
+    "type": "ReSharper.CSHARP_CLASS_IDENTIFIER",
+    "function": "ReSharper.CSHARP_METHOD_IDENTIFIER",
+    "local": "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER",
+    "parameter": "ReSharper.CSHARP_PARAMETER_IDENTIFIER",
+    "member": "ReSharper.CSHARP_FIELD_IDENTIFIER",
+    "string": "DEFAULT_STRING",
+    "number": "DEFAULT_NUMBER",
+    "comment": "DEFAULT_LINE_COMMENT",
+    "docTag": "DEFAULT_DOC_COMMENT_TAG",
+    "escape": "DEFAULT_VALID_STRING_ESCAPE",
+    "invalidEscape": "DEFAULT_INVALID_STRING_ESCAPE",
+    "metadata": "DEFAULT_METADATA",
+    "text": "TEXT",
+    "predefined": "DEFAULT_KEYWORD",
+    "control": "ReSharper.CONTROL_FLOW_KEYWORD",
+    "interface": "ReSharper.CSHARP_INTERFACE_IDENTIFIER",
+    "struct": "ReSharper.CSHARP_STRUCT_IDENTIFIER",
+    "enum": "ReSharper.CSHARP_ENUM_IDENTIFIER",
+    "delegate": "ReSharper.CSHARP_DELEGATE_IDENTIFIER",
+    "typeParameter": "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER",
+    "docComment": "ReSharper.CSHARP_DOC_COMMENT"
+  },
+  "colors": {
+    "GUTTER_BACKGROUND": {
+      "value": "#FAF9FE",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "EDITOR_GUTTER_BACKGROUND": {
+      "value": "#FAF9FE",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "INDENT_GUIDE": {
+      "value": "#DAD4E5",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    },
+    "SELECTED_INDENT_GUIDE": {
+      "value": "#A497B9",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    }
+  }
+}

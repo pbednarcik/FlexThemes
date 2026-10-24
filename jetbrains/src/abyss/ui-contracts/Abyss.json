@@ -1,0 +1,80 @@
+{
+  "extends": "../../common/ui-clarity-dark.json",
+  "themeEntry": "themes/Abyss.theme.json",
+  "schemeEntry": "colorSchemes/Abyss.xml",
+  "schemeSha256": "f1661dfda3385f17ebf2cc7ba503b4d29ee186dd7aa455b41e008b8e6180dde4",
+  "schemeBaseline": "0.7.0 contrast refinements; an independent preservation fingerprint excludes only the listed fields.",
+  "design": "Panel separation plus native focused/inactive tab and tree-selection cues, using this appearance's own palette. Syntax, fonts and UI palettes are preserved; only the listed editor contrast fields are refined. No custom UI drawing code.",
+  "values": {
+    "colors.layer-0-bg": "#10252B",
+    "colors.layer-0-bg-inline": "#10252B",
+    "colors.main-window-bg": "#10252B",
+    "colors.main-window-bg-alt": "#10252B",
+    "colors.layer-0-border": "#3C6870",
+    "colors.editor-bg": "#10232A",
+    "colors.editor-border": "#3C6870",
+    "colors.editor-border-inline": "#3C6870",
+    "colors.editor-border-alt": "#3C6870",
+    "colors.tool-window-bg": "#1A343C",
+    "colors.tool-window-bg-alt": "#1A343C",
+    "colors.tool-window-border": "#3C6870",
+    "colors.tool-window-border-inline": "#3C6870",
+    "colors.selection-bg-active": "#1E3D44",
+    "colors.text-default": "#D9E4E2",
+    "colors.text-muted": "#A9C2BF",
+    "colors.accent-brand-bg": "#5EEAD4",
+    "ui.MainWindow.background": "#10252B",
+    "ui.MainToolbar.background": "#10252B",
+    "ui.StatusBar.background": "#10252B",
+    "ui.ToolWindow.background": "#1A343C",
+    "ui.ToolWindow.Header.background": "#2B515B",
+    "ui.ToolWindow.Header.inactiveBackground": "#203E47",
+    "ui.ToolWindow.Header.borderColor": "#3C6870",
+    "ui.Island.borderColor": "#3C6870",
+    "ui.Island.borderWidth": 8,
+    "ui.Island.borderWidth.compact": 8,
+    "ui.EditorTabs.background": "#0E1F25",
+    "ui.EditorTabs.underlinedTabBackground": "#5EEAD4",
+    "ui.EditorTabs.underlinedTabForeground": "#0B1A1F",
+    "ui.EditorTabs.underlinedBorderColor": "#5EEAD4",
+    "ui.EditorTabs.underTabsBorderColor": "#3C6870",
+    "ui.Tree.selectionBackground": "#1E3D44",
+    "ui.List.selectionBackground": "#1E3D44",
+    "ui.EditorTabs.inactiveUnderlinedTabBackground": "#A9C2BF",
+    "ui.EditorTabs.inactiveUnderlinedTabBorderColor": "#24474F",
+    "ui.Tree.selectionForeground": "#5EEAD4",
+    "ui.Tree.selectionInactiveBackground": "#18333A",
+    "ui.ToolWindow.HeaderTab.underlinedTabForeground": "#0B1A1F",
+    "ui.ToolWindow.HeaderTab.underlinedTabInactiveForeground": "#0B1A1F",
+    "colors.tree-indent-guide-border": "#527F80",
+    "ui.Tree.hash": "#527F80"
+  },
+  "nativeFocus": true,
+  "schemeColors": {
+    "GUTTER_BACKGROUND": "#13282F",
+    "EDITOR_GUTTER_BACKGROUND": "#13282F"
+  },
+  "schemePairs": [
+    {
+      "label": "Line numbers on New UI gutter",
+      "a": "scheme.colors.LINE_NUMBERS_COLOR",
+      "b": "scheme.colors.EDITOR_GUTTER_BACKGROUND",
+      "minimum": 4.5
+    },
+    {
+      "label": "Current line number on New UI gutter",
+      "a": "scheme.colors.LINE_NUMBER_ON_CARET_ROW_COLOR",
+      "b": "scheme.colors.EDITOR_GUTTER_BACKGROUND",
+      "minimum": 4.5
+    }
+  ],
+  "treeGuides": true,
+  "additionalPairs": [
+    {
+      "label": "Tree hierarchy guides against panel",
+      "a": "ui.Tree.hash",
+      "b": "colors.tool-window-bg",
+      "minimum": 2.2
+    }
+  ]
+}

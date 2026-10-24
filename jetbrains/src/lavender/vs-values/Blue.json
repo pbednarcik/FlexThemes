@@ -1,0 +1,36 @@
+{
+ "about": "Visual Studio colour values used by this theme, decoded from an installed Visual Studio. Generated; do not edit.",
+ "theme": "Blue",
+ "values": {
+  "Environment|FileTabSelectedGradientTop|bg": {
+   "rgb": "F5CC84",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Environment|FileTabSelectedText|bg": {
+   "rgb": "1E1E1E",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "TreeView|Background|fg": {
+   "rgb": "1E1E1E",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "TreeView|SelectedItemActive|bg": {
+   "rgb": "C4D5FF",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "TreeView|SelectedItemActive|fg": {
+   "rgb": "1E1E1E",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "TreeView|SelectedItemInactive|bg": {
+   "rgb": "E6E7EF",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  }
+ }
+}

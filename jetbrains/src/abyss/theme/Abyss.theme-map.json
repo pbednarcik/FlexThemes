@@ -1,0 +1,427 @@
+{
+  "extends": "../../common/theme/CommonDark.theme-base.json",
+  "name": "Abyss",
+  "fileName": "Abyss",
+  "providerId": "abyss",
+  "dark": true,
+  "parentTheme": "Islands Dark",
+  "baseThemeFile": "platform/themes/islands/ManyIslandsDark.theme.json",
+  "vsBase": "Blue",
+  "snapshot": "Blue",
+  "schemeMap": "Abyss",
+  "editorScheme": "Abyss",
+  "author": "Peter Bednar\u010d\u00edk. Designed colours; structure from JetBrains' Islands Dark theme (Apache-2.0)",
+  "sourceNote": "Abyss is a deep ocean dark theme: blue-green chrome, code colours like glowing sea life. All colours are designed. A row with a contrast figure is checked by the build: text at least 4.5:1, icons at least 3:1; APCA Lc is reported because it judges dark backgrounds more realistically than the WCAG ratio. Panel/header separation follows the Periwinkle Night clarity rules using this theme's own hue; those UI adjustments are marked designed, while the existing syntax palette is preserved.",
+  "colors": {
+    "layer-0-bg": {
+      "value": "#10252B",
+      "element": "Window frame and gaps: darker than the tool windows by the Islands minimum 1.20:1, in the panels' own hue",
+      "status": "designed",
+      "under": "$text-default",
+      "minLc": 60
+    },
+    "layer-0-bg-inline": {
+      "value": "$layer-0-bg",
+      "element": "Frame band and status bar",
+      "status": "designed"
+    },
+    "main-window-bg-alt": {
+      "value": "$layer-0-bg-inline",
+      "element": "Alternate window background",
+      "status": "designed"
+    },
+    "layer-0-border": {
+      "value": "#3C6870",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "layer-0-border-inline": {
+      "value": "#18333A",
+      "element": "Inline borders on the frame",
+      "status": "designed"
+    },
+    "layer-1-bg": {
+      "value": "#13282F",
+      "element": "Dialogs and settings",
+      "status": "designed"
+    },
+    "layer-1-bg-inline": {
+      "value": "#17323A",
+      "element": "Input fields in dialogs",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "layer-1-border": {
+      "value": "#24474F",
+      "element": "Dialog borders",
+      "status": "designed"
+    },
+    "layer-1-border-inline": {
+      "value": "#1E3D44",
+      "element": "Separators in dialogs",
+      "status": "designed"
+    },
+    "layer-2-bg": {
+      "value": "#15303A",
+      "element": "Popups, menus, notifications",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "layer-2-bg-inline": {
+      "value": "#1A3841",
+      "element": "Inline areas in popups",
+      "status": "designed"
+    },
+    "layer-2-border": {
+      "value": "#24474F",
+      "element": "Popup border",
+      "status": "designed"
+    },
+    "layer-2-border-inline": {
+      "value": "#1E3D44",
+      "element": "Separators in popups",
+      "status": "designed"
+    },
+    "editor-bg": {
+      "value": "#10232A",
+      "element": "Editor background",
+      "status": "designed",
+      "under": "$text-default",
+      "minLc": 75
+    },
+    "editor-bg-inline": {
+      "value": "#15303A",
+      "element": "In-editor search field and floating toolbars",
+      "status": "designed"
+    },
+    "editor-border": {
+      "value": "#3C6870",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border-inline": {
+      "value": "#3C6870",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border-alt": {
+      "value": "#3C6870",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "tool-window-bg": {
+      "value": "#1A343C",
+      "element": "Tool pane body: separated from frame and unchanged editor in the theme's own hue",
+      "status": "designed",
+      "under": "$text-default",
+      "minLc": 75
+    },
+    "tool-window-bg-inline": {
+      "value": "#17323A",
+      "element": "Controls inside a tool window",
+      "status": "designed"
+    },
+    "tool-window-bg-alt": {
+      "value": "$tool-window-bg",
+      "element": "Alternate tool window background",
+      "status": "designed"
+    },
+    "tool-window-border": {
+      "value": "#3C6870",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "tool-window-border-inline": {
+      "value": "#3C6870",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "text-default": {
+      "value": "#D9E4E2",
+      "element": "Primary text: a soft white, not pure white, to avoid glare",
+      "status": "designed",
+      "on": "$tool-window-bg"
+    },
+    "text-muted": {
+      "value": "#A9C2BF",
+      "element": "Secondary text: counts, paths, hints",
+      "status": "designed",
+      "on": "$tool-window-bg"
+    },
+    "text-secondary": {
+      "value": "#A9C2BF",
+      "element": "Info text and shortcuts",
+      "status": "designed",
+      "on": "$layer-2-bg"
+    },
+    "text-disabled": {
+      "value": "#5E7A77",
+      "element": "Disabled text (not checked: WCAG exempts inactive content)",
+      "status": "designed"
+    },
+    "text-link": {
+      "value": "#5EEAD4",
+      "element": "Links",
+      "status": "designed",
+      "on": "$layer-2-bg"
+    },
+    "text-over-accent": {
+      "value": "#0B1A1F",
+      "element": "Text on the accent (default button): dark on the light accent",
+      "status": "designed",
+      "on": "$accent-brand-bg"
+    },
+    "accent-brand-bg": {
+      "value": "#5EEAD4",
+      "element": "Accent: default button, focus ring, toggles",
+      "status": "designed"
+    },
+    "accent-brand-border": {
+      "value": "#5EEAD4",
+      "element": "Accent border and focus ring",
+      "status": "designed",
+      "on": "$layer-1-bg",
+      "minContrast": 3
+    },
+    "accent-brand-bg-secondary": {
+      "value": "#133A3A",
+      "element": "Informational banner",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "accent-brand-border-secondary": {
+      "value": "#2A6B66",
+      "element": "Informational banner border",
+      "status": "designed"
+    },
+    "selection-bg-active": {
+      "value": "#1E3D44",
+      "element": "Selected row, focused",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "selection-bg-active-muted": {
+      "value": "#18363D",
+      "element": "Light selection",
+      "status": "designed"
+    },
+    "selection-bg-inactive": {
+      "value": "#18333A",
+      "element": "Selected row, not focused",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "toolbar-selected-bg": {
+      "value": "#1E3D44",
+      "element": "Selected tool window button on the strip",
+      "status": "designed"
+    },
+    "toolbar-selected-bg-active": {
+      "value": "#17625A",
+      "element": "Selected pill of a tool window's header tabs (Solution/Files) and of the Plugins dialog tabs. Rider keeps plain text on it, so a deep mint instead of the accent: text on 5EEAD4 was 1.14:1",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "toolbar-selected-bg-hovered": {
+      "value": "#254A52",
+      "element": "Hovered selected tool window button",
+      "status": "designed"
+    },
+    "tab-selected-border-active": {
+      "value": "#5EEAD4",
+      "element": "Selected tab indicator",
+      "status": "designed"
+    },
+    "tab-selected-border-inactive": {
+      "value": "#24474F",
+      "element": "Selected tab indicator, unfocused group",
+      "status": "designed"
+    },
+    "popup-completion-match-text": {
+      "value": "#5EEAD4",
+      "element": "Matched characters in completion",
+      "status": "designed",
+      "on": "$layer-2-bg"
+    },
+    "icon-default-stroke": {
+      "value": "#A9C2BF",
+      "element": "Icon stroke colour for the dark icon set",
+      "status": "designed",
+      "on": "$layer-0-bg",
+      "minContrast": 3
+    },
+    "main-window-bg": {
+      "value": "$layer-0-bg",
+      "element": "Window frame and panel gaps use the frame layer, independently of dialog surfaces",
+      "status": "designed"
+    },
+    "tree-indent-guide-border": {
+      "value": "#527F80",
+      "element": "Visible hierarchy guides in this dark palette",
+      "status": "designed"
+    }
+  },
+  "ui": {
+    "Island.borderColor": {
+      "value": "#3C6870",
+      "element": "Panel outlines: palette-specific clarity baseline",
+      "status": "designed"
+    },
+    "Island.borderWidth": {
+      "raw": 8,
+      "vsValue": "panel clarity rule",
+      "element": "Eight-pixel gap between panels",
+      "status": "designed"
+    },
+    "Island.borderWidth.compact": {
+      "raw": 8,
+      "vsValue": "panel clarity rule",
+      "element": "Eight-pixel gap between panels",
+      "status": "designed"
+    },
+    "MainToolbar.Dropdown.background": {
+      "value": "#17323A",
+      "element": "Pills on the title row",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "MainToolbar.Dropdown.hoverBackground": {
+      "value": "#1E3D44",
+      "element": "Title row pill, hovered",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "MainToolbar.Dropdown.transparentHoverBackground": {
+      "value": "#1E3D44",
+      "element": "Title row pill, hovered",
+      "status": "designed"
+    },
+    "MainToolbar.Dropdown.pressedBackground": {
+      "value": "#254A52",
+      "element": "Title row pill, pressed",
+      "status": "designed"
+    },
+    "EditorTabs.background": {
+      "value": "#0E1F25",
+      "element": "Editor tab well",
+      "status": "designed",
+      "under": "$text-muted"
+    },
+    "EditorTabs.underlinedTabBackground": {
+      "value": "#5EEAD4",
+      "element": "Active editor tab",
+      "status": "designed",
+      "under": "#0B1A1F"
+    },
+    "EditorTabs.underlinedTabForeground": {
+      "value": "#0B1A1F",
+      "element": "Active editor tab text",
+      "status": "designed",
+      "on": "#5EEAD4"
+    },
+    "EditorTabs.underlinedBorderColor": {
+      "value": "#5EEAD4",
+      "element": "Active editor tab outline",
+      "status": "designed"
+    },
+    "EditorTabs.underlineColor": {
+      "value": "#5EEAD4",
+      "element": "Active tab indicator",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlineColor": {
+      "value": "#24474F",
+      "element": "Selected tab indicator, unfocused group",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlinedTabBackground": {
+      "value": "#A9C2BF",
+      "element": "Quieter selected-tab fill after focus leaves the pane; readable with its native tab text",
+      "status": "designed"
+    },
+    "StatusBar.background": {
+      "value": "$layer-0-bg-inline",
+      "element": "Status bar",
+      "status": "designed",
+      "under": "$text-muted"
+    },
+    "MemoryIndicator.allocatedBackground": {
+      "value": "#17323A",
+      "element": "Memory indicator, allocated heap",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "MemoryIndicator.usedBackground": {
+      "value": "#25504F",
+      "element": "Memory indicator, used heap",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "ToolWindow.Header.background": {
+      "value": "#2B515B",
+      "element": "Focused header in this theme's original hue",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "ToolWindow.Header.inactiveBackground": {
+      "value": "#203E47",
+      "element": "Inactive header remains distinct from its pane body",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "Tree.selectionBackground": {
+      "value": "$selection-bg-active",
+      "element": "Selected row in a focused tree",
+      "status": "designed"
+    },
+    "Tree.selectionForeground": {
+      "value": "#5EEAD4",
+      "element": "Text of the selected row",
+      "status": "designed",
+      "on": "$selection-bg-active"
+    },
+    "Tree.selectionInactiveBackground": {
+      "value": "$selection-bg-inactive",
+      "element": "Selected row, tree not focused",
+      "status": "designed"
+    },
+    "List.selectionBackground": {
+      "value": "$selection-bg-active",
+      "element": "Selected row in a focused list",
+      "status": "designed"
+    },
+    "List.selectionForeground": {
+      "value": "#5EEAD4",
+      "element": "Text of the selected row in a list",
+      "status": "designed",
+      "on": "$selection-bg-active"
+    },
+    "List.selectionInactiveBackground": {
+      "value": "$selection-bg-inactive",
+      "element": "Selected row, list not focused",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlinedTabBorderColor": {
+      "value": "#24474F",
+      "element": "Quieter selected-tab outline after focus leaves the pane",
+      "status": "designed"
+    },
+    "ToolWindow.HeaderTab.underlinedTabForeground": {
+      "value": "#0B1A1F",
+      "element": "Native tool-window tab text matches the focused editor-tab foreground",
+      "status": "designed",
+      "on": "#5EEAD4"
+    },
+    "ToolWindow.HeaderTab.underlinedTabInactiveForeground": {
+      "value": "#0B1A1F",
+      "element": "Native inactive tool-window tab text remains readable on the inactive fill",
+      "status": "designed",
+      "on": "#A9C2BF"
+    },
+    "Tree.hash": {
+      "value": "#527F80",
+      "element": "Supported native project and structure tree guides",
+      "status": "designed"
+    }
+  }
+}

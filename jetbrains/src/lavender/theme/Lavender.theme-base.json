@@ -1,0 +1,356 @@
+{
+  "extends": "../../common/theme/Common.theme-base.json",
+  "author": "Peter Bednarčík. Inspired by the Visual Studio Blue theme (values from Microsoft's Theme.Blue.pkgdef where marked ms-blue); structure from JetBrains' Islands Light theme (Apache-2.0)",
+  "dark": false,
+  "parentTheme": "Islands Light",
+  "baseThemeFile": "platform/themes/islands/ManyIslandsLight.theme.json",
+  "vsBase": "Blue",
+  "snapshot": "Blue",
+  "schemeMap": "LavenderMist",
+  "editorScheme": "Lavender Mist",
+  "sourceNote": "Lavender Mist is a design inspired by Visual Studio's Blue theme, not a copy. Rows marked **ms-blue** follow the colours of the Visual Studio 2019/2022 Blue theme; Visual Studio 2026 no longer ships Blue. Rows marked **designed** are this theme's own choices. A row with a contrast figure is checked by the build: text at least 4.5:1 (WCAG 2.2), icons at least 3:1. Panel/header separation follows the Periwinkle Night clarity rules using this theme's own hue; those UI adjustments are marked designed, while the existing syntax palette is preserved.",
+  "colors": {
+    "layer-0-bg": {
+      "value": "#D9D6F0",
+      "element": "Window frame: title row, gaps between panels, tool window strips. Classic Blue's frame (5D6B99) was measured unusable: Rider's icon grey on it is 1.06:1",
+      "status": "designed"
+    },
+    "layer-0-bg-inline": {
+      "value": "#E4E1F5",
+      "element": "Band on the frame: status bar, info bar",
+      "status": "designed"
+    },
+    "main-window-bg-alt": {
+      "value": "$layer-0-bg-inline",
+      "element": "Alternate window background (Rider concept)",
+      "status": "designed"
+    },
+    "layer-0-border": {
+      "value": "#BDB6E0",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "layer-0-border-inline": {
+      "value": "#CBC5E8",
+      "element": "Inline borders on the frame",
+      "status": "designed"
+    },
+    "layer-1-bg": {
+      "value": "#F8F7FD",
+      "element": "Dialogs and settings",
+      "status": "designed"
+    },
+    "layer-1-bg-inline": {
+      "value": "#FFFFFF",
+      "element": "Input fields in dialogs",
+      "status": "designed"
+    },
+    "layer-1-border": {
+      "value": "#D3CEEB",
+      "element": "Dialog borders",
+      "status": "designed"
+    },
+    "layer-1-border-inline": {
+      "value": "#E4E0F3",
+      "element": "Separators in dialogs",
+      "status": "designed"
+    },
+    "layer-2-bg": {
+      "value": "#FFFFFF",
+      "element": "Popups, menus, notifications",
+      "status": "designed"
+    },
+    "layer-2-bg-inline": {
+      "value": "#F6F4FC",
+      "element": "Inline areas in popups",
+      "status": "designed"
+    },
+    "layer-2-border": {
+      "value": "#D3CEEB",
+      "element": "Popup border",
+      "status": "designed"
+    },
+    "layer-2-border-inline": {
+      "value": "#E4E0F3",
+      "element": "Separators in popups",
+      "status": "designed"
+    },
+    "popup-border-windows": {
+      "value": "#C4BEE3",
+      "element": "Outer popup border on Windows",
+      "status": "designed"
+    },
+    "editor-bg": {
+      "value": "#FFFFFF",
+      "element": "Editor background. Blue sets none, so Visual Studio falls back to white; research found no evidence that off-white reduces strain at equal brightness",
+      "status": "designed"
+    },
+    "editor-bg-inline": {
+      "value": "#F6F4FC",
+      "element": "In-editor search field and floating toolbars",
+      "status": "designed"
+    },
+    "editor-border-alt": {
+      "value": "#BDB6E0",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "tool-window-bg": {
+      "value": "#FAF9FE",
+      "element": "Tool window body. Blue's is F7F9FE; this is the same lightness turned towards violet",
+      "status": "designed"
+    },
+    "tool-window-bg-alt": {
+      "value": "$tool-window-bg",
+      "element": "Alternate tool window background",
+      "status": "designed"
+    },
+    "tool-window-border": {
+      "value": "#BDB6E0",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "text-default": {
+      "value": "vs:TreeView|Background|fg",
+      "element": "Primary text",
+      "status": "ms-blue",
+      "on": "$tool-window-bg"
+    },
+    "text-muted": {
+      "value": "#55506B",
+      "element": "Secondary text: counts, paths, hints",
+      "status": "designed",
+      "on": "$tool-window-bg"
+    },
+    "text-secondary": {
+      "value": "#55506B",
+      "element": "Info text and shortcuts",
+      "status": "designed",
+      "on": "$layer-2-bg"
+    },
+    "text-link": {
+      "value": "#5C2D91",
+      "element": "Links",
+      "status": "designed",
+      "on": "$layer-2-bg"
+    },
+    "text-over-accent": {
+      "value": "#FFFFFF",
+      "element": "Text on the accent (default button)",
+      "status": "designed",
+      "on": "$accent-brand-bg"
+    },
+    "accent-brand-bg": {
+      "value": "#5C2D91",
+      "element": "Accent: default button, focus ring, toggles",
+      "status": "designed"
+    },
+    "accent-brand-border": {
+      "value": "#5C2D91",
+      "element": "Accent border and focus ring",
+      "status": "designed",
+      "on": "$layer-1-bg",
+      "minContrast": 3
+    },
+    "accent-brand-bg-secondary": {
+      "value": "#F4F0FC",
+      "element": "Informational banner",
+      "status": "designed"
+    },
+    "accent-brand-border-secondary": {
+      "value": "#C9B8EE",
+      "element": "Informational banner border",
+      "status": "designed"
+    },
+    "selection-bg-active": {
+      "value": "#ECE3FA",
+      "element": "Selected row, focused. A fill strong enough to reach 3:1 against the panel by itself (9F82D9) was measured to drop the text on it to APCA Lc 43, and Rider has no key for a row outline, so the fill stays pale and the selected text turns purple as a second cue. The fill alone is 1.2:1 against the panel",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "selection-bg-active-muted": {
+      "value": "#F3EEFC",
+      "element": "Light selection",
+      "status": "designed"
+    },
+    "selection-bg-inactive": {
+      "value": "vs:TreeView|SelectedItemInactive",
+      "element": "Selected row, not focused",
+      "status": "ms-blue",
+      "under": "$text-default"
+    },
+    "toolbar-selected-bg": {
+      "value": "#E2D9F6",
+      "element": "Selected tool window button on the strip",
+      "status": "designed"
+    },
+    "toolbar-selected-bg-hovered": {
+      "value": "#D6CAF2",
+      "element": "Hovered selected tool window button",
+      "status": "designed"
+    },
+    "tab-selected-border-active": {
+      "value": "#5C2D91",
+      "element": "Selected tab indicator",
+      "status": "designed"
+    },
+    "tab-selected-border-inactive": {
+      "value": "#BDB6E0",
+      "element": "Selected tab indicator, unfocused group",
+      "status": "designed"
+    },
+    "popup-completion-match-text": {
+      "value": "#5C2D91",
+      "element": "Matched characters in completion",
+      "status": "designed",
+      "on": "$layer-2-bg"
+    },
+    "main-window-bg": {
+      "value": "$layer-0-bg",
+      "element": "Window frame and panel gaps use the frame layer, independently of dialog surfaces",
+      "status": "designed"
+    },
+    "tool-window-border-inline": {
+      "value": "#BDB6E0",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border": {
+      "value": "#BDB6E0",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border-inline": {
+      "value": "#BDB6E0",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    }
+  },
+  "ui": {
+    "Island.borderColor": {
+      "value": "#BDB6E0",
+      "element": "Panel outlines: palette-specific clarity baseline",
+      "status": "designed"
+    },
+    "Island.borderWidth": {
+      "raw": 8,
+      "vsValue": "panel clarity rule",
+      "element": "Eight-pixel gap between panels",
+      "status": "designed"
+    },
+    "Island.borderWidth.compact": {
+      "raw": 8,
+      "vsValue": "panel clarity rule",
+      "element": "Eight-pixel gap between panels",
+      "status": "designed"
+    },
+    "MainToolbar.Dropdown.background": {
+      "value": "#E8E6F7",
+      "element": "Pills on the title row: project, branch, run configuration",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "MainToolbar.Dropdown.hoverBackground": {
+      "value": "#E0DDF3",
+      "element": "Title row pill, hovered",
+      "status": "designed"
+    },
+    "MainToolbar.Dropdown.transparentHoverBackground": {
+      "value": "#E0DDF3",
+      "element": "Title row pill, hovered",
+      "status": "designed"
+    },
+    "MainToolbar.Dropdown.pressedBackground": {
+      "value": "#D8D4EF",
+      "element": "Title row pill, pressed",
+      "status": "designed"
+    },
+    "EditorTabs.background": {
+      "value": "#EAE7F8",
+      "element": "Editor tab well",
+      "status": "designed",
+      "under": "#3F3866"
+    },
+    "StatusBar.background": {
+      "value": "$layer-0-bg-inline",
+      "element": "Status bar",
+      "status": "designed",
+      "under": "$text-muted"
+    },
+    "MemoryIndicator.allocatedBackground": {
+      "value": "#F4F2FB",
+      "element": "Memory indicator, allocated heap",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "MemoryIndicator.usedBackground": {
+      "value": "#CFC7EC",
+      "element": "Memory indicator, used heap",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "ToolWindow.Header.inactiveBackground": {
+      "value": "#EEEAF8",
+      "element": "Inactive header remains distinct from its pane body",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "Tree.selectionBackground": {
+      "value": "$selection-bg-active",
+      "element": "Selected row in a focused tree",
+      "status": "designed"
+    },
+    "Tree.selectionForeground": {
+      "value": "#5C2D91",
+      "element": "Text of the selected row in a focused tree: the second cue besides the pale fill",
+      "status": "designed",
+      "on": "$selection-bg-active"
+    },
+    "Tree.selectionInactiveBackground": {
+      "value": "$selection-bg-inactive",
+      "element": "Selected row, tree not focused",
+      "status": "ms-blue"
+    },
+    "List.selectionBackground": {
+      "value": "$selection-bg-active",
+      "element": "Selected row in a focused list",
+      "status": "designed"
+    },
+    "List.selectionForeground": {
+      "value": "#5C2D91",
+      "element": "Text of the selected row in a focused list",
+      "status": "designed",
+      "on": "$selection-bg-active"
+    },
+    "List.selectionInactiveBackground": {
+      "value": "$selection-bg-inactive",
+      "element": "Selected row, list not focused",
+      "status": "ms-blue"
+    },
+    "EditorTabs.underlineColor": {
+      "value": "#5C2D91",
+      "element": "Selected tab indicator",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlineColor": {
+      "value": "#BDB6E0",
+      "element": "Selected tab indicator, unfocused group",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlinedTabBackground": {
+      "value": "#F4F2FB",
+      "element": "Selected tab when the editor is not focused",
+      "status": "designed",
+      "under": "$text-default"
+    }
+  },
+  "iconPalette": {
+    "#6C707E": {
+      "value": "#57536E",
+      "element": "Icon stroke colour, IDE-wide: Rider's grey turned towards violet and darkened so icons on the frame stay above 3:1",
+      "status": "designed",
+      "on": "$layer-0-bg",
+      "minContrast": 3
+    }
+  }
+}

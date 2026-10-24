@@ -1,0 +1,12 @@
+{
+  "review": "0.7.0 contrast refinements; all other fields independently preserved by src/common/editor-contrast.json.",
+  "schemes": {
+    "colorSchemes/PeriwinkleNight.xml": "3d719f2ff29bedb83660dd7bff617613eaa4c9eac2fb9383abcb5fb2a4268fbe"
+  },
+  "gutters": {
+    "colorSchemes/PeriwinkleNight.xml": {
+      "gutter": "#23263A",
+      "withoutGuttersSha256": "6b593aeaa8826aac660c9fef077258d3818a80ee864e8732b7073f07d69ad94c"
+    }
+  }
+}

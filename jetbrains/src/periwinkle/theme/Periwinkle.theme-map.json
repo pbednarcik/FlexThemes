@@ -1,0 +1,266 @@
+{
+  "extends": "../../bluemist/theme/BlueMist.theme-map.json",
+  "name": "Periwinkle Islands",
+  "fileName": "PeriwinkleIslands",
+  "providerId": "periwinkle-islands",
+  "schemeMap": "Periwinkle",
+  "editorScheme": "Periwinkle Islands",
+  "author": "Peter Bednarčík. Colours from Microsoft's Visual Studio Blue theme where marked ms-blue, purple accents designed; structure from JetBrains' Islands Light theme (Apache-2.0)",
+  "sourceNote": "Periwinkle Islands pairs the light chrome of Visual Studio's Blue theme with purple accents. Rows marked **ms-blue** follow the colours of the Visual Studio 2019/2022 Blue theme, which inspired this family; Visual Studio 2026 no longer ships Blue. Rows marked **designed** are this theme's own. A row with a contrast figure is checked by the build: text at least 4.5:1 (WCAG 2.2), icons at least 3:1. Panel/header separation follows the Periwinkle Night clarity rules using this theme's own hue; those UI adjustments are marked designed, while the existing syntax palette is preserved.",
+  "colors": {
+    "layer-0-bg": {
+      "value": "vs:Environment|CommandBarGradientBegin",
+      "element": "Window frame: Blue's light periwinkle command bar colour. Title-row text measures 11.4:1, APCA Lc 79",
+      "status": "ms-blue",
+      "under": "$text-default"
+    },
+    "layer-0-bg-inline": {
+      "value": "vs:Environment|FileTabLastActiveGradientTop",
+      "element": "Band on the frame: status bar, info bar",
+      "status": "ms-blue",
+      "under": "$text-muted"
+    },
+    "main-window-bg-alt": {
+      "value": "$layer-0-bg-inline",
+      "element": "Alternate window background (Rider concept)",
+      "status": "ms-blue"
+    },
+    "layer-0-border": {
+      "value": "#9AA6D4",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "layer-0-border-inline": {
+      "value": "#B7C1E3",
+      "element": "Inline borders on the frame",
+      "status": "designed"
+    },
+    "text-link": {
+      "value": "#5C2D91",
+      "element": "Links in the accent purple",
+      "status": "designed",
+      "on": "$layer-2-bg"
+    },
+    "accent-brand-bg": {
+      "value": "#5C2D91",
+      "element": "Accent: default button, focus ring, toggles",
+      "status": "designed"
+    },
+    "accent-brand-border": {
+      "value": "#5C2D91",
+      "element": "Accent border and focus ring",
+      "status": "designed",
+      "on": "$layer-1-bg",
+      "minContrast": 3
+    },
+    "accent-brand-bg-secondary": {
+      "value": "#F4F0FC",
+      "element": "Informational banner",
+      "status": "designed"
+    },
+    "accent-brand-border-secondary": {
+      "value": "#C9B8EE",
+      "element": "Informational banner border",
+      "status": "designed"
+    },
+    "selection-bg-active": {
+      "value": "#ECE3FA",
+      "element": "Selected row, focused: a pale purple fill with purple text, as in Lavender Mist (Rider has no key for a row outline)",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "tab-selected-border-active": {
+      "value": "#5C2D91",
+      "element": "Selected tab indicator",
+      "status": "designed"
+    },
+    "popup-completion-match-text": {
+      "value": "#5C2D91",
+      "element": "Matched characters in completion",
+      "status": "designed",
+      "on": "$layer-2-bg"
+    },
+    "main-window-bg": {
+      "value": "$layer-0-bg",
+      "element": "Window frame and panel gaps use the frame layer, independently of dialog surfaces",
+      "status": "designed"
+    },
+    "tool-window-border": {
+      "value": "#9AA6D4",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "tool-window-border-inline": {
+      "value": "#9AA6D4",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border": {
+      "value": "#9AA6D4",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border-inline": {
+      "value": "#9AA6D4",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border-alt": {
+      "value": "#9AA6D4",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    }
+  },
+  "ui": {
+    "Island.borderColor": {
+      "value": "#9AA6D4",
+      "element": "Panel outlines: palette-specific clarity baseline",
+      "status": "designed"
+    },
+    "EditorTabs.background": {
+      "value": "#EEF0FA",
+      "element": "Refined tab rail: faint existing periwinkle gutter tint behind full-strength filenames; applies to horizontal and vertical editor tabs",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "EditorTabs.underlinedTabBackground": {
+      "value": "#DED7F3",
+      "element": "Stronger focused selected-tab fill, reusing the existing tree-focus purple; Islands shares it with tool-window tabs",
+      "status": "designed",
+      "under": "#5C2D91"
+    },
+    "EditorTabs.underlinedTabForeground": {
+      "value": "#5C2D91",
+      "element": "Active editor tab text in the accent purple",
+      "status": "designed",
+      "on": "#DED7F3"
+    },
+    "EditorTabs.underlinedBorderColor": {
+      "value": "#5C2D91",
+      "element": "Active editor tab outline",
+      "status": "designed"
+    },
+    "EditorTabs.underlineColor": {
+      "value": "#5C2D91",
+      "element": "Active tab indicator in purple",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlinedTabBackground": {
+      "value": "#F4F0FC",
+      "element": "Active tab when the editor is not focused",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "EditorTabs.inactiveUnderlinedTabBorderColor": {
+      "value": "#A9B5DD",
+      "element": "Selected tab outline when its pane is not focused; quieter than the active purple outline",
+      "status": "designed"
+    },
+    "ToolWindow.Header.background": {
+      "value": "#DED7F3",
+      "element": "Legacy active header fill; Islands focus is indicated by its selected tab styling",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "Tree.selectionForeground": {
+      "value": "#5C2D91",
+      "element": "Text of the selected row: the second cue besides the pale fill",
+      "status": "designed",
+      "on": "#DED7F3"
+    },
+    "List.selectionForeground": {
+      "value": "#5C2D91",
+      "element": "Text of the selected row in a list",
+      "status": "designed",
+      "on": "$selection-bg-active"
+    },
+    "Island.borderWidth": {
+      "raw": 8,
+      "vsValue": "panel clarity rule",
+      "element": "Eight-pixel gap between panels",
+      "status": "designed"
+    },
+    "Island.borderWidth.compact": {
+      "raw": 8,
+      "vsValue": "panel clarity rule",
+      "element": "Eight-pixel gap between panels",
+      "status": "designed"
+    },
+    "ToolWindow.Header.inactiveBackground": {
+      "value": "#D9E0F8",
+      "element": "VS-inspired hierarchy: shared periwinkle pane-header band, including New UI headers",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "Tree.selectionBackground": {
+      "value": "#DED7F3",
+      "element": "Stronger purple file-selection fill when the project tree has focus",
+      "status": "designed",
+      "under": "#5C2D91"
+    },
+    "Tree.selectionInactiveBackground": {
+      "value": "#E6E7EF",
+      "element": "Quieter file-selection fill when focus moves away from the tree",
+      "status": "designed"
+    },
+    "List.selectionBackground": {
+      "value": "$selection-bg-active",
+      "element": "Explicit focused selection fill using this theme's own palette",
+      "status": "designed"
+    },
+    "ToolWindow.HeaderTab.underlinedTabForeground": {
+      "value": "#5C2D91",
+      "element": "Native tool-window tab text matches the focused editor-tab foreground",
+      "status": "designed",
+      "on": "#DED7F3"
+    },
+    "ToolWindow.HeaderTab.underlinedTabInactiveForeground": {
+      "value": "#5C2D91",
+      "element": "Native inactive tool-window tab text remains readable on the inactive fill",
+      "status": "designed",
+      "on": "#F4F0FC"
+    },
+    "MainToolbar.background": {
+      "value": "#D9E0F8",
+      "element": "VS-inspired hierarchy: calmer toolbar using the existing status-band periwinkle",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "Tree.hash": {
+      "value": "#CCD3EC",
+      "element": "VS-inspired hierarchy: quieter tree guides, distinct from the stronger pane outlines",
+      "status": "designed"
+    },
+    "Popup.borderColor": {
+      "value": "#9AA6D4",
+      "element": "VS-inspired hierarchy: popup boundary matches the pane outlines",
+      "status": "designed"
+    }
+  },
+  "iconPalette": {
+    "#6C707E": {
+      "value": "#3A3F5C",
+      "element": "Icon stroke colour, IDE-wide: a navy-slate, 7.0:1 on the frame (APCA Lc 69)",
+      "status": "designed",
+      "on": "$layer-0-bg",
+      "minContrast": 3
+    },
+    "Checkbox.Background.Selected": {
+      "value": "#5C2D91",
+      "element": "Checked check box fill",
+      "status": "designed",
+      "on": "$layer-1-bg",
+      "minContrast": 3
+    },
+    "Checkbox.Border.Selected": {
+      "value": "#5C2D91",
+      "element": "Checked check box border",
+      "status": "designed"
+    },
+    "Checkbox.Focus.Wide": {
+      "value": "#9B7FD4",
+      "element": "Focus ring around a check box",
+      "status": "designed"
+    }
+  }
+}

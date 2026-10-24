@@ -1,0 +1,895 @@
+{
+  "description": "Semantic roles only; each theme opts in with palette anchors. Declaration coverage is reviewed; new or removed keys fail inventory. Preserved keys keep IDE effects and diagnostics.",
+  "languages": {
+    "Platform": {
+      "sources": [
+        {
+          "product": "RD",
+          "jar": "lib/intellij.platform.core.jar",
+          "class": "com.intellij.openapi.editor.DefaultLanguageHighlighterColors"
+        },
+        {
+          "product": "IU",
+          "jar": "lib/intellij.platform.core.jar",
+          "class": "com.intellij.openapi.editor.DefaultLanguageHighlighterColors"
+        },
+        {
+          "product": "GO",
+          "jar": "lib/intellij.platform.core.jar",
+          "class": "com.intellij.openapi.editor.DefaultLanguageHighlighterColors"
+        },
+        {
+          "product": "PY",
+          "jar": "lib/intellij.platform.core.jar",
+          "class": "com.intellij.openapi.editor.DefaultLanguageHighlighterColors"
+        }
+      ],
+      "complete": true,
+      "roles": {
+        "keyword": [
+          "DEFAULT_KEYWORD"
+        ],
+        "type": [
+          "DEFAULT_CLASS_NAME",
+          "DEFAULT_CLASS_REFERENCE"
+        ],
+        "function": [
+          "DEFAULT_FUNCTION_DECLARATION",
+          "DEFAULT_FUNCTION_CALL",
+          "DEFAULT_INSTANCE_METHOD",
+          "DEFAULT_STATIC_METHOD"
+        ],
+        "local": [
+          "DEFAULT_LOCAL_VARIABLE",
+          "DEFAULT_REASSIGNED_LOCAL_VARIABLE"
+        ],
+        "parameter": [
+          "DEFAULT_PARAMETER",
+          "DEFAULT_REASSIGNED_PARAMETER"
+        ],
+        "member": [
+          "DEFAULT_INSTANCE_FIELD",
+          "DEFAULT_STATIC_FIELD",
+          "DEFAULT_CONSTANT",
+          "DEFAULT_GLOBAL_VARIABLE"
+        ],
+        "string": [
+          "DEFAULT_STRING"
+        ],
+        "number": [
+          "DEFAULT_NUMBER"
+        ],
+        "comment": [
+          "DEFAULT_LINE_COMMENT",
+          "DEFAULT_BLOCK_COMMENT"
+        ],
+        "docTag": [
+          "DEFAULT_DOC_COMMENT_TAG",
+          "DEFAULT_DOC_MARKUP",
+          "DEFAULT_DOC_COMMENT_TAG_VALUE"
+        ],
+        "escape": [
+          "DEFAULT_VALID_STRING_ESCAPE"
+        ],
+        "invalidEscape": [
+          "DEFAULT_INVALID_STRING_ESCAPE"
+        ],
+        "metadata": [
+          "DEFAULT_METADATA"
+        ],
+        "text": [
+          "DEFAULT_IDENTIFIER",
+          "DEFAULT_TEMPLATE_LANGUAGE_COLOR",
+          "DEFAULT_OPERATION_SIGN",
+          "DEFAULT_BRACES",
+          "DEFAULT_DOT",
+          "DEFAULT_SEMICOLON",
+          "DEFAULT_COMMA",
+          "DEFAULT_PARENTHS",
+          "DEFAULT_BRACKETS",
+          "DEFAULT_LABEL"
+        ],
+        "predefined": [
+          "DEFAULT_PREDEFINED_SYMBOL"
+        ],
+        "interface": [
+          "DEFAULT_INTERFACE_NAME"
+        ],
+        "docComment": [
+          "DEFAULT_DOC_COMMENT"
+        ]
+      },
+      "preserve": {
+        "IDE effects, diagnostics and auxiliary UI; retain their native semantics": [
+          "AI_INLAY_BUTTON_DEFAULT",
+          "AI_INLAY_BUTTON_FOCUSED",
+          "AI_INLAY_BUTTON_HOVERED",
+          "DEFAULT_ATTRIBUTE",
+          "DEFAULT_ENTITY",
+          "DEFAULT_HIGHLIGHTED_REFERENCE",
+          "DEFAULT_TAG",
+          "DOC_CODE_BLOCK",
+          "DOC_CODE_INLINE",
+          "DOC_TIPS_SHORTCUT",
+          "INLAY_BUTTON_DEFAULT",
+          "INLAY_BUTTON_FOCUSED",
+          "INLAY_BUTTON_HINT",
+          "INLAY_BUTTON_HOVERED",
+          "INLAY_DEFAULT",
+          "INLAY_TEXT_WITHOUT_BACKGROUND",
+          "INLINE_PARAMETER_HINT",
+          "INLINE_PARAMETER_HINT_CURRENT",
+          "INLINE_PARAMETER_HINT_HIGHLIGHTED",
+          "INLINE_SUGGESTION"
+        ]
+      }
+    },
+    "Java": {
+      "sources": [
+        {
+          "product": "IU",
+          "jar": "plugins/java/lib/intellij.java.frontback.psi.impl.jar",
+          "class": "com.intellij.ide.highlighter.JavaHighlightingColors"
+        }
+      ],
+      "complete": true,
+      "roles": {
+        "keyword": [
+          "JAVA_KEYWORD"
+        ],
+        "type": [
+          "CLASS_NAME_ATTRIBUTES",
+          "ANONYMOUS_CLASS_NAME_ATTRIBUTES",
+          "IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES",
+          "RECORD_NAME_ATTRIBUTES",
+          "ABSTRACT_CLASS_NAME_ATTRIBUTES"
+        ],
+        "function": [
+          "METHOD_CALL_ATTRIBUTES",
+          "METHOD_DECLARATION_ATTRIBUTES",
+          "STATIC_METHOD_ATTRIBUTES",
+          "STATIC_METHOD_IMPORTED_ATTRIBUTES",
+          "ABSTRACT_METHOD_ATTRIBUTES",
+          "INHERITED_METHOD_ATTRIBUTES",
+          "CONSTRUCTOR_CALL_ATTRIBUTES",
+          "CONSTRUCTOR_DECLARATION_ATTRIBUTES"
+        ],
+        "local": [
+          "LOCAL_VARIABLE_ATTRIBUTES",
+          "REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES"
+        ],
+        "parameter": [
+          "PARAMETER_ATTRIBUTES",
+          "LAMBDA_PARAMETER_ATTRIBUTES",
+          "REASSIGNED_PARAMETER_ATTRIBUTES"
+        ],
+        "member": [
+          "INSTANCE_FIELD_ATTRIBUTES",
+          "INSTANCE_FINAL_FIELD_ATTRIBUTES",
+          "RECORD_COMPONENT_ATTRIBUTES",
+          "STATIC_FIELD_ATTRIBUTES",
+          "STATIC_FIELD_IMPORTED_ATTRIBUTES",
+          "STATIC_FINAL_FIELD_ATTRIBUTES",
+          "STATIC_FINAL_FIELD_IMPORTED_ATTRIBUTES",
+          "ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES"
+        ],
+        "metadata": [
+          "ANNOTATION_NAME_ATTRIBUTES"
+        ],
+        "string": [
+          "JAVA_STRING"
+        ],
+        "number": [
+          "JAVA_NUMBER"
+        ],
+        "comment": [
+          "JAVA_LINE_COMMENT",
+          "JAVA_BLOCK_COMMENT"
+        ],
+        "docTag": [
+          "JAVA_DOC_TAG",
+          "JAVA_DOC_MARKUP",
+          "DOC_COMMENT_TAG_VALUE"
+        ],
+        "escape": [
+          "JAVA_VALID_STRING_ESCAPE"
+        ],
+        "invalidEscape": [
+          "JAVA_INVALID_STRING_ESCAPE"
+        ],
+        "text": [
+          "JAVA_OPERATION_SIGN",
+          "JAVA_PARENTH",
+          "JAVA_BRACKETS",
+          "JAVA_BRACES",
+          "JAVA_COMMA",
+          "JAVA_DOT",
+          "JAVA_SEMICOLON"
+        ],
+        "interface": [
+          "INTERFACE_NAME_ATTRIBUTES"
+        ],
+        "enum": [
+          "ENUM_NAME_ATTRIBUTES"
+        ],
+        "typeParameter": [
+          "TYPE_PARAMETER_NAME_ATTRIBUTES"
+        ],
+        "docComment": [
+          "JAVA_DOC_COMMENT"
+        ]
+      },
+      "preserve": {
+        "IDE effects, diagnostics and auxiliary UI; retain their native semantics": [
+          "MISSORTED_IMPORTS_ATTRIBUTES",
+          "PACKAGE_PRIVATE_REFERENCE",
+          "PRIVATE_REFERENCE",
+          "PROTECTED_REFERENCE",
+          "PUBLIC_REFERENCE"
+        ]
+      }
+    },
+    "Kotlin": {
+      "sources": [
+        {
+          "product": "IU",
+          "jar": "plugins/Kotlin/lib/kotlin-plugin-shared.jar",
+          "class": "org.jetbrains.kotlin.idea.highlighter.KotlinHighlightingColors"
+        }
+      ],
+      "complete": true,
+      "roles": {
+        "keyword": [
+          "KOTLIN_KEYWORD",
+          "KOTLIN_KEYWORD_VAL",
+          "KOTLIN_KEYWORD_VAR",
+          "KOTLIN_BUILTIN_ANNOTATION"
+        ],
+        "type": [
+          "KOTLIN_CLASS",
+          "KOTLIN_ABSTRACT_CLASS",
+          "KOTLIN_OBJECT",
+          "KOTLIN_TYPE_ALIAS",
+          "KOTLIN_DATA_CLASS",
+          "KOTLIN_DATA_OBJECT"
+        ],
+        "function": [
+          "KOTLIN_FUNCTION_DECLARATION",
+          "KOTLIN_FUNCTION_CALL",
+          "KOTLIN_PACKAGE_FUNCTION_CALL",
+          "KOTLIN_EXTENSION_FUNCTION_CALL",
+          "KOTLIN_CONSTRUCTOR",
+          "KOTLIN_DYNAMIC_FUNCTION_CALL",
+          "KOTLIN_SUSPEND_FUNCTION_CALL",
+          "KOTLIN_VARIABLE_AS_FUNCTION",
+          "KOTLIN_VARIABLE_AS_FUNCTION_LIKE"
+        ],
+        "local": [
+          "KOTLIN_LOCAL_VARIABLE",
+          "KOTLIN_WRAPPED_INTO_REF"
+        ],
+        "parameter": [
+          "KOTLIN_PARAMETER",
+          "KOTLIN_CLOSURE_DEFAULT_PARAMETER",
+          "KOTLIN_NAMED_ARGUMENT",
+          "KOTLIN_CONTEXT_ARGUMENT"
+        ],
+        "member": [
+          "KOTLIN_ENUM_ENTRY",
+          "KOTLIN_INSTANCE_PROPERTY",
+          "KOTLIN_PACKAGE_PROPERTY",
+          "KOTLIN_BACKING_FIELD_VARIABLE",
+          "KOTLIN_EXTENSION_PROPERTY",
+          "KOTLIN_SYNTHETIC_EXTENSION_PROPERTY",
+          "KOTLIN_DYNAMIC_PROPERTY_CALL",
+          "KOTLIN_ANDROID_EXTENSIONS_PROPERTY_CALL",
+          "KOTLIN_INSTANCE_PROPERTY_CUSTOM_PROPERTY_DECLARATION",
+          "KOTLIN_PACKAGE_PROPERTY_CUSTOM_PROPERTY_DECLARATION",
+          "KOTLIN_ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES"
+        ],
+        "metadata": [
+          "KOTLIN_ANNOTATION"
+        ],
+        "string": [
+          "KOTLIN_STRING"
+        ],
+        "number": [
+          "KOTLIN_NUMBER"
+        ],
+        "comment": [
+          "KOTLIN_LINE_COMMENT",
+          "KOTLIN_BLOCK_COMMENT"
+        ],
+        "docTag": [
+          "KDOC_TAG_NAME",
+          "KDOC_LINK"
+        ],
+        "escape": [
+          "KOTLIN_STRING_ESCAPE"
+        ],
+        "invalidEscape": [
+          "KOTLIN_INVALID_STRING_ESCAPE"
+        ],
+        "text": [
+          "KOTLIN_OPERATION_SIGN",
+          "KOTLIN_AMPERSAND",
+          "KOTLIN_PARENTHESIS",
+          "KOTLIN_BRACES",
+          "KOTLIN_BRACKETS",
+          "KOTLIN_COMMA",
+          "KOTLIN_SEMICOLON",
+          "KOTLIN_COLON",
+          "KOTLIN_DOUBLE_COLON",
+          "KOTLIN_DOT",
+          "KOTLIN_SAFE_ACCESS",
+          "KOTLIN_QUEST",
+          "KOTLIN_EXCLEXCL",
+          "KOTLIN_ARROW",
+          "KOTLIN_LABEL"
+        ],
+        "interface": [
+          "KOTLIN_TRAIT"
+        ],
+        "enum": [
+          "KOTLIN_ENUM"
+        ],
+        "typeParameter": [
+          "KOTLIN_TYPE_PARAMETER"
+        ],
+        "docComment": [
+          "KOTLIN_DOC_COMMENT"
+        ]
+      },
+      "preserve": {
+        "IDE effects, diagnostics and auxiliary UI; retain their native semantics": [
+          "KOTLIN_BAD_CHARACTER",
+          "KOTLIN_DEBUG_INFO",
+          "KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW",
+          "KOTLIN_MUTABLE_VARIABLE",
+          "KOTLIN_RESOLVED_TO_ERROR",
+          "KOTLIN_SMART_CAST_RECEIVER",
+          "KOTLIN_SMART_CAST_VALUE",
+          "KOTLIN_SMART_CONSTANT"
+        ]
+      }
+    },
+    "Go": {
+      "sources": [
+        {
+          "product": "GO",
+          "jar": "plugins/go-plugin/lib/intellij.go.frontback.jar",
+          "class": "com.goide.highlighting.GoSyntaxHighlightingColors"
+        }
+      ],
+      "complete": true,
+      "roles": {
+        "keyword": [
+          "GO_KEYWORD"
+        ],
+        "type": [
+          "GO_TYPE_SPECIFICATION",
+          "GO_TYPE_REFERENCE",
+          "GO_BUILTIN_TYPE_REFERENCE"
+        ],
+        "function": [
+          "GO_BUILTIN_FUNCTION",
+          "GO_EXPORTED_FUNCTION",
+          "GO_LOCAL_FUNCTION",
+          "GO_BUILTIN_FUNCTION_CALL",
+          "GO_EXPORTED_FUNCTION_CALL",
+          "GO_LOCAL_FUNCTION_CALL",
+          "GO_PACKAGE_EXPORTED_VARIABLE_CALL",
+          "GO_PACKAGE_LOCAL_VARIABLE_CALL",
+          "GO_LOCAL_VARIABLE_CALL",
+          "GO_STRUCT_EXPORTED_MEMBER_CALL",
+          "GO_STRUCT_LOCAL_MEMBER_CALL"
+        ],
+        "local": [
+          "GO_LOCAL_VARIABLE",
+          "GO_SCOPE_VARIABLE",
+          "GO_SHADOWING_VARIABLE",
+          "GO_REASSIGNMENT_IN_SHORT_VAR_DECLARATION"
+        ],
+        "parameter": [
+          "GO_METHOD_RECEIVER",
+          "GO_FUNCTION_PARAMETER"
+        ],
+        "member": [
+          "GO_BUILTIN_VARIABLE",
+          "GO_BUILTIN_CONSTANT",
+          "GO_PACKAGE_EXPORTED_CONSTANT",
+          "GO_PACKAGE_EXPORTED_VARIABLE",
+          "GO_PACKAGE_LOCAL_CONSTANT",
+          "GO_PACKAGE_LOCAL_VARIABLE",
+          "GO_STRUCT_EXPORTED_MEMBER",
+          "GO_STRUCT_LOCAL_MEMBER",
+          "GO_LOCAL_CONSTANT",
+          "GO_TAG_KEY"
+        ],
+        "string": [
+          "GO_STRING",
+          "GO_TAG_VALUE"
+        ],
+        "number": [
+          "GO_NUMBER"
+        ],
+        "comment": [
+          "GO_LINE_COMMENT",
+          "GO_BLOCK_COMMENT",
+          "GO_COMMENT_REFERENCE"
+        ],
+        "docTag": [
+          "GO_COMMENT_KEYWORD"
+        ],
+        "escape": [
+          "GO_VALID_STRING_ESCAPE"
+        ],
+        "invalidEscape": [
+          "GO_INVALID_STRING_ESCAPE"
+        ],
+        "text": [
+          "GO_BRACKET",
+          "GO_BRACES",
+          "GO_PARENTHESES",
+          "GO_OPERATOR",
+          "GO_IDENTIFIER",
+          "GO_DOT",
+          "GO_SEMICOLON",
+          "GO_COLON",
+          "GO_COMMA",
+          "GO_LABEL",
+          "GO_PACKAGE",
+          "GO_TAG_COLON",
+          "GO_BUILD_PAREN",
+          "GO_BUILD_OPERATOR"
+        ],
+        "metadata": [
+          "GO_BUILD_TAG"
+        ],
+        "interface": [
+          "GO_EXPORTED_INTERFACE_REFERENCE",
+          "GO_LOCAL_INTERFACE_REFERENCE",
+          "GO_PACKAGE_EXPORTED_INTERFACE",
+          "GO_PACKAGE_LOCAL_INTERFACE"
+        ],
+        "struct": [
+          "GO_EXPORTED_STRUCT_REFERENCE",
+          "GO_LOCAL_STRUCT_REFERENCE",
+          "GO_PACKAGE_EXPORTED_STRUCT",
+          "GO_PACKAGE_LOCAL_STRUCT"
+        ]
+      },
+      "preserve": {
+        "IDE effects, diagnostics and auxiliary UI; retain their native semantics": [
+          "GO_BAD_TOKEN",
+          "GO_TAG_TEXT"
+        ]
+      }
+    },
+    "Python": {
+      "sources": [
+        {
+          "product": "PY",
+          "jar": "plugins/python-ce/lib/modules/intellij.python.syntax.core.jar",
+          "class": "com.jetbrains.python.highlighting.PyHighlighter"
+        }
+      ],
+      "complete": true,
+      "roles": {
+        "keyword": [
+          "PY.KEYWORD"
+        ],
+        "type": [
+          "PY.CLASS_DEFINITION",
+          "PY.ANNOTATION"
+        ],
+        "function": [
+          "PY.FUNC_DEFINITION",
+          "PY.NESTED_FUNC_DEFINITION",
+          "PY.FUNCTION_CALL",
+          "PY.METHOD_CALL"
+        ],
+        "local": [
+          "PY.LOCAL_VARIABLE"
+        ],
+        "parameter": [
+          "PY.PARAMETER",
+          "PY.SELF_PARAMETER",
+          "PY.KEYWORD_ARGUMENT"
+        ],
+        "metadata": [
+          "PY.DECORATOR"
+        ],
+        "predefined": [
+          "PY.PREDEFINED_DEFINITION",
+          "PY.PREDEFINED_USAGE",
+          "PY.BUILTIN_NAME"
+        ],
+        "string": [
+          "PY.STRING.B",
+          "PY.STRING.U"
+        ],
+        "number": [
+          "PY.NUMBER",
+          "PY.FSTRING_FORMAT_SPEC_NUMBER"
+        ],
+        "comment": [
+          "PY.LINE_COMMENT"
+        ],
+        "docTag": [
+          "PY.DOC_COMMENT_TAG"
+        ],
+        "escape": [
+          "PY.VALID_STRING_ESCAPE",
+          "PY.FSTRING_FRAGMENT_BRACES",
+          "PY.FSTRING_FRAGMENT_COLON",
+          "PY.FSTRING_FRAGMENT_TYPE_CONVERSION",
+          "PY.FSTRING_FORMAT_SPEC_SPECIAL_CHAR"
+        ],
+        "invalidEscape": [
+          "PY.INVALID_STRING_ESCAPE"
+        ],
+        "text": [
+          "PY.OPERATION_SIGN",
+          "PY.PARENTHS",
+          "PY.BRACKETS",
+          "PY.BRACES",
+          "PY.COMMA",
+          "PY.DOT"
+        ],
+        "typeParameter": [
+          "PY.TYPE_PARAMETER"
+        ],
+        "docComment": [
+          "PY.DOC_COMMENT"
+        ]
+      },
+      "preserve": {}
+    },
+    "C#": {
+      "sources": [
+        {
+          "product": "RD",
+          "jar": "plugins/rider-theme-pack/lib/rider-theme-pack.jar",
+          "resource": "colorSchemes/VisualStudioDark.xml"
+        }
+      ],
+      "complete": false,
+      "roles": {
+        "type": [
+          "ReSharper.CSHARP_CLASS_IDENTIFIER",
+          "ReSharper.CSHARP_STATIC_CLASS_IDENTIFIER",
+          "ReSharper.CSHARP_RECORD_IDENTIFIER"
+        ],
+        "function": [
+          "ReSharper.CSHARP_METHOD_IDENTIFIER",
+          "ReSharper.CSHARP_STATIC_METHOD_IDENTIFIER",
+          "ReSharper.CSHARP_LOCAL_FUNCTION_IDENTIFIER",
+          "ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER"
+        ],
+        "local": [
+          "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER",
+          "ReSharper.CSHARP_MUTABLE_LOCAL_VARIABLE_IDENTIFIER"
+        ],
+        "parameter": [
+          "ReSharper.CSHARP_PARAMETER_IDENTIFIER"
+        ],
+        "member": [
+          "ReSharper.CSHARP_FIELD_IDENTIFIER",
+          "ReSharper.CSHARP_STATIC_FIELD_IDENTIFIER",
+          "ReSharper.CSHARP_CONSTANT_IDENTIFIER",
+          "ReSharper.CSHARP_PROPERTY_IDENTIFIER",
+          "ReSharper.CSHARP_STATIC_PROPERTY_IDENTIFIER",
+          "ReSharper.CSHARP_EVENT_IDENTIFIER"
+        ],
+        "docTag": [
+          "ReSharper.CSHARP_DOC_COMMENT_TAG_NAME"
+        ],
+        "text": [
+          "ReSharper.CSHARP_NAMESPACE_IDENTIFIER"
+        ],
+        "control": [
+          "ReSharper.CONTROL_FLOW_KEYWORD",
+          "ReSharper.CONTROL_TRANSFER_KEYWORD"
+        ],
+        "interface": [
+          "ReSharper.CSHARP_INTERFACE_IDENTIFIER"
+        ],
+        "struct": [
+          "ReSharper.CSHARP_STRUCT_IDENTIFIER",
+          "ReSharper.CSHARP_RECORD_STRUCT_IDENTIFIER"
+        ],
+        "enum": [
+          "ReSharper.CSHARP_ENUM_IDENTIFIER"
+        ],
+        "delegate": [
+          "ReSharper.CSHARP_DELEGATE_IDENTIFIER"
+        ],
+        "typeParameter": [
+          "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER"
+        ],
+        "docComment": [
+          "ReSharper.CSHARP_DOC_COMMENT"
+        ]
+      },
+      "preserve": {}
+    }
+  },
+  "keyOrder": [
+    "DEFAULT_BLOCK_COMMENT",
+    "DEFAULT_BRACES",
+    "DEFAULT_BRACKETS",
+    "DEFAULT_CLASS_NAME",
+    "DEFAULT_CLASS_REFERENCE",
+    "DEFAULT_COMMA",
+    "DEFAULT_CONSTANT",
+    "DEFAULT_DOC_COMMENT",
+    "DEFAULT_DOC_COMMENT_TAG",
+    "DEFAULT_DOC_COMMENT_TAG_VALUE",
+    "DEFAULT_DOC_MARKUP",
+    "DEFAULT_DOT",
+    "DEFAULT_FUNCTION_CALL",
+    "DEFAULT_FUNCTION_DECLARATION",
+    "DEFAULT_GLOBAL_VARIABLE",
+    "DEFAULT_IDENTIFIER",
+    "DEFAULT_INSTANCE_FIELD",
+    "DEFAULT_INSTANCE_METHOD",
+    "DEFAULT_INTERFACE_NAME",
+    "DEFAULT_INVALID_STRING_ESCAPE",
+    "DEFAULT_KEYWORD",
+    "DEFAULT_LABEL",
+    "DEFAULT_LINE_COMMENT",
+    "DEFAULT_LOCAL_VARIABLE",
+    "DEFAULT_METADATA",
+    "DEFAULT_NUMBER",
+    "DEFAULT_OPERATION_SIGN",
+    "DEFAULT_PARAMETER",
+    "DEFAULT_PARENTHS",
+    "DEFAULT_PREDEFINED_SYMBOL",
+    "DEFAULT_REASSIGNED_LOCAL_VARIABLE",
+    "DEFAULT_REASSIGNED_PARAMETER",
+    "DEFAULT_SEMICOLON",
+    "DEFAULT_STATIC_FIELD",
+    "DEFAULT_STATIC_METHOD",
+    "DEFAULT_STRING",
+    "DEFAULT_TEMPLATE_LANGUAGE_COLOR",
+    "DEFAULT_VALID_STRING_ESCAPE",
+    "JAVA_KEYWORD",
+    "PY.KEYWORD",
+    "ReSharper.CONTROL_FLOW_KEYWORD",
+    "ReSharper.CONTROL_TRANSFER_KEYWORD",
+    "ReSharper.CSHARP_CLASS_IDENTIFIER",
+    "ReSharper.CSHARP_CONSTANT_IDENTIFIER",
+    "ReSharper.CSHARP_DELEGATE_IDENTIFIER",
+    "ReSharper.CSHARP_DOC_COMMENT",
+    "ReSharper.CSHARP_DOC_COMMENT_TAG_NAME",
+    "ReSharper.CSHARP_ENUM_IDENTIFIER",
+    "ReSharper.CSHARP_EVENT_IDENTIFIER",
+    "ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER",
+    "ReSharper.CSHARP_FIELD_IDENTIFIER",
+    "ReSharper.CSHARP_INTERFACE_IDENTIFIER",
+    "ReSharper.CSHARP_LOCAL_FUNCTION_IDENTIFIER",
+    "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER",
+    "ReSharper.CSHARP_METHOD_IDENTIFIER",
+    "ReSharper.CSHARP_MUTABLE_LOCAL_VARIABLE_IDENTIFIER",
+    "ReSharper.CSHARP_NAMESPACE_IDENTIFIER",
+    "ReSharper.CSHARP_PARAMETER_IDENTIFIER",
+    "ReSharper.CSHARP_PROPERTY_IDENTIFIER",
+    "ReSharper.CSHARP_RECORD_IDENTIFIER",
+    "ReSharper.CSHARP_RECORD_STRUCT_IDENTIFIER",
+    "ReSharper.CSHARP_STATIC_CLASS_IDENTIFIER",
+    "ReSharper.CSHARP_STATIC_FIELD_IDENTIFIER",
+    "ReSharper.CSHARP_STATIC_METHOD_IDENTIFIER",
+    "ReSharper.CSHARP_STATIC_PROPERTY_IDENTIFIER",
+    "ReSharper.CSHARP_STRUCT_IDENTIFIER",
+    "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER",
+    "TYPE_PARAMETER_NAME_ATTRIBUTES",
+    "CLASS_NAME_ATTRIBUTES",
+    "ANONYMOUS_CLASS_NAME_ATTRIBUTES",
+    "IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES",
+    "INTERFACE_NAME_ATTRIBUTES",
+    "ENUM_NAME_ATTRIBUTES",
+    "RECORD_NAME_ATTRIBUTES",
+    "ABSTRACT_CLASS_NAME_ATTRIBUTES",
+    "METHOD_CALL_ATTRIBUTES",
+    "METHOD_DECLARATION_ATTRIBUTES",
+    "STATIC_METHOD_ATTRIBUTES",
+    "STATIC_METHOD_IMPORTED_ATTRIBUTES",
+    "ABSTRACT_METHOD_ATTRIBUTES",
+    "INHERITED_METHOD_ATTRIBUTES",
+    "CONSTRUCTOR_CALL_ATTRIBUTES",
+    "CONSTRUCTOR_DECLARATION_ATTRIBUTES",
+    "LOCAL_VARIABLE_ATTRIBUTES",
+    "REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES",
+    "PARAMETER_ATTRIBUTES",
+    "LAMBDA_PARAMETER_ATTRIBUTES",
+    "REASSIGNED_PARAMETER_ATTRIBUTES",
+    "INSTANCE_FIELD_ATTRIBUTES",
+    "INSTANCE_FINAL_FIELD_ATTRIBUTES",
+    "RECORD_COMPONENT_ATTRIBUTES",
+    "STATIC_FIELD_ATTRIBUTES",
+    "STATIC_FIELD_IMPORTED_ATTRIBUTES",
+    "STATIC_FINAL_FIELD_ATTRIBUTES",
+    "STATIC_FINAL_FIELD_IMPORTED_ATTRIBUTES",
+    "ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES",
+    "ANNOTATION_NAME_ATTRIBUTES",
+    "JAVA_STRING",
+    "JAVA_NUMBER",
+    "JAVA_LINE_COMMENT",
+    "JAVA_BLOCK_COMMENT",
+    "JAVA_DOC_COMMENT",
+    "JAVA_DOC_TAG",
+    "JAVA_DOC_MARKUP",
+    "DOC_COMMENT_TAG_VALUE",
+    "JAVA_VALID_STRING_ESCAPE",
+    "JAVA_INVALID_STRING_ESCAPE",
+    "JAVA_OPERATION_SIGN",
+    "JAVA_PARENTH",
+    "JAVA_BRACKETS",
+    "JAVA_BRACES",
+    "JAVA_COMMA",
+    "JAVA_DOT",
+    "JAVA_SEMICOLON",
+    "KOTLIN_KEYWORD",
+    "KOTLIN_KEYWORD_VAL",
+    "KOTLIN_KEYWORD_VAR",
+    "KOTLIN_CLASS",
+    "KOTLIN_TYPE_PARAMETER",
+    "KOTLIN_ABSTRACT_CLASS",
+    "KOTLIN_TRAIT",
+    "KOTLIN_OBJECT",
+    "KOTLIN_ENUM",
+    "KOTLIN_TYPE_ALIAS",
+    "KOTLIN_DATA_CLASS",
+    "KOTLIN_DATA_OBJECT",
+    "KOTLIN_FUNCTION_DECLARATION",
+    "KOTLIN_FUNCTION_CALL",
+    "KOTLIN_PACKAGE_FUNCTION_CALL",
+    "KOTLIN_EXTENSION_FUNCTION_CALL",
+    "KOTLIN_CONSTRUCTOR",
+    "KOTLIN_DYNAMIC_FUNCTION_CALL",
+    "KOTLIN_SUSPEND_FUNCTION_CALL",
+    "KOTLIN_VARIABLE_AS_FUNCTION",
+    "KOTLIN_VARIABLE_AS_FUNCTION_LIKE",
+    "KOTLIN_LOCAL_VARIABLE",
+    "KOTLIN_WRAPPED_INTO_REF",
+    "KOTLIN_PARAMETER",
+    "KOTLIN_CLOSURE_DEFAULT_PARAMETER",
+    "KOTLIN_NAMED_ARGUMENT",
+    "KOTLIN_CONTEXT_ARGUMENT",
+    "KOTLIN_ENUM_ENTRY",
+    "KOTLIN_INSTANCE_PROPERTY",
+    "KOTLIN_PACKAGE_PROPERTY",
+    "KOTLIN_BACKING_FIELD_VARIABLE",
+    "KOTLIN_EXTENSION_PROPERTY",
+    "KOTLIN_SYNTHETIC_EXTENSION_PROPERTY",
+    "KOTLIN_DYNAMIC_PROPERTY_CALL",
+    "KOTLIN_ANDROID_EXTENSIONS_PROPERTY_CALL",
+    "KOTLIN_INSTANCE_PROPERTY_CUSTOM_PROPERTY_DECLARATION",
+    "KOTLIN_PACKAGE_PROPERTY_CUSTOM_PROPERTY_DECLARATION",
+    "KOTLIN_ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES",
+    "KOTLIN_BUILTIN_ANNOTATION",
+    "KOTLIN_ANNOTATION",
+    "KOTLIN_STRING",
+    "KOTLIN_NUMBER",
+    "KOTLIN_LINE_COMMENT",
+    "KOTLIN_BLOCK_COMMENT",
+    "KOTLIN_DOC_COMMENT",
+    "KDOC_TAG_NAME",
+    "KDOC_LINK",
+    "KOTLIN_STRING_ESCAPE",
+    "KOTLIN_INVALID_STRING_ESCAPE",
+    "KOTLIN_OPERATION_SIGN",
+    "KOTLIN_AMPERSAND",
+    "KOTLIN_PARENTHESIS",
+    "KOTLIN_BRACES",
+    "KOTLIN_BRACKETS",
+    "KOTLIN_COMMA",
+    "KOTLIN_SEMICOLON",
+    "KOTLIN_COLON",
+    "KOTLIN_DOUBLE_COLON",
+    "KOTLIN_DOT",
+    "KOTLIN_SAFE_ACCESS",
+    "KOTLIN_QUEST",
+    "KOTLIN_EXCLEXCL",
+    "KOTLIN_ARROW",
+    "KOTLIN_LABEL",
+    "GO_KEYWORD",
+    "GO_TYPE_SPECIFICATION",
+    "GO_TYPE_REFERENCE",
+    "GO_EXPORTED_STRUCT_REFERENCE",
+    "GO_EXPORTED_INTERFACE_REFERENCE",
+    "GO_LOCAL_STRUCT_REFERENCE",
+    "GO_LOCAL_INTERFACE_REFERENCE",
+    "GO_BUILTIN_TYPE_REFERENCE",
+    "GO_PACKAGE_EXPORTED_INTERFACE",
+    "GO_PACKAGE_EXPORTED_STRUCT",
+    "GO_PACKAGE_LOCAL_INTERFACE",
+    "GO_PACKAGE_LOCAL_STRUCT",
+    "GO_BUILTIN_FUNCTION",
+    "GO_EXPORTED_FUNCTION",
+    "GO_LOCAL_FUNCTION",
+    "GO_BUILTIN_FUNCTION_CALL",
+    "GO_EXPORTED_FUNCTION_CALL",
+    "GO_LOCAL_FUNCTION_CALL",
+    "GO_PACKAGE_EXPORTED_VARIABLE_CALL",
+    "GO_PACKAGE_LOCAL_VARIABLE_CALL",
+    "GO_LOCAL_VARIABLE_CALL",
+    "GO_STRUCT_EXPORTED_MEMBER_CALL",
+    "GO_STRUCT_LOCAL_MEMBER_CALL",
+    "GO_LOCAL_VARIABLE",
+    "GO_SCOPE_VARIABLE",
+    "GO_SHADOWING_VARIABLE",
+    "GO_REASSIGNMENT_IN_SHORT_VAR_DECLARATION",
+    "GO_METHOD_RECEIVER",
+    "GO_FUNCTION_PARAMETER",
+    "GO_BUILTIN_VARIABLE",
+    "GO_BUILTIN_CONSTANT",
+    "GO_PACKAGE_EXPORTED_CONSTANT",
+    "GO_PACKAGE_EXPORTED_VARIABLE",
+    "GO_PACKAGE_LOCAL_CONSTANT",
+    "GO_PACKAGE_LOCAL_VARIABLE",
+    "GO_STRUCT_EXPORTED_MEMBER",
+    "GO_STRUCT_LOCAL_MEMBER",
+    "GO_LOCAL_CONSTANT",
+    "GO_TAG_KEY",
+    "GO_STRING",
+    "GO_TAG_VALUE",
+    "GO_NUMBER",
+    "GO_LINE_COMMENT",
+    "GO_BLOCK_COMMENT",
+    "GO_COMMENT_REFERENCE",
+    "GO_COMMENT_KEYWORD",
+    "GO_VALID_STRING_ESCAPE",
+    "GO_INVALID_STRING_ESCAPE",
+    "GO_BRACKET",
+    "GO_BRACES",
+    "GO_PARENTHESES",
+    "GO_OPERATOR",
+    "GO_IDENTIFIER",
+    "GO_DOT",
+    "GO_SEMICOLON",
+    "GO_COLON",
+    "GO_COMMA",
+    "GO_LABEL",
+    "GO_PACKAGE",
+    "GO_TAG_COLON",
+    "GO_BUILD_PAREN",
+    "GO_BUILD_OPERATOR",
+    "GO_BUILD_TAG",
+    "PY.CLASS_DEFINITION",
+    "PY.TYPE_PARAMETER",
+    "PY.ANNOTATION",
+    "PY.FUNC_DEFINITION",
+    "PY.NESTED_FUNC_DEFINITION",
+    "PY.FUNCTION_CALL",
+    "PY.METHOD_CALL",
+    "PY.LOCAL_VARIABLE",
+    "PY.PARAMETER",
+    "PY.SELF_PARAMETER",
+    "PY.KEYWORD_ARGUMENT",
+    "PY.DECORATOR",
+    "PY.PREDEFINED_DEFINITION",
+    "PY.PREDEFINED_USAGE",
+    "PY.BUILTIN_NAME",
+    "PY.STRING.B",
+    "PY.STRING.U",
+    "PY.NUMBER",
+    "PY.FSTRING_FORMAT_SPEC_NUMBER",
+    "PY.LINE_COMMENT",
+    "PY.DOC_COMMENT",
+    "PY.DOC_COMMENT_TAG",
+    "PY.VALID_STRING_ESCAPE",
+    "PY.FSTRING_FRAGMENT_BRACES",
+    "PY.FSTRING_FRAGMENT_COLON",
+    "PY.FSTRING_FRAGMENT_TYPE_CONVERSION",
+    "PY.FSTRING_FORMAT_SPEC_SPECIAL_CHAR",
+    "PY.INVALID_STRING_ESCAPE",
+    "PY.OPERATION_SIGN",
+    "PY.PARENTHS",
+    "PY.BRACKETS",
+    "PY.BRACES",
+    "PY.COMMA",
+    "PY.DOT"
+  ]
+}

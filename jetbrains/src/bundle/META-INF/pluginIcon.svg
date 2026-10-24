@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="tile">
+      <rect width="40" height="40" rx="9"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="40" height="40" fill="#F7F9FE"/>
+    <!-- Morning Mist -->
+    <rect width="19.5" height="19.5" fill="#A7C6DB"/>
+    <rect x="4" y="4" width="12.5" height="12.5" rx="2.5" fill="#FFFFFF"/>
+    <rect x="6.5" y="7.5" width="6.5" height="1.8" rx=".9" fill="#0000FF"/>
+    <rect x="6.5" y="11.2" width="4.5" height="1.8" rx=".9" fill="#2B91AF"/>
+    <!-- Periwinkle Islands -->
+    <rect x="20.5" width="19.5" height="19.5" fill="#CCD5F0"/>
+    <rect x="23.5" y="4" width="12.5" height="12.5" rx="2.5" fill="#FFFFFF"/>
+    <rect x="26" y="7.5" width="6.5" height="1.8" rx=".9" fill="#8704D4"/>
+    <rect x="26" y="11.2" width="4.5" height="1.8" rx=".9" fill="#036ED4"/>
+    <!-- Periwinkle Night -->
+    <rect y="20.5" width="19.5" height="19.5" fill="#1D2032"/>
+    <rect x="4" y="23.5" width="12.5" height="12.5" rx="2.5" fill="#292E45"/>
+    <rect x="6.5" y="27" width="6.5" height="1.8" rx=".9" fill="#C7A8FE"/>
+    <rect x="6.5" y="30.7" width="4.5" height="1.8" rx=".9" fill="#05D2F4"/>
+    <!-- Abyss -->
+    <rect x="20.5" y="20.5" width="19.5" height="19.5" fill="#10252B"/>
+    <rect x="23.5" y="23.5" width="12.5" height="12.5" rx="2.5" fill="#1A343C"/>
+    <rect x="26" y="27" width="6.5" height="1.8" rx=".9" fill="#FD9E85"/>
+    <rect x="26" y="30.7" width="4.5" height="1.8" rx=".9" fill="#2DCCA2"/>
+  </g>
+</svg>

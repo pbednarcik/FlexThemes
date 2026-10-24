@@ -1,0 +1,151 @@
+{
+  "extends": "../../common/ui-clarity-light.json",
+  "themeEntry": "themes/PeriwinkleIslands.theme.json",
+  "schemeEntry": "colorSchemes/PeriwinkleIslands.xml",
+  "schemeSha256": "7fb273a7f49a91be868a482d7dba93ac1c3c893343b3977951ea6a9b8351ff0b",
+  "schemeBaseline": "0.7.0 contrast refinements; an independent preservation fingerprint excludes only the listed fields.",
+  "design": "VS-inspired hierarchy with a refined file rail: lighter existing #EEF0FA tab well and stronger existing #DED7F3 selected-tab fill, including shared Islands tool-window tabs. Toolbar/header/status bands, full-strength filename text, geometry, syntax, gutter, tree/list selections and inactive selected tabs are preserved. Theme settings only; no custom UI drawing code.",
+  "schemeColors": {
+    "EDITOR_GUTTER_BACKGROUND": "#EEF0FA",
+    "GUTTER_BACKGROUND": "#EEF0FA",
+    "DOCUMENTATION_COLOR": "#F7F9FE"
+  },
+  "values": {
+    "colors.layer-0-bg": "#CCD5F0",
+    "colors.layer-0-bg-inline": "#D9E0F8",
+    "colors.main-window-bg": "#CCD5F0",
+    "colors.main-window-bg-alt": "#D9E0F8",
+    "colors.layer-0-border": "#9AA6D4",
+    "colors.editor-bg": "#FFFFFF",
+    "colors.editor-border": "#9AA6D4",
+    "colors.editor-border-inline": "#9AA6D4",
+    "colors.editor-border-alt": "#9AA6D4",
+    "colors.tool-window-bg": "#F7F9FE",
+    "colors.tool-window-bg-alt": "#F7F9FE",
+    "colors.tool-window-border": "#9AA6D4",
+    "colors.tool-window-border-inline": "#9AA6D4",
+    "colors.selection-bg-active": "#ECE3FA",
+    "colors.text-default": "#1E1E1E",
+    "colors.text-muted": "#4E5670",
+    "colors.accent-brand-bg": "#5C2D91",
+    "ui.MainWindow.background": "#CCD5F0",
+    "ui.MainToolbar.background": "#D9E0F8",
+    "ui.StatusBar.background": "#D9E0F8",
+    "ui.ToolWindow.background": "#F7F9FE",
+    "ui.ToolWindow.Header.background": "#DED7F3",
+    "ui.ToolWindow.Header.inactiveBackground": "#D9E0F8",
+    "ui.ToolWindow.Header.borderColor": "#9AA6D4",
+    "ui.Island.borderColor": "#9AA6D4",
+    "ui.Island.borderWidth": 8,
+    "ui.Island.borderWidth.compact": 8,
+    "ui.EditorTabs.background": "#EEF0FA",
+    "ui.EditorTabs.underlinedTabBackground": "#DED7F3",
+    "ui.EditorTabs.underlinedTabForeground": "#5C2D91",
+    "ui.EditorTabs.underlinedBorderColor": "#5C2D91",
+    "ui.EditorTabs.inactiveUnderlinedTabBackground": "#F4F0FC",
+    "ui.EditorTabs.inactiveUnderlinedTabBorderColor": "#A9B5DD",
+    "ui.EditorTabs.underTabsBorderColor": "#9AA6D4",
+    "ui.Tree.selectionBackground": "#DED7F3",
+    "ui.Tree.selectionForeground": "#5C2D91",
+    "ui.Tree.selectionInactiveBackground": "#E6E7EF",
+    "ui.List.selectionBackground": "#ECE3FA",
+    "ui.ToolWindow.HeaderTab.underlinedTabForeground": "#5C2D91",
+    "ui.ToolWindow.HeaderTab.underlinedTabInactiveForeground": "#5C2D91",
+    "ui.Tree.hash": "#CCD3EC",
+    "ui.Popup.borderColor": "#9AA6D4",
+    "ui.EditorTabs.unselectedAlpha": 1.0,
+    "ui.EditorTabs.unselectedBlend": 0.9
+  },
+  "nativeFocus": true,
+  "schemeAttributes": {
+    "BREADCRUMBS_CURRENT": {
+      "BACKGROUND": "#ECE3FA",
+      "FOREGROUND": "#5C2D91"
+    },
+    "BREADCRUMBS_DEFAULT": {
+      "FOREGROUND": "#4E5670"
+    }
+  },
+  "equalGroups": [
+    {
+      "label": "Shared toolbar, header and status bands",
+      "paths": [
+        "ui.MainToolbar.background",
+        "ui.ToolWindow.Header.inactiveBackground",
+        "ui.StatusBar.background"
+      ]
+    },
+    {
+      "label": "Shared popup and pane boundaries",
+      "paths": [
+        "ui.Popup.borderColor",
+        "ui.Island.borderColor"
+      ]
+    },
+    {
+      "label": "Shared tab and tree focus fills",
+      "paths": [
+        "ui.EditorTabs.underlinedTabBackground",
+        "ui.Tree.selectionBackground"
+      ]
+    }
+  ],
+  "additionalPairs": [
+    {
+      "label": "Header band against pane body",
+      "a": "ui.ToolWindow.Header.inactiveBackground",
+      "b": "colors.tool-window-bg",
+      "minimum": 1.18
+    },
+    {
+      "label": "Full-strength filename text on refined rail",
+      "a": "colors.text-muted",
+      "b": "ui.EditorTabs.background",
+      "minimum": 4.5
+    },
+    {
+      "label": "Selected tab against rail",
+      "a": "ui.EditorTabs.underlinedTabBackground",
+      "b": "ui.EditorTabs.background",
+      "minimum": 1.15
+    }
+  ],
+  "schemePairs": [
+    {
+      "label": "Line numbers on New UI gutter",
+      "a": "scheme.colors.LINE_NUMBERS_COLOR",
+      "b": "scheme.colors.EDITOR_GUTTER_BACKGROUND",
+      "minimum": 4.5
+    },
+    {
+      "label": "Current line number on New UI gutter",
+      "a": "scheme.colors.LINE_NUMBER_ON_CARET_ROW_COLOR",
+      "b": "scheme.colors.EDITOR_GUTTER_BACKGROUND",
+      "minimum": 4.5
+    },
+    {
+      "label": "Current breadcrumb text",
+      "a": "scheme.attributes.BREADCRUMBS_CURRENT.FOREGROUND",
+      "b": "scheme.attributes.BREADCRUMBS_CURRENT.BACKGROUND",
+      "minimum": 4.5
+    },
+    {
+      "label": "Default breadcrumb text",
+      "a": "scheme.attributes.BREADCRUMBS_DEFAULT.FOREGROUND",
+      "b": "colors.editor-bg",
+      "minimum": 4.5
+    },
+    {
+      "label": "Documentation text",
+      "a": "colors.text-default",
+      "b": "scheme.colors.DOCUMENTATION_COLOR",
+      "minimum": 4.5
+    },
+    {
+      "label": "Documentation secondary text",
+      "a": "colors.text-muted",
+      "b": "scheme.colors.DOCUMENTATION_COLOR",
+      "minimum": 4.5
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "review": "0.7.0 contrast refinements; all other fields independently preserved by src/common/editor-contrast.json.",
+  "schemes": {
+    "colorSchemes/PeriwinkleIslands.xml": "7fb273a7f49a91be868a482d7dba93ac1c3c893343b3977951ea6a9b8351ff0b"
+  },
+  "paletteAnchors": {
+    "colorSchemes/PeriwinkleIslands.xml": {
+      "keyword": "#8704D4",
+      "type": "#036ED4",
+      "function": "#804601",
+      "local": "#000000",
+      "parameter": "#000000",
+      "member": "#000000",
+      "string": "#B4011C",
+      "number": "#000000",
+      "comment": "#027A1F",
+      "docTag": "#5F5A74",
+      "escape": "#9C1B75",
+      "invalidEscape": "#8B0000",
+      "metadata": "#6B6B00",
+      "text": "#000000",
+      "predefined": "#8704D4",
+      "control": "#8704D4",
+      "interface": "#036ED4",
+      "struct": "#036ED4",
+      "enum": "#036ED4",
+      "delegate": "#036ED4",
+      "typeParameter": "#036ED4",
+      "docComment": "#027A1F"
+    }
+  },
+  "gutters": {
+    "colorSchemes/PeriwinkleIslands.xml": {
+      "gutter": "#EEF0FA",
+      "withoutGuttersSha256": "bd6dc200a170dbb4a3be2c9759233d677e687b3e1e932d9037858abb2f62c7e1"
+    }
+  }
+}

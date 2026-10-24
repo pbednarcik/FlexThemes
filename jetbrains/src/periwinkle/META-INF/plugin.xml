@@ -1,0 +1,27 @@
+<idea-plugin>
+  <id>com.github.pbednarcik.periwinkleislands</id>
+  <name>Periwinkle Islands Theme</name>
+  <vendor url="https://github.com/pbednarcik">Peter Bednarčík</vendor>
+  <version>@VERSION@</version>
+  <description><![CDATA[
+    <p>A light JetBrains theme that pairs the soft periwinkle chrome of the classic Visual Studio <b>Blue</b> theme
+    with deep purple accents: purple-tinted focused tabs, purple selection text and purple keywords.</p>
+    <ul>
+      <li>Chrome colours are inspired by the Visual Studio 2019/2022 Blue theme.</li>
+      <li>A calm editor palette in clearly separated colours: violet keywords, blue types, amber methods, red
+      strings and green comments, with names in plain text, as in Visual Studio.</li>
+      <li>Every text colour is checked for contrast when the theme is built.</li>
+    </ul>
+    <p>Requires JetBrains IDEs 2026.2 or later with the Islands UI.</p>
+    <p><i>Not affiliated with or endorsed by Microsoft or JetBrains. Visual Studio is a trademark of
+    Microsoft Corporation; Rider is a trademark of JetBrains s.r.o.</i></p>
+    <p>Shared semantic colours for C#, Java, Kotlin, Go and Python, with this theme's own palette and clearly separated panels.</p>
+  ]]></description>
+  <change-notes><![CDATA[@CHANGES@]]></change-notes>
+  <depends>com.intellij.modules.platform</depends>
+  <idea-version since-build="@SINCE@" />
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme id="Periwinkle Islands" path="/colorSchemes/PeriwinkleIslands" />
+    <themeProvider id="periwinkle-islands" path="/themes/PeriwinkleIslands.theme.json" targetUi="islands" />
+  </extensions>
+</idea-plugin>

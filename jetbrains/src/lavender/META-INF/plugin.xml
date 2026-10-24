@@ -1,0 +1,32 @@
+<idea-plugin>
+  <id>com.github.pbednarcik.lavendermist</id>
+  <name>Lavender Mist Theme</name>
+  <vendor url="https://github.com/pbednarcik">Peter Bednarčík</vendor>
+  <version>@VERSION@</version>
+  <description><![CDATA[
+    <p>A light theme family for JetBrains IDEs: a soft lavender frame, cool white panels and deep purple
+    accents, inspired by the classic Visual Studio <b>Blue</b> theme that Visual Studio 2026 no longer ships.</p>
+    <ul>
+      <li><b>Lavender Mist Gold</b>: Blue's gold active tab.</li>
+      <li><b>Lavender Mist Indigo</b>: a lavender selected tab with purple text and outline.</li>
+      <li><b>Lavender Mist Blue</b>: Blue's periwinkle selection.</li>
+    </ul>
+    <p>Two editor schemes: <b>Lavender Mist</b>, with Visual Studio's C# colours deepened to reach at least
+    4.5:1 contrast, and <b>Lavender Mist Purple</b>, with purple keywords. Every text colour is checked for
+    contrast when the theme is built.</p>
+    <p>Requires JetBrains IDEs 2026.2 or later with the Islands UI.</p>
+    <p><i>Not affiliated with or endorsed by Microsoft or JetBrains. Visual Studio is a trademark of
+    Microsoft Corporation; Rider is a trademark of JetBrains s.r.o.</i></p>
+    <p>Shared semantic colours for C#, Java, Kotlin, Go and Python, with this theme's own palette and clearly separated panels.</p>
+  ]]></description>
+  <change-notes><![CDATA[@CHANGES@]]></change-notes>
+  <depends>com.intellij.modules.platform</depends>
+  <idea-version since-build="@SINCE@" />
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme id="Lavender Mist" path="/colorSchemes/LavenderMist" />
+    <bundledColorScheme id="Lavender Mist Purple" path="/colorSchemes/LavenderMistPurple" />
+    <themeProvider id="lavender-mist-gold" path="/themes/LavenderMistGold.theme.json" targetUi="islands" />
+    <themeProvider id="lavender-mist-indigo" path="/themes/LavenderMistIndigo.theme.json" targetUi="islands" />
+    <themeProvider id="lavender-mist-blue" path="/themes/LavenderMistBlue.theme.json" targetUi="islands" />
+  </extensions>
+</idea-plugin>

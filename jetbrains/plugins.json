@@ -1,0 +1,9 @@
+{
+  "MorningMist": {"Source":"src","Reports":".","Version":"VERSION","Changelog":"CHANGELOG.md","Output":"build/resources","Jar":"morning-mist"},
+  "LavenderMist": {"Source":"src/lavender","Reports":"lavender","Version":"VERSION","Changelog":"src/lavender/CHANGELOG.md","Output":"build/lavender/resources","Jar":"lavender-mist"},
+  "BlueMist": {"Source":"src/bluemist","Reports":"bluemist","Version":"VERSION","Changelog":"src/bluemist/CHANGELOG.md","Output":"build/bluemist/resources","Jar":"blue-mist"},
+  "PeriwinkleIslands": {"Source":"src/periwinkle","Reports":"periwinkle","Version":"VERSION","Changelog":"src/periwinkle/CHANGELOG.md","Output":"build/periwinkle/resources","Jar":"periwinkle-islands"},
+  "Graphite": {"Source":"src/vsdark","Reports":"vsdark","Version":"VERSION","Changelog":"src/vsdark/CHANGELOG.md","Output":"build/vsdark/resources","Jar":"graphite"},
+  "PeriwinkleNight": {"Source":"src/periwinklenight","Reports":"periwinklenight","Version":"VERSION","Changelog":"src/periwinklenight/CHANGELOG.md","Output":"build/periwinklenight/resources","Jar":"periwinkle-night"},
+  "Abyss": {"Source":"src/abyss","Reports":"abyss","Version":"VERSION","Changelog":"src/abyss/CHANGELOG.md","Output":"build/abyss/resources","Jar":"abyss"}
+}

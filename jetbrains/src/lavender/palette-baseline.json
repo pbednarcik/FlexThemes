@@ -1,0 +1,67 @@
+{
+  "review": "0.7.0 contrast refinements; all other fields independently preserved by src/common/editor-contrast.json.",
+  "schemes": {
+    "colorSchemes/LavenderMist.xml": "c050d3dc08550109f381e533c879824a6a732801ba5a1feff1b791143d7b6968",
+    "colorSchemes/LavenderMistPurple.xml": "b085c7a9ce472f4209ef3ec58615f253406c282b035a20974f391518de69e85a"
+  },
+  "paletteAnchors": {
+    "colorSchemes/LavenderMist.xml": {
+      "keyword": "#0E05FE",
+      "type": "#047887",
+      "function": "#804601",
+      "local": "#000000",
+      "parameter": "#000000",
+      "member": "#000000",
+      "string": "#B4011C",
+      "number": "#000000",
+      "comment": "#027A1F",
+      "docTag": "#5F5A74",
+      "escape": "#9C1B75",
+      "invalidEscape": "#8B0000",
+      "metadata": "#6B6B00",
+      "text": "#000000",
+      "predefined": "#0E05FE",
+      "control": "#6E2BB8",
+      "interface": "#047887",
+      "struct": "#047887",
+      "enum": "#047887",
+      "delegate": "#047887",
+      "typeParameter": "#047887",
+      "docComment": "#027A1F"
+    },
+    "colorSchemes/LavenderMistPurple.xml": {
+      "keyword": "#8704D4",
+      "type": "#036CD1",
+      "function": "#804601",
+      "local": "#000000",
+      "parameter": "#000000",
+      "member": "#000000",
+      "string": "#B4011C",
+      "number": "#000000",
+      "comment": "#027A1F",
+      "docTag": "#5F5A74",
+      "escape": "#9C1B75",
+      "invalidEscape": "#8B0000",
+      "metadata": "#6B6B00",
+      "text": "#000000",
+      "predefined": "#8704D4",
+      "control": "#8704D4",
+      "interface": "#036CD1",
+      "struct": "#036CD1",
+      "enum": "#036CD1",
+      "delegate": "#036CD1",
+      "typeParameter": "#036CD1",
+      "docComment": "#027A1F"
+    }
+  },
+  "gutters": {
+    "colorSchemes/LavenderMist.xml": {
+      "gutter": "#FAF9FE",
+      "withoutGuttersSha256": "b1e894e8afd8fa779876b7debb7d06fa98a736f9ee129a75c6f649deb0f4e987"
+    },
+    "colorSchemes/LavenderMistPurple.xml": {
+      "gutter": "#FAF9FE",
+      "withoutGuttersSha256": "0cdec67e87bf8c916390c4cdefb90aaeec8825c7a58f67dace2dde354bb8304c"
+    }
+  }
+}

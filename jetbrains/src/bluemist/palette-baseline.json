@@ -1,0 +1,38 @@
+{
+  "review": "0.7.0 contrast refinements; all other fields independently preserved by src/common/editor-contrast.json.",
+  "schemes": {
+    "colorSchemes/BlueMist.xml": "4cf469edba999808ab28051b99fb32a1ef9c18a5a12703616a91a032847bb339"
+  },
+  "paletteAnchors": {
+    "colorSchemes/BlueMist.xml": {
+      "keyword": "#0000FF",
+      "type": "#227890",
+      "function": "#74531F",
+      "local": "#1F377F",
+      "parameter": "#1F377F",
+      "member": "#000000",
+      "string": "#A31515",
+      "number": "#000000",
+      "comment": "#008000",
+      "docTag": "#6B6B6B",
+      "escape": "#8E4FD6",
+      "invalidEscape": "#8B0000",
+      "metadata": "#6B6B00",
+      "text": "#000000",
+      "predefined": "#0000FF",
+      "control": "#8F08C4",
+      "interface": "#227890",
+      "struct": "#227890",
+      "enum": "#227890",
+      "delegate": "#227890",
+      "typeParameter": "#227890",
+      "docComment": "#008000"
+    }
+  },
+  "gutters": {
+    "colorSchemes/BlueMist.xml": {
+      "gutter": "#F7F9FE",
+      "withoutGuttersSha256": "4c3dbd27ee7f7b7b002c43268896af24affec7f2b93fffc0dab576d8c2c6e3be"
+    }
+  }
+}

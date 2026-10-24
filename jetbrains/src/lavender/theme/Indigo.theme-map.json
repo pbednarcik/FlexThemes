@@ -1,0 +1,69 @@
+{
+  "extends": "Lavender.theme-base.json",
+  "name": "Lavender Mist Indigo",
+  "fileName": "LavenderMistIndigo",
+  "providerId": "lavender-mist-indigo",
+  "ui": {
+    "EditorTabs.underlinedTabBackground": {
+      "value": "#ECE3FA",
+      "element": "The lighter lavender selected tab keeps native file icons distinct",
+      "status": "designed",
+      "under": "#5C2D91"
+    },
+    "EditorTabs.underlinedTabForeground": {
+      "value": "#5C2D91",
+      "element": "Active editor tab text",
+      "status": "designed",
+      "on": "#ECE3FA"
+    },
+    "EditorTabs.underlinedBorderColor": {
+      "value": "#5C2D91",
+      "element": "Active editor tab outline",
+      "status": "designed"
+    },
+    "ToolWindow.Header.background": {
+      "value": "#D3C9F2",
+      "element": "Focused header in this theme's original hue",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "EditorTabs.inactiveUnderlinedTabBackground": {
+      "value": "#D3C9F2",
+      "element": "Existing lavender surface keeps the native dark file label readable after focus leaves the editor",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlinedTabBorderColor": {
+      "value": "#BDB6E0",
+      "element": "Quieter selected-tab outline after focus leaves the pane",
+      "status": "designed"
+    },
+    "Tree.selectionBackground": {
+      "value": "#D3C9F2",
+      "element": "Focused file-selection fill in this appearance's own palette",
+      "status": "designed"
+    },
+    "Tree.selectionForeground": {
+      "value": "#5C2D91",
+      "element": "Focused file-selection text in this appearance's own palette",
+      "status": "designed",
+      "on": "#D3C9F2"
+    },
+    "Tree.selectionInactiveBackground": {
+      "value": "#E6E7EF",
+      "element": "Quieter file selection after focus leaves the project tree",
+      "status": "designed"
+    },
+    "ToolWindow.HeaderTab.underlinedTabForeground": {
+      "value": "#5C2D91",
+      "element": "Native tool-window tab text matches the focused editor-tab foreground",
+      "status": "designed",
+      "on": "#ECE3FA"
+    },
+    "ToolWindow.HeaderTab.underlinedTabInactiveForeground": {
+      "value": "#5C2D91",
+      "element": "Native inactive tool-window tab text remains readable on the inactive fill",
+      "status": "designed",
+      "on": "#D3C9F2"
+    }
+  }
+}

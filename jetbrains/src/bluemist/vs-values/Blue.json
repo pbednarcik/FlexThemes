@@ -1,0 +1,96 @@
+{
+ "about": "Visual Studio colour values used by this theme, decoded from an installed Visual Studio. Generated; do not edit.",
+ "theme": "Blue",
+ "values": {
+  "Environment|CommandBarGradientBegin|bg": {
+   "rgb": "CCD5F0",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Environment|CommandBarMenuBackgroundGradientBegin|bg": {
+   "rgb": "E9EEFF",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Environment|ControlLinkText|bg": {
+   "rgb": "006CBE",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Environment|FileTabHotGradientTop|bg": {
+   "rgb": "BBC6F1",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Environment|FileTabLastActiveGradientTop|bg": {
+   "rgb": "D9E0F8",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Environment|FileTabLastActiveText|bg": {
+   "rgb": "012460",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Environment|FileTabSelectedGradientTop|bg": {
+   "rgb": "F5CC84",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Environment|FileTabSelectedText|bg": {
+   "rgb": "1E1E1E",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Environment|TitleBarInactive|bg": {
+   "rgb": "40568D",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Environment|ToolWindowBackground|bg": {
+   "rgb": "F7F9FE",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "Text Editor MEF Items|Selected Line Number|fg": {
+   "rgb": "000000",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|inlay hints|bg": {
+   "rgb": "E6E6FA",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|inlay hints|fg": {
+   "rgb": "686868",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|mismatched brace|fg": {
+   "rgb": "C50F1F",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "TreeView|Background|fg": {
+   "rgb": "1E1E1E",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "TreeView|SelectedItemActive|bg": {
+   "rgb": "C4D5FF",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "TreeView|SelectedItemActive|fg": {
+   "rgb": "1E1E1E",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  },
+  "TreeView|SelectedItemInactive|bg": {
+   "rgb": "E6E7EF",
+   "alpha": 255,
+   "source": "Blue: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Blue.pkgdef"
+  }
+ }
+}

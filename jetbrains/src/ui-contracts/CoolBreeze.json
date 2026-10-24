@@ -1,0 +1,69 @@
+{
+  "extends": "../common/ui-clarity-light.json",
+  "themeEntry": "themes/MorningMist.theme.json",
+  "schemeEntry": "colorSchemes/MorningMist.xml",
+  "schemeSha256": "325622eeac4365a66578d2c18bab61547fce1b6b3321315b92f2b71e24836222",
+  "schemeBaseline": "0.7.0 contrast refinements; an independent preservation fingerprint excludes only the listed fields.",
+  "design": "Panel separation plus native focused/inactive tab and tree-selection cues, using this appearance's own palette. Syntax, fonts and UI palettes are preserved; only the listed editor contrast fields are refined. No custom UI drawing code.",
+  "values": {
+    "colors.layer-0-bg": "#A7C6DB",
+    "colors.layer-0-bg-inline": "#C8DBE9",
+    "colors.main-window-bg": "#A7C6DB",
+    "colors.main-window-bg-alt": "#C8DBE9",
+    "colors.layer-0-border": "#ADADAD",
+    "colors.editor-bg": "#FFFFFF",
+    "colors.editor-border": "#ADADAD",
+    "colors.editor-border-inline": "#ADADAD",
+    "colors.editor-border-alt": "#ADADAD",
+    "colors.tool-window-bg": "#F7FAFC",
+    "colors.tool-window-bg-alt": "#F7FAFC",
+    "colors.tool-window-border": "#ADADAD",
+    "colors.tool-window-border-inline": "#ADADAD",
+    "colors.selection-bg-active": "#E8EBED",
+    "colors.text-default": "#1B1B1B",
+    "colors.text-muted": "#4D4D4D",
+    "colors.accent-brand-bg": "#1E394A",
+    "ui.MainWindow.background": "#A7C6DB",
+    "ui.MainToolbar.background": "#A7C6DB",
+    "ui.StatusBar.background": "#C8DBE9",
+    "ui.ToolWindow.background": "#F7FAFC",
+    "ui.ToolWindow.Header.background": "#C6D9E7",
+    "ui.ToolWindow.Header.inactiveBackground": "#E4EDF4",
+    "ui.ToolWindow.Header.borderColor": "#ADADAD",
+    "ui.Island.borderColor": "#ADADAD",
+    "ui.Island.borderWidth": 8,
+    "ui.Island.borderWidth.compact": 8,
+    "ui.EditorTabs.background": "#D3E3ED",
+    "ui.EditorTabs.underlinedTabBackground": "#D2D7DB",
+    "ui.EditorTabs.underlinedTabForeground": "#1B1B1B",
+    "ui.EditorTabs.underlinedBorderColor": "#1E394A",
+    "ui.EditorTabs.underTabsBorderColor": "#ADADAD",
+    "ui.Tree.selectionBackground": "#CCD3D8",
+    "ui.List.selectionBackground": "#E8EBED",
+    "ui.EditorTabs.inactiveUnderlinedTabBackground": "#EDF0F2",
+    "ui.EditorTabs.inactiveUnderlinedTabBorderColor": "#ADADAD",
+    "ui.Tree.selectionForeground": "#1B1B1B",
+    "ui.Tree.selectionInactiveBackground": "#EDF0F2",
+    "ui.ToolWindow.HeaderTab.underlinedTabForeground": "#1B1B1B",
+    "ui.ToolWindow.HeaderTab.underlinedTabInactiveForeground": "#1B1B1B"
+  },
+  "nativeFocus": true,
+  "schemeColors": {
+    "GUTTER_BACKGROUND": "#F7FAFC",
+    "EDITOR_GUTTER_BACKGROUND": "#F7FAFC"
+  },
+  "schemePairs": [
+    {
+      "label": "Line numbers on New UI gutter",
+      "a": "scheme.colors.LINE_NUMBERS_COLOR",
+      "b": "scheme.colors.EDITOR_GUTTER_BACKGROUND",
+      "minimum": 4.0
+    },
+    {
+      "label": "Current line number on New UI gutter",
+      "a": "scheme.colors.LINE_NUMBER_ON_CARET_ROW_COLOR",
+      "b": "scheme.colors.EDITOR_GUTTER_BACKGROUND",
+      "minimum": 4.0
+    }
+  ]
+}

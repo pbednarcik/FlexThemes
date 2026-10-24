@@ -1,0 +1,371 @@
+{
+ "about": "Visual Studio colour values used by this theme, decoded from an installed Visual Studio. Generated; do not edit.",
+ "theme": "Light + CoolBreeze",
+ "values": {
+  "EditorOverride|PopupBackground|bg": {
+   "rgb": "F6F6F6",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "EditorOverride|PopupBorder|bg": {
+   "rgb": "CCCEDB",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "EditorOverride|PopupHyperlink|bg": {
+   "rgb": "006CBE",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "EditorOverride|PopupSelectedBackground|bg": {
+   "rgb": "CCCEDB",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "EditorOverride|PopupSubtleText|bg": {
+   "rgb": "808080",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "EditorOverride|PopupText|bg": {
+   "rgb": "1E1E1E",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Environment|ScrollBarThumbBackground|bg": {
+   "rgb": "C2C3C9",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Light.pkgdef"
+  },
+  "Environment|ScrollBarThumbBorder|bg": {
+   "rgb": "C2C3C9",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Light.pkgdef"
+  },
+  "Environment|ScrollBarThumbMouseOverBackground|bg": {
+   "rgb": "686868",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Light.pkgdef"
+  },
+  "Environment|ScrollBarThumbMouseOverBorder|bg": {
+   "rgb": "686868",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Theme.Light.pkgdef"
+  },
+  "Output Window|Plain Text|bg": {
+   "rgb": "F9F9F9",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|class name|fg": {
+   "rgb": "2B91AF",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|delegate name|fg": {
+   "rgb": "2B91AF",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|enum name|fg": {
+   "rgb": "2B91AF",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|extension method name|fg": {
+   "rgb": "74531F",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|interface name|fg": {
+   "rgb": "2B91AF",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|keyword - control|fg": {
+   "rgb": "8F08C4",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|local name|fg": {
+   "rgb": "1F377F",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|method name|fg": {
+   "rgb": "74531F",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|operator - overloaded|fg": {
+   "rgb": "74531F",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|parameter name|fg": {
+   "rgb": "1F377F",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|struct name|fg": {
+   "rgb": "2B91AF",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|type parameter name|fg": {
+   "rgb": "2B91AF",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|xml doc comment - attribute name|fg": {
+   "rgb": "808080",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|xml doc comment - attribute value|fg": {
+   "rgb": "808080",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|xml doc comment - name|fg": {
+   "rgb": "808080",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "Roslyn Text Editor MEF Items|xml doc comment - text|fg": {
+   "rgb": "008000",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Microsoft\\VBCSharp\\LanguageServices\\Microsoft.VisualStudio.LanguageServices.pkgdef"
+  },
+  "ShellInternal|EnvironmentBackground|bg": {
+   "rgb": "A7C6DB",
+   "alpha": 255,
+   "source": "CoolBreeze: Common7\\IDE\\CommonExtensions\\Platform\\Theme.CoolBreeze.pkgdef"
+  },
+  "ShellInternal|EnvironmentBorderInactive|bg": {
+   "rgb": "ADADAD",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "ShellInternal|EnvironmentBorder|bg": {
+   "rgb": "1E394A",
+   "alpha": 255,
+   "source": "CoolBreeze: Common7\\IDE\\CommonExtensions\\Platform\\Theme.CoolBreeze.pkgdef"
+  },
+  "ShellInternal|EnvironmentHeader|bg": {
+   "rgb": "F7FAFC",
+   "alpha": 255,
+   "source": "CoolBreeze: Common7\\IDE\\CommonExtensions\\Platform\\Theme.CoolBreeze.pkgdef"
+  },
+  "ShellInternal|EnvironmentIndicator|bg": {
+   "rgb": "1E394A",
+   "alpha": 128,
+   "source": "CoolBreeze: Common7\\IDE\\CommonExtensions\\Platform\\Theme.CoolBreeze.pkgdef"
+  },
+  "ShellInternal|EnvironmentLayeredBackground|bg": {
+   "rgb": "FFFFFF",
+   "alpha": 96,
+   "source": "CoolBreeze: Common7\\IDE\\CommonExtensions\\Platform\\Theme.CoolBreeze.pkgdef"
+  },
+  "ShellInternal|EnvironmentTab|bg": {
+   "rgb": "F7FAFC",
+   "alpha": 255,
+   "source": "CoolBreeze: Common7\\IDE\\CommonExtensions\\Platform\\Theme.CoolBreeze.pkgdef"
+  },
+  "Shell|AccentFillDefault|bg": {
+   "rgb": "1E394A",
+   "alpha": 255,
+   "source": "CoolBreeze: Common7\\IDE\\CommonExtensions\\Platform\\Theme.CoolBreeze.pkgdef"
+  },
+  "Shell|ControlAltFillQuaternary|bg": {
+   "rgb": "000000",
+   "alpha": 24,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|ControlFillDefault|bg": {
+   "rgb": "FFFFFF",
+   "alpha": 178,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|ControlFillDisabled|bg": {
+   "rgb": "F9F9F9",
+   "alpha": 77,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|ControlFillSecondary|bg": {
+   "rgb": "F9F9F9",
+   "alpha": 128,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|ControlFillTertiary|bg": {
+   "rgb": "F9F9F9",
+   "alpha": 77,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|ControlStrokeDefault|bg": {
+   "rgb": "000000",
+   "alpha": 15,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|ControlStrongStrokeDefault|bg": {
+   "rgb": "000000",
+   "alpha": 156,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|DividerStrokeDefault|bg": {
+   "rgb": "000000",
+   "alpha": 20,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|HyperlinkFillPrimary|bg": {
+   "rgb": "003E92",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|LayerFillDefault|bg": {
+   "rgb": "FFFFFF",
+   "alpha": 128,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SolidBackgroundFillTertiary|bg": {
+   "rgb": "F7FAFC",
+   "alpha": 255,
+   "source": "CoolBreeze: Common7\\IDE\\CommonExtensions\\Platform\\Theme.CoolBreeze.pkgdef"
+  },
+  "Shell|SubtleFillSecondary|bg": {
+   "rgb": "000000",
+   "alpha": 15,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SubtleFillTertiary|bg": {
+   "rgb": "000000",
+   "alpha": 10,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SurfaceBackgroundFillDefault|bg": {
+   "rgb": "FCFDFF",
+   "alpha": 255,
+   "source": "CoolBreeze: Common7\\IDE\\CommonExtensions\\Platform\\Theme.CoolBreeze.pkgdef"
+  },
+  "Shell|SurfaceStrokeDefault|bg": {
+   "rgb": "757575",
+   "alpha": 102,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SurfaceStrokeFlyout|bg": {
+   "rgb": "000000",
+   "alpha": 15,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SystemFillCautionBackground|bg": {
+   "rgb": "FFF4CE",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SystemFillCaution|bg": {
+   "rgb": "9D5D00",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SystemFillCriticalBackground|bg": {
+   "rgb": "FDE7E9",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SystemFillCritical|bg": {
+   "rgb": "C42B1C",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SystemFillSolidAttentionBackground|bg": {
+   "rgb": "F7F7F7",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SystemFillSolidNeutral|bg": {
+   "rgb": "8A8A8A",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SystemFillSuccessBackground|bg": {
+   "rgb": "DFF6DD",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|SystemFillSuccess|bg": {
+   "rgb": "0F7B0F",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|TextFillDisabled|bg": {
+   "rgb": "000000",
+   "alpha": 92,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|TextFillPrimary|bg": {
+   "rgb": "000000",
+   "alpha": 228,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Shell|TextFillSecondary|bg": {
+   "rgb": "000000",
+   "alpha": 178,
+   "source": "CoolBreeze: Common7\\IDE\\CommonExtensions\\Platform\\Theme.CoolBreeze.pkgdef"
+  },
+  "Shell|TextOnAccentFillPrimary|bg": {
+   "rgb": "FFFFFF",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\Shell.Light.pkgdef"
+  },
+  "Text Editor MEF Items|OverviewMarginBackground|bg": {
+   "rgb": "F5F5F5",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|Preprocessor Keyword|fg": {
+   "rgb": "808080",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|Selected Line Number|fg": {
+   "rgb": "000000",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|Track additions in documents under source control|bg": {
+   "rgb": "107C10",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|Track deletions in documents under source control|bg": {
+   "rgb": "DF6262",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|Track modifications in documents under source control|bg": {
+   "rgb": "0078D4",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|inlay hints parameter|bg": {
+   "rgb": "E6E6FA",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|inlay hints parameter|fg": {
+   "rgb": "686868",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|mismatched brace|fg": {
+   "rgb": "C50F1F",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  },
+  "Text Editor MEF Items|string - escape character|fg": {
+   "rgb": "B776FB",
+   "alpha": 255,
+   "source": "Light: Common7\\IDE\\CommonExtensions\\Platform\\EditorColors.pkgdef"
+  }
+ }
+}

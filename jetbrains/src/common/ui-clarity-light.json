@@ -1,0 +1,65 @@
+{
+  "description": "Shared light clarity floors taken from Periwinkle Night; surface floors are design guards, not accessibility thresholds.",
+  "pairs": [
+    {
+      "label": "Tool panes against frame",
+      "a": "colors.tool-window-bg",
+      "b": "colors.main-window-bg",
+      "minimum": 1.3
+    },
+    {
+      "label": "Tool panes against editor",
+      "a": "colors.tool-window-bg",
+      "b": "colors.editor-bg",
+      "minimum": 1.02
+    },
+    {
+      "label": "Panel outlines against tool panes",
+      "a": "ui.Island.borderColor",
+      "b": "colors.tool-window-bg",
+      "minimum": 1.65
+    },
+    {
+      "label": "Inactive header against body",
+      "a": "ui.ToolWindow.Header.inactiveBackground",
+      "b": "colors.tool-window-bg",
+      "minimum": 1.1
+    },
+    {
+      "label": "Focused header against body",
+      "a": "ui.ToolWindow.Header.background",
+      "b": "colors.tool-window-bg",
+      "minimum": 1.3
+    },
+    {
+      "label": "Primary text on tool panes",
+      "a": "colors.text-default",
+      "b": "colors.tool-window-bg",
+      "minimum": 4.5
+    },
+    {
+      "label": "Secondary text on tool panes",
+      "a": "colors.text-muted",
+      "b": "colors.tool-window-bg",
+      "minimum": 4.5
+    },
+    {
+      "label": "Header text on focused header",
+      "a": "colors.text-default",
+      "b": "ui.ToolWindow.Header.background",
+      "minimum": 4.5
+    },
+    {
+      "label": "Header text on inactive header",
+      "a": "colors.text-default",
+      "b": "ui.ToolWindow.Header.inactiveBackground",
+      "minimum": 4.5
+    },
+    {
+      "label": "Selected tab text",
+      "a": "ui.EditorTabs.underlinedTabForeground",
+      "b": "ui.EditorTabs.underlinedTabBackground",
+      "minimum": 4.5
+    }
+  ]
+}

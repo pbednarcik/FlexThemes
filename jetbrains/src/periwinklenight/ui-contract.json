@@ -1,0 +1,142 @@
+{
+  "description": "Clearer separation. Exact UI values and design separation floors; these small surface ratios are not accessibility thresholds.",
+  "themeEntry": "themes/PeriwinkleNight.theme.json",
+  "schemeEntry": "colorSchemes/PeriwinkleNight.xml",
+  "schemeSha256": "3d719f2ff29bedb83660dd7bff617613eaa4c9eac2fb9383abcb5fb2a4268fbe",
+  "schemeBaseline": "0.7.0 contrast refinements; an independent preservation fingerprint excludes only the listed fields.",
+  "values": {
+    "colors.layer-0-bg": "#1D2032",
+    "colors.layer-0-bg-inline": "#1D2032",
+    "colors.main-window-bg": "#1D2032",
+    "colors.main-window-bg-alt": "#1D2032",
+    "colors.layer-0-border": "#4A516E",
+    "colors.editor-bg": "#1E2030",
+    "colors.editor-border": "#4A516E",
+    "colors.editor-border-inline": "#4A516E",
+    "colors.editor-border-alt": "#4A516E",
+    "colors.tool-window-bg": "#292E45",
+    "colors.tool-window-bg-alt": "#292E45",
+    "colors.tool-window-border": "#4A516E",
+    "colors.tool-window-border-inline": "#4A516E",
+    "colors.selection-bg-active": "#41496D",
+    "colors.text-default": "#DCDDEB",
+    "colors.text-muted": "#AEB1C9",
+    "colors.accent-brand-bg": "#B4A2F5",
+    "ui.MainWindow.background": "#1D2032",
+    "ui.MainToolbar.background": "#1D2032",
+    "ui.StatusBar.background": "#1D2032",
+    "ui.ToolWindow.background": "#292E45",
+    "ui.ToolWindow.Header.background": "#3A4263",
+    "ui.ToolWindow.Header.inactiveBackground": "#30364F",
+    "ui.ToolWindow.Header.borderColor": "#4A516E",
+    "ui.Island.borderColor": "#4A516E",
+    "ui.Island.borderWidth": 8,
+    "ui.Island.borderWidth.compact": 8,
+    "ui.EditorTabs.background": "#262B42",
+    "ui.EditorTabs.underlinedTabBackground": "#41496D",
+    "ui.EditorTabs.underlinedTabForeground": "#E6E0FF",
+    "ui.EditorTabs.underlinedBorderColor": "#B4A2F5",
+    "ui.EditorTabs.underTabsBorderColor": "#4A516E",
+    "ui.Tree.selectionBackground": "#41496D",
+    "ui.List.selectionBackground": "#41496D",
+    "ui.EditorTabs.inactiveUnderlinedTabBackground": "#2C3048",
+    "ui.EditorTabs.inactiveUnderlinedTabBorderColor": "#3A3F5E",
+    "ui.Tree.selectionForeground": "#E6E0FF",
+    "ui.Tree.selectionInactiveBackground": "#2C3048",
+    "ui.ToolWindow.HeaderTab.underlinedTabForeground": "#E6E0FF",
+    "ui.ToolWindow.HeaderTab.underlinedTabInactiveForeground": "#E6E0FF",
+    "colors.tree-indent-guide-border": "#626B94",
+    "ui.Tree.hash": "#626B94"
+  },
+  "pairs": [
+    {
+      "label": "Tool panes against frame",
+      "a": "colors.tool-window-bg",
+      "b": "colors.main-window-bg",
+      "minimum": 1.2
+    },
+    {
+      "label": "Tool panes against editor",
+      "a": "colors.tool-window-bg",
+      "b": "colors.editor-bg",
+      "minimum": 1.18
+    },
+    {
+      "label": "Panel outlines against tool panes",
+      "a": "ui.Island.borderColor",
+      "b": "colors.tool-window-bg",
+      "minimum": 1.65
+    },
+    {
+      "label": "Inactive header against body",
+      "a": "ui.ToolWindow.Header.inactiveBackground",
+      "b": "colors.tool-window-bg",
+      "minimum": 1.1
+    },
+    {
+      "label": "Focused header against body",
+      "a": "ui.ToolWindow.Header.background",
+      "b": "colors.tool-window-bg",
+      "minimum": 1.3
+    },
+    {
+      "label": "Primary text on tool panes",
+      "a": "colors.text-default",
+      "b": "colors.tool-window-bg",
+      "minimum": 4.5
+    },
+    {
+      "label": "Secondary text on tool panes",
+      "a": "colors.text-muted",
+      "b": "colors.tool-window-bg",
+      "minimum": 4.5
+    },
+    {
+      "label": "Header text on focused header",
+      "a": "colors.text-default",
+      "b": "ui.ToolWindow.Header.background",
+      "minimum": 4.5
+    },
+    {
+      "label": "Header text on inactive header",
+      "a": "colors.text-default",
+      "b": "ui.ToolWindow.Header.inactiveBackground",
+      "minimum": 4.5
+    },
+    {
+      "label": "Selected tab text",
+      "a": "ui.EditorTabs.underlinedTabForeground",
+      "b": "ui.EditorTabs.underlinedTabBackground",
+      "minimum": 4.5
+    }
+  ],
+  "nativeFocus": true,
+  "design": "Panel separation plus native focused/inactive tab and tree-selection cues, using this appearance's own palette. Syntax, fonts and UI palettes are preserved; only the listed editor contrast fields are refined. No custom UI drawing code.",
+  "schemeColors": {
+    "GUTTER_BACKGROUND": "#23263A",
+    "EDITOR_GUTTER_BACKGROUND": "#23263A"
+  },
+  "schemePairs": [
+    {
+      "label": "Line numbers on New UI gutter",
+      "a": "scheme.colors.LINE_NUMBERS_COLOR",
+      "b": "scheme.colors.EDITOR_GUTTER_BACKGROUND",
+      "minimum": 4.5
+    },
+    {
+      "label": "Current line number on New UI gutter",
+      "a": "scheme.colors.LINE_NUMBER_ON_CARET_ROW_COLOR",
+      "b": "scheme.colors.EDITOR_GUTTER_BACKGROUND",
+      "minimum": 4.5
+    }
+  ],
+  "treeGuides": true,
+  "additionalPairs": [
+    {
+      "label": "Tree hierarchy guides against panel",
+      "a": "ui.Tree.hash",
+      "b": "colors.tool-window-bg",
+      "minimum": 2.2
+    }
+  ]
+}

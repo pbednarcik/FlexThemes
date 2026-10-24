@@ -1,0 +1,2 @@
+# Python packages for tools/build.py and tools/ (Python 3.10+). Tested with Pillow 12.2.0.
+Pillow>=12.2

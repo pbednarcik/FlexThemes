@@ -1,0 +1,29 @@
+<idea-plugin>
+  <id>com.github.pbednarcik.morningmist</id>
+  <name>Morning Mist Theme</name>
+  <vendor url="https://github.com/pbednarcik">Peter Bednarčík</vendor>
+  <version>@VERSION@</version>
+  <description><![CDATA[
+    <p>A light UI theme and editor colour scheme with the colours of the Cool Breeze theme of
+    Visual Studio 2026: a tinted window, light rounded panels with clear outlines, and Visual Studio's C#
+    syntax colours.</p>
+    <ul>
+      <li>Colours are decoded from Visual Studio's own theme data and checked against screenshots,
+      not picked by eye. A build of the project writes a colour table that traces every value to its source.</li>
+      <li>Built on JetBrains' Islands Light theme and Visual Studio Light scheme, so every key is a real one.</li>
+      <li>Contains colour values only. No Microsoft artwork, icons or fonts.</li>
+    </ul>
+    <p>Requires JetBrains IDEs 2026.2 or later with the Islands UI. For the closest match set the editor
+    font to Cascadia Mono.</p>
+    <p><i>Not affiliated with or endorsed by Microsoft or JetBrains. Visual Studio is a trademark of
+    Microsoft Corporation; Rider is a trademark of JetBrains s.r.o.</i></p>
+    <p>Shared semantic colours for C#, Java, Kotlin, Go and Python, with this theme's own palette and clearly separated panels.</p>
+  ]]></description>
+  <change-notes><![CDATA[@CHANGES@]]></change-notes>
+  <depends>com.intellij.modules.platform</depends>
+  <idea-version since-build="@SINCE@" />
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme id="Morning Mist" path="/colorSchemes/MorningMist" />
+    <themeProvider id="morning-mist" path="/themes/MorningMist.theme.json" targetUi="islands" />
+  </extensions>
+</idea-plugin>

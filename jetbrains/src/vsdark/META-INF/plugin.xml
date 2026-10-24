@@ -1,0 +1,21 @@
+<idea-plugin>
+  <id>com.github.pbednarcik.graphite</id>
+  <name>Graphite Theme</name>
+  <vendor url="https://github.com/pbednarcik">Peter Bednarčík</vendor>
+  <version>@VERSION@</version>
+  <description><![CDATA[
+    <p>A neutral dark theme with the colours of the Dark theme of Visual Studio 2026, decoded from Visual Studio's own theme data: grey chrome, Visual Studio's purple accent and its dark C# colours.</p>
+    <p>Every text colour is checked for contrast when the theme is built. Requires JetBrains IDEs
+    2026.2 or later with the Islands UI.</p>
+    <p><i>Not affiliated with or endorsed by Microsoft or JetBrains. Visual Studio is a trademark of
+    Microsoft Corporation; Rider is a trademark of JetBrains s.r.o.</i></p>
+    <p>Shared semantic colours for C#, Java, Kotlin, Go and Python, with this theme's own palette and clearly separated panels.</p>
+  ]]></description>
+  <change-notes><![CDATA[@CHANGES@]]></change-notes>
+  <depends>com.intellij.modules.platform</depends>
+  <idea-version since-build="@SINCE@" />
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme id="Graphite" path="/colorSchemes/Graphite" />
+    <themeProvider id="graphite" path="/themes/Graphite.theme.json" targetUi="islands" />
+  </extensions>
+</idea-plugin>

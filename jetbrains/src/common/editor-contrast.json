@@ -1,0 +1,77 @@
+{
+  "review": "Small contrast pass: only listed editor fields may change from the 0.7.0 package as it was before this pass. Syntax, fonts, UI and gutters remain independently frozen.",
+  "schemes": {
+    "colorSchemes/MorningMist.xml": {
+      "editorBackground": "#FFFFFF",
+      "changes": {
+        "colors.INDENT_GUIDE": "#D3DBE5",
+        "colors.SELECTED_INDENT_GUIDE": "#93A3B8",
+        "attributes.NOT_USED_ELEMENT_ATTRIBUTES.FOREGROUND": "#6E6E6E",
+        "attributes.CODE_VISION_DEFAULT.FOREGROUND": "#6E6E6E",
+        "colors.LINE_NUMBERS_COLOR": "#6E6E6E"
+      },
+      "preservedSha256": "83c742f8515a8bc434ddc408b3b741da8326f8b822bbc2fb2029d83a4336c0dc"
+    },
+    "colorSchemes/LavenderMist.xml": {
+      "editorBackground": "#FFFFFF",
+      "changes": {
+        "colors.INDENT_GUIDE": "#DAD4E5",
+        "colors.SELECTED_INDENT_GUIDE": "#A497B9",
+        "attributes.NOT_USED_ELEMENT_ATTRIBUTES.FOREGROUND": "#6E6A80"
+      },
+      "preservedSha256": "29ae6f60b99c9448e53cab047aa0003cd9516ac295a483f38c001cd2427da37a"
+    },
+    "colorSchemes/LavenderMistPurple.xml": {
+      "editorBackground": "#FFFFFF",
+      "changes": {
+        "colors.INDENT_GUIDE": "#DAD4E5",
+        "colors.SELECTED_INDENT_GUIDE": "#A497B9",
+        "attributes.NOT_USED_ELEMENT_ATTRIBUTES.FOREGROUND": "#6E6A80"
+      },
+      "preservedSha256": "99aa7268b14414833ed8b63e644ca9f2ee8ab35895e643ad1a058386ddeac5f8"
+    },
+    "colorSchemes/BlueMist.xml": {
+      "editorBackground": "#FFFFFF",
+      "changes": {
+        "colors.INDENT_GUIDE": "#D0DBE8",
+        "colors.SELECTED_INDENT_GUIDE": "#91A4BF",
+        "attributes.NOT_USED_ELEMENT_ATTRIBUTES.FOREGROUND": "#60708A"
+      },
+      "preservedSha256": "902ce862e09cebd1e73b24f101c71bb16cf49ef69d9ec5ae4fd5ece9fb19e33b"
+    },
+    "colorSchemes/PeriwinkleIslands.xml": {
+      "editorBackground": "#FFFFFF",
+      "changes": {
+        "colors.INDENT_GUIDE": "#D6DAED",
+        "colors.SELECTED_INDENT_GUIDE": "#98A2C3",
+        "attributes.NOT_USED_ELEMENT_ATTRIBUTES.FOREGROUND": "#6E6A80"
+      },
+      "preservedSha256": "046124c6e91ecbee891632a6d7dc6370b7d4a8896886dceda1bc34af8b50e3a4"
+    },
+    "colorSchemes/Graphite.xml": {
+      "editorBackground": "#1E1E1E",
+      "changes": {
+        "colors.INDENT_GUIDE": "#484848",
+        "colors.SELECTED_INDENT_GUIDE": "#646464",
+        "colors.LINE_NUMBERS_COLOR": "#929292"
+      },
+      "preservedSha256": "3fce093da2098ecac7ba7b5104638cf8575877cb617478da4e0d8ac50d4c0e0a"
+    },
+    "colorSchemes/PeriwinkleNight.xml": {
+      "editorBackground": "#1E2030",
+      "changes": {
+        "colors.INDENT_GUIDE": "#44495F",
+        "colors.SELECTED_INDENT_GUIDE": "#626B94"
+      },
+      "preservedSha256": "285ba662b15a3d028f35bad35eccbffab0fc2ac58b8af3b7b81f75001956f611"
+    },
+    "colorSchemes/Abyss.xml": {
+      "editorBackground": "#10232A",
+      "changes": {
+        "colors.INDENT_GUIDE": "#344D55",
+        "colors.SELECTED_INDENT_GUIDE": "#527F80"
+      },
+      "preservedSha256": "f2789f540d6cd3ad1e619288058c71cbfb3445b2eb061012c99a65ddeb1bbea9"
+    }
+  }
+}

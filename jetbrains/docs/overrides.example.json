@@ -1,0 +1,45 @@
+{
+  "about": "Example of personal overrides for Morning Mist: a few Visual Studio Fonts and Colors customisations and a coloured selected tab. Overrides suit the family they were made for, so build just that one: copy to personal/overrides.json, edit, and run python tools/build.py --plugin MorningMist --overrides personal/overrides.json. Each entry is laid over the stock map; a value of null removes an entry. The build still checks every colour's contrast.",
+  "theme": {
+    "ui": {
+      "EditorTabs.underlinedTabBackground": {
+        "value": "#E0F3EC",
+        "element": "Selected document tab, fill: a project tab colour from Visual Studio at about 21 % over white",
+        "status": "user-export"
+      },
+      "EditorTabs.underlinedBorderColor": {
+        "value": "#6BC7A4",
+        "element": "Selected document tab, outline",
+        "status": "user-export"
+      },
+      "Tree.selectionBackground": {
+        "value": "#E0F3EC",
+        "element": "Selected row in a focused tree; Rider has no key for a row outline, so only the fill is set",
+        "status": "user-export"
+      }
+    }
+  },
+  "scheme": {
+    "colors": {
+      "LINE_NUMBERS_COLOR": {
+        "value": "#2B91AF",
+        "element": "Line numbers",
+        "status": "user-export"
+      }
+    },
+    "attributes": {
+      "DEFAULT_NUMBER": {
+        "FOREGROUND": "#784A8E",
+        "FONT_TYPE": 1,
+        "element": "Number literal, bold (platform fallback)",
+        "status": "user-export"
+      },
+      "ReSharper.CSHARP_NUMBER": {
+        "FOREGROUND": "#784A8E",
+        "FONT_TYPE": 1,
+        "element": "C# number literal, bold",
+        "status": "user-export"
+      }
+    }
+  }
+}

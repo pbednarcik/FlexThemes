@@ -1,0 +1,486 @@
+{
+  "extends": "../../common/scheme/CommonDark.scheme-base.json",
+  "name": "Abyss",
+  "fileName": "Abyss",
+  "baseSchemeFile": "theme-pack/colorSchemes/VisualStudioDark.xml",
+  "vsBase": "Blue",
+  "snapshot": "Blue",
+  "platformDefault": "Darcula",
+  "defaultOn": "#10232A",
+  "colors": {
+    "LINE_NUMBERS_COLOR": {
+      "value": "#7E9A97",
+      "element": "line numbers color",
+      "status": "designed"
+    },
+    "LINE_NUMBER_ON_CARET_ROW_COLOR": {
+      "value": "#5EEAD4",
+      "element": "line number on caret row color",
+      "status": "designed"
+    },
+    "CARET_ROW_COLOR": {
+      "value": "#132A32",
+      "element": "caret row color",
+      "status": "designed"
+    },
+    "CARET_COLOR": {
+      "value": "#5EEAD4",
+      "element": "caret color",
+      "status": "designed"
+    },
+    "SELECTION_BACKGROUND": {
+      "value": "#1D3E46",
+      "element": "selection background",
+      "status": "designed"
+    },
+    "GUTTER_BACKGROUND": {
+      "value": "#13282F",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "EDITOR_GUTTER_BACKGROUND": {
+      "value": "#13282F",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "INDENT_GUIDE": {
+      "value": "#344D55",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    },
+    "SELECTED_INDENT_GUIDE": {
+      "value": "#527F80",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    }
+  },
+  "attributes": {
+    "TEXT": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Plain text: Blue's text colour on white",
+      "status": "designed",
+      "BACKGROUND": "#10232A"
+    },
+    "DEFAULT_KEYWORD": {
+      "FOREGROUND": "#FD9E85",
+      "element": "Keyword in the theme's deep purple. Abyss palette: keyword coral (control flow too), 8.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CONTROL_FLOW_KEYWORD": {
+      "FOREGROUND": "#FD9E85",
+      "element": "Control-flow keyword in blue, swapped with the keyword colour. Abyss palette: keyword coral (control flow too), 8.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CONTROL_TRANSFER_KEYWORD": {
+      "FOREGROUND": "#FD9E85",
+      "element": "Control-transfer keyword in blue. Abyss palette: keyword coral (control flow too), 8.0:1",
+      "status": "designed"
+    },
+    "DEFAULT_STRING": {
+      "FOREGROUND": "#4AC1FE",
+      "element": "String. Abyss palette: string sky blue, 8.0:1",
+      "status": "designed"
+    },
+    "DEFAULT_LINE_COMMENT": {
+      "FOREGROUND": "#869D81",
+      "element": "Line comment. Abyss palette: comment sage, 5.5:1",
+      "status": "designed",
+      "FONT_TYPE": 2
+    },
+    "DEFAULT_BLOCK_COMMENT": {
+      "FOREGROUND": "#869D81",
+      "element": "Block comment. Abyss palette: comment sage, 5.5:1",
+      "status": "designed",
+      "FONT_TYPE": 2
+    },
+    "DEFAULT_DOC_COMMENT": {
+      "FOREGROUND": "#869D81",
+      "element": "Doc comment text. Abyss palette: comment sage, 5.5:1",
+      "status": "designed",
+      "FONT_TYPE": 2
+    },
+    "ReSharper.CSHARP_DOC_COMMENT": {
+      "FOREGROUND": "#869D81",
+      "element": "C# doc comment text. Abyss palette: comment sage, 5.5:1",
+      "status": "designed",
+      "FONT_TYPE": 2
+    },
+    "DEFAULT_DOC_COMMENT_TAG": {
+      "FOREGROUND": "#8FAFA9",
+      "element": "Doc comment tag",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT_TAG_NAME": {
+      "FOREGROUND": "#8FAFA9",
+      "element": "C# doc comment tag name",
+      "status": "designed"
+    },
+    "TODO_DEFAULT_ATTRIBUTES": {
+      "FOREGROUND": "#5EEAD4",
+      "element": "TODO comment, bold",
+      "status": "designed",
+      "FONT_TYPE": 1
+    },
+    "ReSharper.CSHARP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Class name. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Static class name. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Static class name (generic). Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Record name. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Struct name. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Struct name (generic). Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Record struct name. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_INTERFACE_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Interface name. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Enum name. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.ENUM_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Enum name (generic). Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Delegate name. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Delegate name (generic). Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Type parameter. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "Type parameter (generic). Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#DAB33A",
+      "element": "Method name. Abyss palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "DEFAULT_INSTANCE_METHOD": {
+      "FOREGROUND": "#DAB33A",
+      "element": "Generic method name. Periwinkle Night's capture showed Rider drawing C# methods in this key's inherited colour, not in the ReSharper method key. Abyss palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "DEFAULT_STATIC_METHOD": {
+      "FOREGROUND": "#DAB33A",
+      "element": "Generic static method name, as above. Abyss palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#DAB33A",
+      "element": "Static method name. Abyss palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_LOCAL_FUNCTION_IDENTIFIER": {
+      "FOREGROUND": "#DAB33A",
+      "element": "Local function name. Abyss palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#DAB33A",
+      "element": "Extension method name. Abyss palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "ReSharper.EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#DAB33A",
+      "element": "Extension method name (generic). Abyss palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Local variable. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Mutable local variable. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Mutable local variable (generic). Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Parameter, in plum so values from outside the method stand apart from locals (Visual Studio colours both navy). Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "DEFAULT_PARAMETER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Parameter, generic fallback. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_FIELD_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Field, in jade (Visual Studio leaves members as plain text). Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_FIELD_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Static field. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_CONSTANT_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Constant. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Property. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Static property. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_EVENT_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Event. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Property (generic). Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.EVENT_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Event (generic). Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "DEFAULT_INSTANCE_FIELD": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Field, generic fallback. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "DEFAULT_STATIC_FIELD": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Static field, generic fallback. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Namespace",
+      "status": "designed"
+    },
+    "ReSharper.NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Namespace (generic)",
+      "status": "designed"
+    },
+    "INLAY_TEXT_WITHOUT_BACKGROUND": {
+      "FOREGROUND": "#86A29F",
+      "element": "Inlay hint text without a chip",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_DEFAULT": {
+      "FOREGROUND": "#86A29F",
+      "element": "Inlay button",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_FOCUSED": {
+      "FOREGROUND": "#86A29F",
+      "element": "Inlay button, focused",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_HOVERED": {
+      "FOREGROUND": "#8FAFA9",
+      "element": "Inlay button, hovered",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_HINT": {
+      "FOREGROUND": "#86A29F",
+      "element": "Inlay button hint",
+      "status": "designed"
+    },
+    "INLINE_SUGGESTION": {
+      "FOREGROUND": "#86A29F",
+      "element": "AI inline completion (ghost text), italic",
+      "status": "designed",
+      "FONT_TYPE": 2
+    },
+    "CODE_VISION_DEFAULT": {
+      "element": "code vision default",
+      "status": "designed",
+      "FOREGROUND": "#9DB5B2"
+    },
+    "ReSharper.CPP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "C++ class. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "C++ enum. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_LOCAL_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "C++ local typedef. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "C++ overloaded operator. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "C++ struct. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "C++ typedef. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_UNION_IDENTIFIER": {
+      "FOREGROUND": "#2DCCA2",
+      "element": "C++ union. Abyss palette: type mint, 7.9:1",
+      "status": "designed"
+    },
+    "HYPERLINK_ATTRIBUTES": {
+      "FOREGROUND": "#F7A38F",
+      "element": "Link in the editor, in the accent",
+      "status": "designed"
+    },
+    "CTRL_CLICKABLE": {
+      "FOREGROUND": "#F7A38F",
+      "element": "Ctrl+hover navigation link",
+      "status": "designed"
+    },
+    "CUSTOM_LINE_COMMENT_ATTRIBUTES": {
+      "FOREGROUND": "#86A29F",
+      "element": "Line comment in custom file types",
+      "status": "designed"
+    },
+    "CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES": {
+      "FOREGROUND": "#86A29F",
+      "element": "Block comment in custom file types",
+      "status": "designed"
+    },
+    "DEBUGGER_INLINED_VALUES": {
+      "FOREGROUND": "#86A29F",
+      "element": "Debugger inline values",
+      "status": "designed"
+    },
+    "ReSharper.IL_CODE_LABEL": {
+      "FOREGROUND": "#86A29F",
+      "element": "IL viewer label",
+      "status": "designed"
+    },
+    "ReSharper.JS_XML_DOCUMENTATION_COMMENT": {
+      "FOREGROUND": "#8FAFA9",
+      "element": "JavaScript XML doc comment",
+      "status": "designed"
+    },
+    "ReSharper.LATE_BOUND_IDENTIFIER": {
+      "FOREGROUND": "#86A29F",
+      "element": "Late-bound identifier (VB)",
+      "status": "designed"
+    },
+    "CONSOLE_GRAY_OUTPUT": {
+      "FOREGROUND": "#86A29F",
+      "element": "Console grey (run and test output)",
+      "status": "designed"
+    },
+    "LOG_EXPIRED_ENTRY": {
+      "FOREGROUND": "#86A29F",
+      "element": "Expired log entry",
+      "status": "designed"
+    },
+    "DEFAULT_VALID_STRING_ESCAPE": {
+      "element": "default valid string escape",
+      "status": "designed",
+      "FOREGROUND": "#F7C08F"
+    },
+    "IDENTIFIER_UNDER_CARET_ATTRIBUTES": {
+      "element": "identifier under caret attributes",
+      "status": "designed",
+      "BACKGROUND": "#1F4A48"
+    },
+    "WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES": {
+      "element": "write identifier under caret attributes",
+      "status": "designed",
+      "BACKGROUND": "#23504E"
+    },
+    "DEFAULT_NUMBER": {
+      "FOREGROUND": "#D9E4E2",
+      "element": "Existing DEFAULT_NUMBER colour pinned as the cross-language palette anchor. Abyss palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "DEFAULT_METADATA": {
+      "FOREGROUND": "#BBB529",
+      "element": "Existing DEFAULT_METADATA colour pinned as the cross-language palette anchor",
+      "status": "inherited"
+    }
+  },
+  "languageMappings": "src/common/language-mappings.json",
+  "semanticRoles": {
+    "keyword": "DEFAULT_KEYWORD",
+    "type": "ReSharper.CSHARP_CLASS_IDENTIFIER",
+    "function": "ReSharper.CSHARP_METHOD_IDENTIFIER",
+    "local": "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER",
+    "parameter": "ReSharper.CSHARP_PARAMETER_IDENTIFIER",
+    "member": "ReSharper.CSHARP_FIELD_IDENTIFIER",
+    "string": "DEFAULT_STRING",
+    "number": "DEFAULT_NUMBER",
+    "comment": "DEFAULT_LINE_COMMENT",
+    "docTag": "DEFAULT_DOC_COMMENT_TAG",
+    "escape": "DEFAULT_VALID_STRING_ESCAPE",
+    "invalidEscape": "DEFAULT_INVALID_STRING_ESCAPE",
+    "metadata": "DEFAULT_METADATA",
+    "text": "TEXT",
+    "predefined": "DEFAULT_KEYWORD",
+    "control": "ReSharper.CONTROL_FLOW_KEYWORD",
+    "interface": "ReSharper.CSHARP_INTERFACE_IDENTIFIER",
+    "struct": "ReSharper.CSHARP_STRUCT_IDENTIFIER",
+    "enum": "ReSharper.CSHARP_ENUM_IDENTIFIER",
+    "delegate": "ReSharper.CSHARP_DELEGATE_IDENTIFIER",
+    "typeParameter": "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER",
+    "docComment": "ReSharper.CSHARP_DOC_COMMENT"
+  }
+}

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.github.pbednarcik.periwinklenight</id>
+  <name>Periwinkle Night Theme</name>
+  <vendor url="https://github.com/pbednarcik">Peter Bednarčík</vendor>
+  <version>@VERSION@</version>
+  <description><![CDATA[
+    <p>The dark sibling of Periwinkle Islands: deep indigo chrome with clearly separated panels, soft white text and a calm editor palette in clearly separated pastels: lilac keywords, cyan types, gold methods, peach strings and green comments, with names in plain text. Shared semantic colours for C#, Java, Kotlin, Go and Python in Rider, IntelliJ IDEA, GoLand and PyCharm.</p>
+    <p>Designed for the Islands UI in JetBrains IDEs 2026.2 or later. Mapped text colours are checked for contrast.</p>
+    <p><i>Not affiliated with or endorsed by Microsoft or JetBrains. Visual Studio is a trademark of
+    Microsoft Corporation; Rider is a trademark of JetBrains s.r.o.</i></p>
+  ]]></description>
+  <change-notes><![CDATA[@CHANGES@]]></change-notes>
+  <depends>com.intellij.modules.platform</depends>
+  <idea-version since-build="@SINCE@" />
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme id="Periwinkle Night" path="/colorSchemes/PeriwinkleNight" />
+    <themeProvider id="periwinkle-night" path="/themes/PeriwinkleNight.theme.json" targetUi="islands" />
+  </extensions>
+</idea-plugin>

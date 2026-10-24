@@ -1,0 +1,38 @@
+{
+  "review": "0.7.0 contrast refinements; all other fields independently preserved by src/common/editor-contrast.json.",
+  "schemes": {
+    "colorSchemes/Graphite.xml": "3e6f43f8ac3f4ba080c6bd6ddc2e9d87de6409e0992fc2e5b14616ce6f208061"
+  },
+  "paletteAnchors": {
+    "colorSchemes/Graphite.xml": {
+      "keyword": "#569CD6",
+      "type": "#4EC9B0",
+      "function": "#DCDCAA",
+      "local": "#9CDCFE",
+      "parameter": "#9CDCFE",
+      "member": "#DCDCDC",
+      "string": "#D69D85",
+      "number": "#B5CEA8",
+      "comment": "#57A64A",
+      "docTag": "#608B4E",
+      "escape": "#FFD68F",
+      "invalidEscape": "#F28B82",
+      "metadata": "#BBB529",
+      "text": "#DCDCDC",
+      "predefined": "#569CD6",
+      "control": "#D8A0DF",
+      "interface": "#B8D7A3",
+      "struct": "#86C691",
+      "enum": "#B8D7A3",
+      "delegate": "#4EC9B0",
+      "typeParameter": "#B8D7A3",
+      "docComment": "#608B4E"
+    }
+  },
+  "gutters": {
+    "colorSchemes/Graphite.xml": {
+      "gutter": "#282828",
+      "withoutGuttersSha256": "a28bf2baf2f9d13af5bc66908ce821aeac400b9080c7ced626a1b91db628b975"
+    }
+  }
+}

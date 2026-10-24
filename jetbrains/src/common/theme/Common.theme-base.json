@@ -1,0 +1,326 @@
+{
+  "colors": {
+    "grad-g1-amber-a1": {
+      "value": "#FCDFDA80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, amber group (a1): JetBrains' FCDFDA mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g1-amber-a1-secondary": {
+      "value": "#F8E1D680 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, amber group (a1-secondary): JetBrains' F8E1D6 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g1-amber-a2": {
+      "value": "#F8E2E780 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, amber group (a2): JetBrains' F8E2E7 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g1-amber-bg": {
+      "value": "#F4E8DC80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, amber group (bg): JetBrains' F4E8DC mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g1-amber-a1-transparent": {
+      "value": "$grad-g1-amber-a1@0",
+      "element": "Transparent end of the amber project gradient",
+      "status": "designed"
+    },
+    "grad-g2-rust-a1": {
+      "value": "#F5E5D180 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, rust group (a1): JetBrains' F5E5D1 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g2-rust-a1-secondary": {
+      "value": "#F3E5D380 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, rust group (a1-secondary): JetBrains' F3E5D3 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g2-rust-a2": {
+      "value": "#F8E6E380 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, rust group (a2): JetBrains' F8E6E3 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g2-rust-bg": {
+      "value": "#F7E3DA80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, rust group (bg): JetBrains' F7E3DA mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g2-rust-a1-transparent": {
+      "value": "$grad-g2-rust-a1@0",
+      "element": "Transparent end of the rust project gradient",
+      "status": "designed"
+    },
+    "grad-g3-olive-a1": {
+      "value": "#E6F0C780 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, olive group (a1): JetBrains' E6F0C7 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g3-olive-a1-secondary": {
+      "value": "#DFEBD780 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, olive group (a1-secondary): JetBrains' DFEBD7 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g3-olive-a2": {
+      "value": "#D1EAD880 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, olive group (a2): JetBrains' D1EAD8 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g3-olive-bg": {
+      "value": "#DAE4D280 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, olive group (bg): JetBrains' DAE4D2 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g3-olive-a1-transparent": {
+      "value": "$grad-g3-olive-a1@0",
+      "element": "Transparent end of the olive project gradient",
+      "status": "designed"
+    },
+    "grad-g4-sky-a1": {
+      "value": "#C7E5FE80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, sky group (a1): JetBrains' C7E5FE mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g4-sky-a1-secondary": {
+      "value": "#C9DCF280 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, sky group (a1-secondary): JetBrains' C9DCF2 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g4-sky-a2": {
+      "value": "#D9DFF280 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, sky group (a2): JetBrains' D9DFF2 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g4-sky-bg": {
+      "value": "#C9DAF380 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, sky group (bg): JetBrains' C9DAF3 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g4-sky-a1-transparent": {
+      "value": "$grad-g4-sky-a1@0",
+      "element": "Transparent end of the sky project gradient",
+      "status": "designed"
+    },
+    "grad-g5-cobalt-a1": {
+      "value": "#D6DFFF80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, cobalt group (a1): JetBrains' D6DFFF mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g5-cobalt-a1-secondary": {
+      "value": "#CBDEF680 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, cobalt group (a1-secondary): JetBrains' CBDEF6 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g5-cobalt-a2": {
+      "value": "#CDE2F980 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, cobalt group (a2): JetBrains' CDE2F9 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g5-cobalt-bg": {
+      "value": "#CCD8F080 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, cobalt group (bg): JetBrains' CCD8F0 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g5-cobalt-a1-transparent": {
+      "value": "$grad-g5-cobalt-a1@0",
+      "element": "Transparent end of the cobalt project gradient",
+      "status": "designed"
+    },
+    "grad-g6-plum-a1": {
+      "value": "#F1DAE380 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, plum group (a1): JetBrains' F1DAE3 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g6-plum-a1-secondary": {
+      "value": "#EADCE480 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, plum group (a1-secondary): JetBrains' EADCE4 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g6-plum-a2": {
+      "value": "#E5DDF480 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, plum group (a2): JetBrains' E5DDF4 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g6-plum-bg": {
+      "value": "#E7D9E180 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, plum group (bg): JetBrains' E7D9E1 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g6-plum-a1-transparent": {
+      "value": "$grad-g6-plum-a1@0",
+      "element": "Transparent end of the plum project gradient",
+      "status": "designed"
+    },
+    "grad-g7-violet-a1": {
+      "value": "#E9DBF080 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, violet group (a1): JetBrains' E9DBF0 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g7-violet-a1-secondary": {
+      "value": "#E4DCEA80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, violet group (a1-secondary): JetBrains' E4DCEA mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g7-violet-a2": {
+      "value": "#DCDCF480 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, violet group (a2): JetBrains' DCDCF4 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g7-violet-bg": {
+      "value": "#D5D5F180 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, violet group (bg): JetBrains' D5D5F1 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g7-violet-a1-transparent": {
+      "value": "$grad-g7-violet-a1@0",
+      "element": "Transparent end of the violet project gradient",
+      "status": "designed"
+    },
+    "grad-g8-ocean-a1": {
+      "value": "#C5EDED80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, ocean group (a1): JetBrains' C5EDED mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g8-ocean-a1-secondary": {
+      "value": "#CDE7EF80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, ocean group (a1-secondary): JetBrains' CDE7EF mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g8-ocean-a2": {
+      "value": "#CEE5F380 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, ocean group (a2): JetBrains' CEE5F3 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g8-ocean-bg": {
+      "value": "#DADEEC80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, ocean group (bg): JetBrains' DADEEC mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g8-ocean-a1-transparent": {
+      "value": "$grad-g8-ocean-a1@0",
+      "element": "Transparent end of the ocean project gradient",
+      "status": "designed"
+    },
+    "grad-g9-grass-a1": {
+      "value": "#CCF0DA80 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, grass group (a1): JetBrains' CCF0DA mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g9-grass-a1-secondary": {
+      "value": "#DCE4D380 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, grass group (a1-secondary): JetBrains' DCE4D3 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g9-grass-a2": {
+      "value": "#E0E8D480 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, grass group (a2): JetBrains' E0E8D4 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g9-grass-bg": {
+      "value": "#CBE7D280 over $layer-0-bg",
+      "element": "Project colour gradient in the title row, grass group (bg): JetBrains' CBE7D2 mixed half and half with the frame, so every project glow stays in the theme's palette while projects remain distinguishable by hue",
+      "status": "designed"
+    },
+    "grad-g9-grass-a1-transparent": {
+      "value": "$grad-g9-grass-a1@0",
+      "element": "Transparent end of the grass project gradient",
+      "status": "designed"
+    },
+    "text-error": {
+      "value": "#B42318",
+      "element": "Error text in dialogs, fields and trees. JetBrains' red-80 C54E58 is 4.3:1 on white; the same red, deepened (6.6:1)",
+      "status": "designed",
+      "on": "$layer-1-bg"
+    },
+    "text-warning": {
+      "value": "#8A5A00",
+      "element": "Warning text. JetBrains' yellow-80 A56906 is 4.1:1 on white; the same amber, deepened (5.9:1)",
+      "status": "designed",
+      "on": "$layer-1-bg"
+    },
+    "accent-neutral-bg": {
+      "value": "$text-muted",
+      "element": "Neutral badges and counters (the notification count). JetBrains' gray-90 8B8E94 puts white numbers at 3.3:1; the theme's secondary text colour carries them at 7:1 or more",
+      "status": "designed",
+      "under": "$text-over-accent"
+    },
+    "control-border": {
+      "value": "$layer-0-border@160 over $layer-1-bg",
+      "element": "Border of text fields, combo boxes and buttons: the theme's hairline colour at 63 % over the dialog background, instead of JetBrains' neutral grey D1D3D9",
+      "status": "designed"
+    },
+    "tab-selected-bg-active": {
+      "value": "$selection-bg-active",
+      "element": "Selected tab in Search Everywhere and tabbed panes: the theme's selection fill instead of JetBrains' blue-150",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "tab-selected-bg-inactive": {
+      "value": "$selection-bg-inactive",
+      "element": "Selected tab when its group is not focused",
+      "status": "designed"
+    }
+  },
+  "ui": {
+    "Island.inactiveAlpha": {
+      "raw": 0.8,
+      "vsValue": "Visual Studio does not dim an unfocused window",
+      "element": "How strongly text and icons fade while the Rider window is not focused. JetBrains' 0.56 was measured to take tool strip icons to 2.5:1 and panel text to 3.9:1; at 0.8 the window still reads as unfocused while text and icons stay readable",
+      "status": "designed"
+    },
+    "EditorTabs.unselectedAlpha": {
+      "raw": 1.0,
+      "vsValue": "Visual Studio draws inactive tab names at full strength",
+      "element": "Opacity of unselected editor tabs. JetBrains' 0.75 faded the tab names (45474E on the tab well) and read as hard to read",
+      "status": "designed"
+    },
+    "Editor.Gutter.gapAfterVcsMarkersWidth": {
+      "raw": 12,
+      "vsValue": "line numbers start about 37 DIP from the panel edge, after the indicator margin",
+      "element": "Space left of the line numbers. In the new-UI gutter layout the gap directly before the line numbers is gapBeforeLineMarkersWidth(), which reads this key (EditorGutterLayout in the installed build)",
+      "status": "inferred"
+    },
+    "Editor.Gutter.gapAfterVcsMarkersWidth.compact": {
+      "raw": 12,
+      "vsValue": "same as Editor.Gutter.gapAfterVcsMarkersWidth",
+      "element": "Space left of the line numbers in compact mode. The platform's base theme sets this .compact variant to 2, and in compact mode it replaces the plain key (measured: the plain key alone changed nothing in Morning Mist, both together moved the digits from 6 to 23 px)",
+      "status": "inferred"
+    },
+    "ToggleButton.onBackground": {
+      "value": "$accent-brand-bg",
+      "element": "Toggle switch when on: the theme accent, as in Fluent (Visual Studio 2026) and instead of JetBrains' success green, which put the white knob at 3.3:1",
+      "status": "designed",
+      "under": "$text-over-accent",
+      "minContrast": 3
+    },
+    "SearchEverywhere.Tab.selectedForeground": {
+      "value": "$text-default",
+      "element": "Selected tab text in Search Everywhere: dark on the light selection fill (JetBrains' white was drawn for a blue fill)",
+      "status": "designed",
+      "on": "$tab-selected-bg-active"
+    },
+    "ProgressBar.indeterminateStartColor": {
+      "value": "$accent-brand-bg@102 over $layer-1-bg",
+      "element": "Start of the indeterminate progress bar: the accent at 40 %, instead of JetBrains' blue-120",
+      "status": "designed"
+    }
+  },
+  "iconPalette": {
+    "Checkbox.Background.Selected": {
+      "value": "$accent-brand-bg",
+      "element": "Checked check box fill in the theme's accent (JetBrains' blue 3574F0 in the base)",
+      "status": "designed",
+      "on": "$layer-1-bg",
+      "minContrast": 3
+    },
+    "Checkbox.Border.Selected": {
+      "value": "$accent-brand-bg",
+      "element": "Checked check box border",
+      "status": "designed"
+    },
+    "Checkbox.Focus.Wide": {
+      "value": "$accent-brand-bg@102 over $layer-1-bg",
+      "element": "Focus ring around a check box: the accent at 40 % over the dialog background",
+      "status": "designed"
+    }
+  }
+}

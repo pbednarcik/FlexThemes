@@ -1,0 +1,37 @@
+FlexThemes and its standalone theme plugins for JetBrains IDEs
+Copyright 2026 Peter Bednarčík
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Each plugin jar built from this repository contains files derived from works by JetBrains s.r.o.,
+licensed under the Apache License, Version 2.0. This product includes material from IntelliJ IDEA
+Community Edition, Copyright (C) JetBrains s.r.o., https://www.jetbrains.com/idea/:
+
+  * The UI themes (themes/*.theme.json) are derived from the Islands themes of the IntelliJ Platform,
+    https://github.com/JetBrains/intellij-community, directory platform/platform-resources/src/themes/islands:
+      - from "Islands Light" (ManyIslandsLight.theme.json): MorningMist, BlueMist, PeriwinkleIslands,
+        LavenderMistBlue, LavenderMistGold, LavenderMistIndigo
+      - from "Islands Dark" (ManyIslandsDark.theme.json): Graphite, PeriwinkleNight, Abyss
+    Changes: colour tokens, selected UI keys and the icon palette were replaced with values derived from
+    Visual Studio or designed for the theme; name, author and editor scheme were changed.
+
+  * The editor colour schemes (colorSchemes/*.xml) are derived from the colour schemes of the
+    Rider UI Theme Pack, https://github.com/JetBrains/rider-theme-pack:
+      - from "Visual Studio Light" (VisualStudioLight.xml): MorningMist, LavenderMist,
+        LavenderMistPurple, BlueMist, PeriwinkleIslands
+      - from "Visual Studio Dark" (VisualStudioDark.xml): Graphite, PeriwinkleNight, Abyss
+    Changes: selected colours and text attributes were replaced or added, including mappings for
+    Java, Kotlin, Go and Python; the schemes were renamed.
+
+The derived files are produced at build time from the JetBrains files shipped inside an installed Rider.
+The JetBrains originals are not part of this repository.
+
+The Morning Mist and Graphite colour values were read from the theme data of an installed copy of
+Microsoft Visual Studio 2026 (its Cool Breeze and Dark themes) and from screenshots of it. Blue Mist, Lavender Mist and Periwinkle Islands
+are designed themes inspired by the Blue theme of Visual Studio 2019/2022; Periwinkle Night and Abyss are
+designed themes of their own.
+No Microsoft artwork, icons, fonts or other assets are included.
+
+This project is not affiliated with, sponsored by or endorsed by Microsoft Corporation or JetBrains s.r.o.
+Visual Studio is a trademark of the Microsoft group of companies. JetBrains, IntelliJ IDEA, Rider, GoLand
+and PyCharm are trademarks of JetBrains s.r.o.

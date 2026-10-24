@@ -1,0 +1,13 @@
+# Build output
+build/
+dist/
+
+# Decoded Visual Studio theme data and personal exports. Regenerate with tools/decode_vs_theme.py;
+# the values a build uses are committed in src/vs-values/.
+data/
+
+# Personal overrides (see jetbrains/docs/overrides.example.json)
+personal/
+
+__pycache__/
+.ruff_cache/

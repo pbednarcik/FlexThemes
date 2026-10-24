@@ -1,0 +1,318 @@
+{
+  "attributes": {
+    "INLAY_DEFAULT": {
+      "FOREGROUND": "#5E5E5E",
+      "BACKGROUND": "#F0F0F0",
+      "element": "Inlay hints: C# parameter names and inferred types in Rider (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "INLAY_TEXT_WITHOUT_BACKGROUND": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Inlay hint text without a chip (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_DEFAULT": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Inlay button (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_FOCUSED": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Inlay button, focused (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_HOVERED": {
+      "FOREGROUND": "#5E5E5E",
+      "element": "Inlay button, hovered (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_HINT": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Inlay button hint (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "INLINE_SUGGESTION": {
+      "FOREGROUND": "#6E6E6E",
+      "FONT_TYPE": 2,
+      "element": "AI inline completion (ghost text), italic (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "TYPE_PARAMETER_NAME_ATTRIBUTES": {
+      "FOREGROUND": "#17708A",
+      "element": "Type parameter, generic fallback. Platform default 20999D is 3.4:1",
+      "status": "designed"
+    },
+    "ANNOTATION_NAME_ATTRIBUTES": {
+      "FOREGROUND": "#6B6B00",
+      "element": "Annotation name, generic fallback. Platform default 808000 is 4.2:1",
+      "status": "designed"
+    },
+    "RAINBOW_COLOR2": {
+      "FOREGROUND": "#9A5B2B",
+      "element": "Semantic highlighting colour 3 of 5. Platform default BC8650 is 3.2:1",
+      "status": "designed"
+    },
+    "CODE_VISION_DEFAULT": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Code Vision (usages, author) (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "INLINE_PARAMETER_HINT": {
+      "FOREGROUND": "#5E5E5E",
+      "BACKGROUND": "#F0F0F0",
+      "element": "Parameter name hints on a lavender chip (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "INLINE_PARAMETER_HINT_HIGHLIGHTED": {
+      "FOREGROUND": "#3D3D3D",
+      "BACKGROUND": "#DEDEDE",
+      "element": "Parameter hint of the argument at the caret (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "DEFAULT_VALID_STRING_ESCAPE": {
+      "FOREGROUND": "#9C1B75",
+      "element": "String escape. JetBrains' FF007F is 3.8:1",
+      "status": "designed"
+    },
+    "DEFAULT_INVALID_STRING_ESCAPE": {
+      "FOREGROUND": "#8B0000",
+      "element": "Invalid string escape, on JetBrains' pink",
+      "status": "designed"
+    },
+    "CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES": {
+      "FOREGROUND": "#8B0000",
+      "element": "Invalid string escape, custom file types",
+      "status": "designed"
+    },
+    "ReSharper.FORMAT_STRING_ITEM_2": {
+      "FOREGROUND": "#9A5B2B",
+      "element": "Format string placeholder",
+      "status": "designed"
+    },
+    "HYPERLINK_ATTRIBUTES": {
+      "FOREGROUND": "#1F5FD0",
+      "element": "Link in the editor, in the accent (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "CTRL_CLICKABLE": {
+      "FOREGROUND": "#1F5FD0",
+      "element": "Ctrl+hover navigation link (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "WRONG_REFERENCES_ATTRIBUTES": {
+      "FOREGROUND": "#C0141C",
+      "element": "Unresolved reference",
+      "status": "designed"
+    },
+    "XML_ATTRIBUTE_NAME": {
+      "FOREGROUND": "#C0141C",
+      "element": "XML attribute name: Visual Studio's red, deepened",
+      "status": "designed"
+    },
+    "HTML_ATTRIBUTE_NAME": {
+      "FOREGROUND": "#C0141C",
+      "element": "HTML attribute name",
+      "status": "designed"
+    },
+    "XML_ENTITY_REFERENCE": {
+      "FOREGROUND": "#C0141C",
+      "element": "XML entity reference",
+      "status": "designed"
+    },
+    "XML_CUSTOM_TAG_NAME": {
+      "FOREGROUND": "#0B6E6F",
+      "element": "XML custom tag name",
+      "status": "designed"
+    },
+    "DEFAULT_METADATA": {
+      "FOREGROUND": "#6B6B00",
+      "element": "Attributes and annotations",
+      "status": "designed"
+    },
+    "CUSTOM_LINE_COMMENT_ATTRIBUTES": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Line comment in custom file types (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Block comment in custom file types (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "DEBUGGER_INLINED_VALUES": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Debugger inline values (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "DEBUGGER_INLINED_VALUES_MODIFIED": {
+      "FOREGROUND": "#9A5B00",
+      "element": "Debugger inline value that changed",
+      "status": "designed"
+    },
+    "DEBUGGER_INLINED_VALUES_EXECUTION_LINE": {
+      "FOREGROUND": "#4F5D8C",
+      "element": "Debugger inline values on the execution line",
+      "status": "designed"
+    },
+    "ReSharper.IL_CODE_LABEL": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "IL viewer label (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "ReSharper.IL_INSTRUCTION": {
+      "FOREGROUND": "#9A5B2B",
+      "element": "IL viewer instruction",
+      "status": "designed"
+    },
+    "ReSharper.JS_XML_DOCUMENTATION_COMMENT": {
+      "FOREGROUND": "#5E5E5E",
+      "element": "JavaScript XML doc comment (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "ReSharper.LATE_BOUND_IDENTIFIER": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Late-bound identifier (VB) (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "ReSharper.ASP_NET_ROUTE_TEMPLATE_PARAMETER": {
+      "FOREGROUND": "#0A6E86",
+      "element": "ASP.NET route parameter",
+      "status": "designed"
+    },
+    "ReSharper.ASP_NET_ROUTE_TEMPLATE_TOKEN_SUBSTITUTION": {
+      "FOREGROUND": "#0A6E86",
+      "element": "ASP.NET route token",
+      "status": "designed"
+    },
+    "CONSOLE_GRAY_OUTPUT": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Console grey (run and test output) (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "LOG_EXPIRED_ENTRY": {
+      "FOREGROUND": "#6E6E6E",
+      "element": "Expired log entry (neutral default; themes tint it)",
+      "status": "designed"
+    },
+    "CONSOLE_GREEN_OUTPUT": {
+      "FOREGROUND": "#1F7A1F",
+      "element": "Console green",
+      "status": "designed"
+    },
+    "CONSOLE_GREEN_BRIGHT_OUTPUT": {
+      "FOREGROUND": "#2E7D32",
+      "element": "Console bright green",
+      "status": "designed"
+    },
+    "CONSOLE_USER_INPUT": {
+      "FOREGROUND": "#1F7A1F",
+      "element": "Console user input",
+      "status": "designed"
+    },
+    "LOG_INFO_OUTPUT": {
+      "FOREGROUND": "#1F7A1F",
+      "element": "Log info",
+      "status": "designed"
+    },
+    "CONSOLE_YELLOW_OUTPUT": {
+      "FOREGROUND": "#8A5A00",
+      "element": "Console yellow",
+      "status": "designed"
+    },
+    "CONSOLE_YELLOW_BRIGHT_OUTPUT": {
+      "FOREGROUND": "#9A5B00",
+      "element": "Console bright yellow",
+      "status": "designed"
+    },
+    "LOG_WARNING_OUTPUT": {
+      "FOREGROUND": "#8A5A00",
+      "element": "Log warning",
+      "status": "designed"
+    },
+    "CONSOLE_CYAN_OUTPUT": {
+      "FOREGROUND": "#00707A",
+      "element": "Console cyan",
+      "status": "designed"
+    },
+    "CONSOLE_CYAN_BRIGHT_OUTPUT": {
+      "FOREGROUND": "#0A6E86",
+      "element": "Console bright cyan",
+      "status": "designed"
+    },
+    "CONSOLE_BLUE_BRIGHT_OUTPUT": {
+      "FOREGROUND": "#1F5FD0",
+      "element": "Console bright blue",
+      "status": "designed"
+    },
+    "CONSOLE_RED_BRIGHT_OUTPUT": {
+      "FOREGROUND": "#C62828",
+      "element": "Console bright red",
+      "status": "designed"
+    },
+    "CONSOLE_MAGENTA_BRIGHT_OUTPUT": {
+      "FOREGROUND": "#A12AA6",
+      "element": "Console bright magenta",
+      "status": "designed"
+    },
+    "DEFAULT_CLASS_NAME": {
+      "FOREGROUND": "#17708A",
+      "element": "Class name, generic fallback for other languages",
+      "status": "designed"
+    },
+    "DEFAULT_INTERFACE_NAME": {
+      "FOREGROUND": "#17708A",
+      "element": "Interface name, generic fallback",
+      "status": "designed"
+    },
+    "LOG_DEBUG_OUTPUT": {
+      "FOREGROUND": "#6A6A6A",
+      "element": "Debug log line. JetBrains' 737373 drops to 4.3:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "CONSOLE_DARKGRAY_OUTPUT": {
+      "FOREGROUND": "#6A6A6A",
+      "element": "Console dark grey",
+      "status": "designed"
+    },
+    "RAINBOW_COLOR4": {
+      "FOREGROUND": "#A8403F",
+      "element": "Semantic highlighting colour 5 of 5. JetBrains' BC5150 drops to 4.3:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "JSON.PROPERTY_KEY": {
+      "FOREGROUND": "#2A6AA6",
+      "element": "JSON property key. JetBrains' 2F75B6 drops to 4.3:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "DIFF_DELETED_FROM_FS": {
+      "BACKGROUND": "#7FAAF0",
+      "element": "Diff: file deleted on disk. JetBrains' blue 387EE7 carries plain text at 4.2:1; the same blue, lighter",
+      "status": "designed"
+    }
+  },
+  "contrastExempt": {
+    "CONSOLE_WHITE_OUTPUT": "ANSI white is meant for dark consoles; programs that print it on a light console are unreadable in every light theme",
+    "LINE_FULL_COVERAGE": "a gutter marker colour for code coverage, not text",
+    "LINE_PARTIAL_COVERAGE": "a gutter marker colour for code coverage, not text",
+    "LINE_NONE_COVERAGE": "a gutter marker colour for code coverage, not text",
+    "DELETED_TEXT_ATTRIBUTES": "deleted text shown struck through in diffs; faded on purpose",
+    "INLINE_PROMPT_PROGRESS_LIGHT": "the shimmer fill of an AI prompt in progress, not text",
+    "BLOCK_TERMINAL_BLACK": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_RED": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_GREEN": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_YELLOW": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_BLUE": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_MAGENTA": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_CYAN": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_WHITE": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_BLACK_BRIGHT": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_RED_BRIGHT": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_GREEN_BRIGHT": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_YELLOW_BRIGHT": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_BLUE_BRIGHT": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_MAGENTA_BRIGHT": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_CYAN_BRIGHT": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "BLOCK_TERMINAL_WHITE_BRIGHT": "terminal ANSI palette (see BLOCK_TERMINAL_BLACK)",
+    "INLINE_PROMPT_PROGRESS_DARK": "the shimmer of an AI prompt in progress, not text"
+  }
+}

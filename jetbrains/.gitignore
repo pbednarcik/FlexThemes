@@ -1,0 +1,18 @@
+# Build output
+build/
+dist/
+
+# Local release snapshots (packages, screenshots, IDE logs). Jars are published as GitHub release assets.
+releases/
+# Local audit reports; their screenshots live in the ignored release snapshots above.
+reports/
+
+# Decoded Visual Studio theme data and personal exports. Regenerate with tools/decode_vs_theme.py;
+# the values a build uses are committed in src/vs-values/.
+data/
+
+# Personal overrides (see docs/overrides.example.json)
+personal/
+
+__pycache__/
+.ruff_cache/

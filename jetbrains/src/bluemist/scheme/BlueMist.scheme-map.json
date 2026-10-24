@@ -1,0 +1,430 @@
+{
+  "extends": "../../lavender/scheme/LavenderMist.scheme-map.json",
+  "name": "Blue Mist",
+  "fileName": "BlueMist",
+  "colors": {
+    "LINE_NUMBERS_COLOR": {
+      "value": "#6B6B6B",
+      "element": "Line numbers. Blue's 7A7A7A is 4.29:1 on white; 6B6B6B matches the other greys of this scheme",
+      "status": "designed",
+      "vsValue": "Text Editor MEF Items.Line Number = 7A7A7A"
+    },
+    "LINE_NUMBER_ON_CARET_ROW_COLOR": {
+      "value": "vs:Text Editor MEF Items|Selected Line Number|fg",
+      "element": "Line number of the caret row",
+      "status": "ms-blue"
+    },
+    "CARET_ROW_COLOR": {
+      "value": "#F2F5FD",
+      "element": "Caret line: a faint periwinkle fill (Visual Studio outlines the line; Rider can only fill it)",
+      "status": "designed"
+    },
+    "CARET_COLOR": {
+      "value": "#000000",
+      "element": "Caret, black as in Visual Studio",
+      "status": "vs-default"
+    },
+    "SELECTION_BACKGROUND": {
+      "value": "vs:TreeView|SelectedItemActive",
+      "element": "Text selection: Blue's periwinkle selection. Blue's editor selection 5CA9E5 was drawn solid by Rider and took type names inside a selection to 1.8:1 and comments to 2.0:1; Visual Studio may draw it translucent (not verified). C4D5FF is Blue's own tree selection and keeps every syntax colour at 3:1 or more",
+      "status": "ms-blue"
+    },
+    "GUTTER_BACKGROUND": {
+      "value": "#F7F9FE",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "EDITOR_GUTTER_BACKGROUND": {
+      "value": "#F7F9FE",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "INDENT_GUIDE": {
+      "value": "#D0DBE8",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    },
+    "SELECTED_INDENT_GUIDE": {
+      "value": "#91A4BF",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    }
+  },
+  "attributes": {
+    "TEXT": {
+      "FOREGROUND": "#000000",
+      "BACKGROUND": "#FFFFFF",
+      "element": "Plain text, black on white",
+      "status": "vs-default"
+    },
+    "DEFAULT_KEYWORD": {
+      "FOREGROUND": "#0000FF",
+      "element": "Keyword",
+      "status": "vs-default"
+    },
+    "ReSharper.CONTROL_FLOW_KEYWORD": {
+      "FOREGROUND": "#8F08C4",
+      "element": "Control-flow keyword",
+      "status": "vs-default"
+    },
+    "ReSharper.CONTROL_TRANSFER_KEYWORD": {
+      "FOREGROUND": "#8F08C4",
+      "element": "Control-transfer keyword",
+      "status": "vs-default"
+    },
+    "DEFAULT_STRING": {
+      "FOREGROUND": "#A31515",
+      "element": "String",
+      "status": "vs-default"
+    },
+    "DEFAULT_LINE_COMMENT": {
+      "FOREGROUND": "#008000",
+      "element": "Line comment",
+      "status": "vs-default"
+    },
+    "DEFAULT_BLOCK_COMMENT": {
+      "FOREGROUND": "#008000",
+      "element": "Block comment",
+      "status": "vs-default"
+    },
+    "DEFAULT_DOC_COMMENT": {
+      "FOREGROUND": "#008000",
+      "element": "Doc comment text",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT": {
+      "FOREGROUND": "#008000",
+      "element": "C# doc comment text",
+      "status": "vs-default"
+    },
+    "DEFAULT_DOC_COMMENT_TAG": {
+      "FOREGROUND": "#6B6B6B",
+      "element": "Doc comment tag. Visual Studio's 808080 is 3.95:1; grey deepened to stay at 4.5:1 on the caret line (4.9:1)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT_TAG_NAME": {
+      "FOREGROUND": "#6B6B6B",
+      "element": "C# doc comment tag name",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_PREPROCESSOR_KEYWORD": {
+      "FOREGROUND": "#6B6B6B",
+      "element": "Preprocessor keyword. Blue's 808080 is 3.95:1; grey deepened to stay at 4.5:1 on the caret line (4.9:1)",
+      "status": "designed"
+    },
+    "ReSharper.PREPROCESSOR_KEYWORD": {
+      "FOREGROUND": "#6B6B6B",
+      "element": "Preprocessor keyword (generic)",
+      "status": "designed"
+    },
+    "CODE_VISION_DEFAULT": {
+      "FOREGROUND": "#6B6B6B",
+      "element": "Code Vision (CodeLens). Blue's 8F8F8F is 3.2:1; grey deepened to stay at 4.5:1 on the caret line (4.9:1)",
+      "status": "designed"
+    },
+    "DEFAULT_VALID_STRING_ESCAPE": {
+      "FOREGROUND": "#8E4FD6",
+      "element": "String escape. Blue's B776FB is 3.0:1; the same violet, deepened",
+      "status": "designed"
+    },
+    "INLINE_PARAMETER_HINT": {
+      "FOREGROUND": "vs:Text Editor MEF Items|inlay hints|fg",
+      "BACKGROUND": "vs:Text Editor MEF Items|inlay hints",
+      "element": "Parameter name hints: Blue's lavender chip",
+      "status": "ms-blue"
+    },
+    "INLAY_DEFAULT": {
+      "FOREGROUND": "vs:Text Editor MEF Items|inlay hints|fg",
+      "BACKGROUND": "vs:Text Editor MEF Items|inlay hints",
+      "element": "Inlay hints as Rider draws them for C#: Blue's lavender chip",
+      "status": "ms-blue"
+    },
+    "INLINE_PARAMETER_HINT_HIGHLIGHTED": {
+      "FOREGROUND": "#000000",
+      "BACKGROUND": "#D8D8F4",
+      "element": "Parameter hint of the argument at the caret",
+      "status": "designed"
+    },
+    "UNMATCHED_BRACE_ATTRIBUTES": {
+      "FOREGROUND": "vs:Text Editor MEF Items|mismatched brace|fg",
+      "BACKGROUND": null,
+      "element": "Mismatched brace (VS colours the brace itself and draws no background; Visual Studio Light's FFB496 fill left it at 3.53:1)",
+      "status": "ms-blue"
+    },
+    "HYPERLINK_ATTRIBUTES": {
+      "FOREGROUND": "vs:Environment|ControlLinkText",
+      "element": "Link in the editor, Blue's link colour",
+      "status": "ms-blue"
+    },
+    "CTRL_CLICKABLE": {
+      "FOREGROUND": "vs:Environment|ControlLinkText",
+      "element": "Ctrl+hover navigation link",
+      "status": "ms-blue"
+    },
+    "ReSharper.CSHARP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Class name. Visual Studio's 2B91AF is 3.64:1 on white; the same teal deepened to 227890 so it stays at 4.5:1 on the caret line (4.6:1) and 3:1 inside a selection",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Static class name",
+      "status": "designed"
+    },
+    "ReSharper.STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Static class name (generic)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Record name",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Struct name",
+      "status": "designed"
+    },
+    "ReSharper.STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Struct name (generic)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Record struct name",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_INTERFACE_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Interface name",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Enum name",
+      "status": "designed"
+    },
+    "ReSharper.ENUM_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Enum name (generic)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Delegate name",
+      "status": "designed"
+    },
+    "ReSharper.DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Delegate name (generic)",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Type parameter",
+      "status": "designed"
+    },
+    "ReSharper.TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "Type parameter (generic)",
+      "status": "designed"
+    },
+    "DEFAULT_CLASS_NAME": {
+      "FOREGROUND": "#227890",
+      "element": "Class name, generic fallback",
+      "status": "designed"
+    },
+    "DEFAULT_INTERFACE_NAME": {
+      "FOREGROUND": "#227890",
+      "element": "Interface name, generic fallback",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#74531F",
+      "element": "Method name",
+      "status": "vs-default"
+    },
+    "DEFAULT_INSTANCE_METHOD": {
+      "FOREGROUND": "#74531F",
+      "element": "Generic method name, which Rider also uses for C# methods; kept equal to Blue Mist's C# method colour instead of Lavender's 8A4B08",
+      "status": "vs-default"
+    },
+    "DEFAULT_STATIC_METHOD": {
+      "FOREGROUND": "#74531F",
+      "element": "Generic static method name, as above",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_STATIC_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#74531F",
+      "element": "Static method name",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_LOCAL_FUNCTION_IDENTIFIER": {
+      "FOREGROUND": "#74531F",
+      "element": "Local function name",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#74531F",
+      "element": "Extension method name",
+      "status": "vs-default"
+    },
+    "ReSharper.EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#74531F",
+      "element": "Extension method name (generic)",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#1F377F",
+      "element": "Local variable",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#1F377F",
+      "element": "Mutable local variable",
+      "status": "vs-default"
+    },
+    "ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#1F377F",
+      "element": "Mutable local variable (generic)",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#1F377F",
+      "element": "Parameter, the same navy as locals, as in Visual Studio",
+      "status": "vs-default"
+    },
+    "DEFAULT_PARAMETER": {
+      "FOREGROUND": "#1F377F",
+      "element": "Parameter, generic fallback",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_FIELD_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Field: plain text, as in Visual Studio",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_STATIC_FIELD_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Static field",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_CONSTANT_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Constant",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Property",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_STATIC_PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Static property",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_EVENT_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Event",
+      "status": "vs-default"
+    },
+    "ReSharper.PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Property (generic)",
+      "status": "vs-default"
+    },
+    "ReSharper.EVENT_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Event (generic)",
+      "status": "vs-default"
+    },
+    "DEFAULT_INSTANCE_FIELD": {
+      "FOREGROUND": "#000000",
+      "element": "Field, generic fallback",
+      "status": "vs-default"
+    },
+    "DEFAULT_STATIC_FIELD": {
+      "FOREGROUND": "#000000",
+      "element": "Static field, generic fallback",
+      "status": "vs-default"
+    },
+    "ReSharper.CSHARP_NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Namespace",
+      "status": "vs-default"
+    },
+    "ReSharper.NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Namespace (generic)",
+      "status": "vs-default"
+    },
+    "ReSharper.CPP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "C++ class in Blue Mist's type teal",
+      "status": "designed"
+    },
+    "ReSharper.CPP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "C++ enum in Blue Mist's type teal",
+      "status": "designed"
+    },
+    "ReSharper.CPP_LOCAL_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "C++ local typedef in Blue Mist's type teal",
+      "status": "designed"
+    },
+    "ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "C++ overloaded operator in Blue Mist's type teal",
+      "status": "designed"
+    },
+    "ReSharper.CPP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "C++ struct in Blue Mist's type teal",
+      "status": "designed"
+    },
+    "ReSharper.CPP_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "C++ typedef in Blue Mist's type teal",
+      "status": "designed"
+    },
+    "ReSharper.CPP_UNION_IDENTIFIER": {
+      "FOREGROUND": "#227890",
+      "element": "C++ union in Blue Mist's type teal",
+      "status": "designed"
+    },
+    "NOT_USED_ELEMENT_ATTRIBUTES": {
+      "FOREGROUND": "#60708A",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    }
+  },
+  "languageMappings": "src/common/language-mappings.json",
+  "semanticRoles": {
+    "keyword": "DEFAULT_KEYWORD",
+    "type": "ReSharper.CSHARP_CLASS_IDENTIFIER",
+    "function": "ReSharper.CSHARP_METHOD_IDENTIFIER",
+    "local": "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER",
+    "parameter": "ReSharper.CSHARP_PARAMETER_IDENTIFIER",
+    "member": "ReSharper.CSHARP_FIELD_IDENTIFIER",
+    "string": "DEFAULT_STRING",
+    "number": "DEFAULT_NUMBER",
+    "comment": "DEFAULT_LINE_COMMENT",
+    "docTag": "DEFAULT_DOC_COMMENT_TAG",
+    "escape": "DEFAULT_VALID_STRING_ESCAPE",
+    "invalidEscape": "DEFAULT_INVALID_STRING_ESCAPE",
+    "metadata": "DEFAULT_METADATA",
+    "text": "TEXT",
+    "predefined": "DEFAULT_KEYWORD",
+    "control": "ReSharper.CONTROL_FLOW_KEYWORD",
+    "interface": "ReSharper.CSHARP_INTERFACE_IDENTIFIER",
+    "struct": "ReSharper.CSHARP_STRUCT_IDENTIFIER",
+    "enum": "ReSharper.CSHARP_ENUM_IDENTIFIER",
+    "delegate": "ReSharper.CSHARP_DELEGATE_IDENTIFIER",
+    "typeParameter": "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER",
+    "docComment": "ReSharper.CSHARP_DOC_COMMENT"
+  }
+}

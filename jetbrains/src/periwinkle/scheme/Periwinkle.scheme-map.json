@@ -1,0 +1,388 @@
+{
+  "extends": "../../lavender/scheme/LavenderMistPurple.scheme-map.json",
+  "name": "Periwinkle Islands",
+  "fileName": "PeriwinkleIslands",
+  "colors": {
+    "EDITOR_GUTTER_BACKGROUND": {
+      "value": "#EEF0FA",
+      "element": "New UI and Islands gutter background: the same faint periwinkle tint as the classic gutter",
+      "status": "designed"
+    },
+    "GUTTER_BACKGROUND": {
+      "value": "#EEF0FA",
+      "element": "Faint periwinkle gutter behind line numbers",
+      "status": "designed"
+    },
+    "CARET_ROW_COLOR": {
+      "value": "#F2F5FD",
+      "element": "Caret line: a faint periwinkle fill",
+      "status": "designed"
+    },
+    "SELECTION_BACKGROUND": {
+      "value": "vs:TreeView|SelectedItemActive",
+      "element": "Text selection in Blue's periwinkle",
+      "status": "ms-blue"
+    },
+    "DOCUMENTATION_COLOR": {
+      "value": "#F7F9FE",
+      "element": "Documentation surface matches the cool tool-pane colour",
+      "status": "designed"
+    },
+    "INDENT_GUIDE": {
+      "value": "#D6DAED",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    },
+    "SELECTED_INDENT_GUIDE": {
+      "value": "#98A2C3",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    }
+  },
+  "attributes": {
+    "ReSharper.CONTROL_FLOW_KEYWORD": {
+      "FOREGROUND": "#8704D4",
+      "element": "Control-flow keyword. Periwinkle Islands palette: the keyword violet; the earlier blue 0072B8 was almost the type blue 036ED4",
+      "status": "designed"
+    },
+    "ReSharper.CONTROL_TRANSFER_KEYWORD": {
+      "FOREGROUND": "#8704D4",
+      "element": "Control-transfer keyword, in the same keyword violet as control flow",
+      "status": "designed"
+    },
+    "INLINE_PARAMETER_HINT": {
+      "FOREGROUND": "#4E5670",
+      "BACKGROUND": "#EEF1FB",
+      "element": "Parameter name hints on a periwinkle chip",
+      "status": "designed"
+    },
+    "INLAY_DEFAULT": {
+      "FOREGROUND": "#4E5670",
+      "BACKGROUND": "#EEF1FB",
+      "element": "Inlay hints (C# parameter names and inferred types) on a periwinkle chip",
+      "status": "designed"
+    },
+    "DEFAULT_NUMBER": {
+      "FOREGROUND": "#000000",
+      "element": "Existing DEFAULT_NUMBER colour pinned as the cross-language palette anchor",
+      "status": "inherited"
+    },
+    "BREADCRUMBS_CURRENT": {
+      "element": "Breadcrumbs use the existing Periwinkle UI palette",
+      "status": "designed",
+      "BACKGROUND": "#ECE3FA",
+      "FOREGROUND": "#5C2D91"
+    },
+    "BREADCRUMBS_DEFAULT": {
+      "element": "Breadcrumbs use the existing Periwinkle UI palette",
+      "status": "designed",
+      "FOREGROUND": "#4E5670"
+    },
+    "NOT_USED_ELEMENT_ATTRIBUTES": {
+      "FOREGROUND": "#6E6A80",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    },
+    "TYPE_PARAMETER_NAME_ATTRIBUTES": {
+      "FOREGROUND": "#036ED4",
+      "element": "Type parameter, generic fallback. Platform default 20999D is 3.4:1. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "DEFAULT_CLASS_NAME": {
+      "FOREGROUND": "#036ED4",
+      "element": "Class name, generic fallback for other languages. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "DEFAULT_INTERFACE_NAME": {
+      "FOREGROUND": "#036ED4",
+      "element": "Interface name, generic fallback. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "DEFAULT_LINE_COMMENT": {
+      "FOREGROUND": "#027A1F",
+      "element": "Line comment. Visual Studio's 008000, softened to a calmer green at the same contrast. Periwinkle Islands palette: comment green, 5.5:1",
+      "status": "designed"
+    },
+    "DEFAULT_BLOCK_COMMENT": {
+      "FOREGROUND": "#027A1F",
+      "element": "Block comment. Periwinkle Islands palette: comment green, 5.5:1",
+      "status": "designed"
+    },
+    "DEFAULT_DOC_COMMENT": {
+      "FOREGROUND": "#027A1F",
+      "element": "Doc comment text. Periwinkle Islands palette: comment green, 5.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT": {
+      "FOREGROUND": "#027A1F",
+      "element": "C# doc comment text. Periwinkle Islands palette: comment green, 5.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Class name. Visual Studio's teal 2B91AF is 3.64:1 on white, below the minimum; the same hue, deepened. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Static class name. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Static class name (generic). Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Record name. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Struct name. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Struct name (generic). Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Record struct name. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_INTERFACE_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Interface name. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Enum name. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.ENUM_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Enum name (generic). Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Delegate name. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Delegate name (generic). Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Type parameter. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "Type parameter (generic). Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_FIELD_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Field (Visual Studio leaves members as plain text). Periwinkle Islands palette: members in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_FIELD_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Static field. Periwinkle Islands palette: members in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_CONSTANT_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Constant. Periwinkle Islands palette: members in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Property. Periwinkle Islands palette: members in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Static property. Periwinkle Islands palette: members in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_EVENT_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Event. Periwinkle Islands palette: members in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Property (generic). Periwinkle Islands palette: members in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.EVENT_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Event (generic). Periwinkle Islands palette: members in plain black text",
+      "status": "designed"
+    },
+    "DEFAULT_INSTANCE_FIELD": {
+      "FOREGROUND": "#000000",
+      "element": "Field, generic fallback. Periwinkle Islands palette: members in plain black text",
+      "status": "designed"
+    },
+    "DEFAULT_STATIC_FIELD": {
+      "FOREGROUND": "#000000",
+      "element": "Static field, generic fallback. Periwinkle Islands palette: members in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.CPP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "C++ class. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "C++ enum. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_LOCAL_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "C++ local typedef. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "C++ overloaded operator. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "C++ struct. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "C++ typedef. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_UNION_IDENTIFIER": {
+      "FOREGROUND": "#036ED4",
+      "element": "C++ union. Periwinkle Islands palette: type blue, 5.0:1",
+      "status": "designed"
+    },
+    "TEXT": {
+      "FOREGROUND": "#000000",
+      "BACKGROUND": "#FFFFFF",
+      "element": "Plain text: Blue's text colour on white. Periwinkle Islands palette: plain text in pure black",
+      "status": "designed"
+    },
+    "DEFAULT_KEYWORD": {
+      "FOREGROUND": "#8704D4",
+      "element": "Keyword. Periwinkle Islands palette: keyword violet, 7.0:1",
+      "status": "designed"
+    },
+    "DEFAULT_STRING": {
+      "FOREGROUND": "#B4011C",
+      "element": "String. Visual Studio's A31515, slightly softened. Periwinkle Islands palette: string red, 7.1:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#804601",
+      "element": "Method name. Visual Studio's brown 74531F turned slightly warmer. Periwinkle Islands palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "DEFAULT_INSTANCE_METHOD": {
+      "FOREGROUND": "#804601",
+      "element": "Generic method name, which Rider also uses for C# methods (seen in a Periwinkle Night capture); kept equal to the C# method colour instead of the inherited 74531F. Periwinkle Islands palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "DEFAULT_STATIC_METHOD": {
+      "FOREGROUND": "#804601",
+      "element": "Generic static method name, as above. Periwinkle Islands palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#804601",
+      "element": "Static method name. Periwinkle Islands palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_LOCAL_FUNCTION_IDENTIFIER": {
+      "FOREGROUND": "#804601",
+      "element": "Local function name. Periwinkle Islands palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#804601",
+      "element": "Extension method name. Periwinkle Islands palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "ReSharper.EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#804601",
+      "element": "Extension method name (generic). Periwinkle Islands palette: method amber, 7.5:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Local variable. Periwinkle Islands palette: locals in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Mutable local variable. Periwinkle Islands palette: locals in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Mutable local variable (generic). Periwinkle Islands palette: locals in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Parameter. Periwinkle Islands palette: parameters in plain black text",
+      "status": "designed"
+    },
+    "DEFAULT_PARAMETER": {
+      "FOREGROUND": "#000000",
+      "element": "Parameter, generic fallback. Periwinkle Islands palette: parameters in plain black text",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Namespace. Periwinkle Islands palette: plain text in pure black",
+      "status": "designed"
+    },
+    "ReSharper.NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#000000",
+      "element": "Namespace (generic). Periwinkle Islands palette: plain text in pure black",
+      "status": "designed"
+    }
+  },
+  "languageMappings": "src/common/language-mappings.json",
+  "semanticRoles": {
+    "keyword": "DEFAULT_KEYWORD",
+    "type": "ReSharper.CSHARP_CLASS_IDENTIFIER",
+    "function": "ReSharper.CSHARP_METHOD_IDENTIFIER",
+    "local": "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER",
+    "parameter": "ReSharper.CSHARP_PARAMETER_IDENTIFIER",
+    "member": "ReSharper.CSHARP_FIELD_IDENTIFIER",
+    "string": "DEFAULT_STRING",
+    "number": "DEFAULT_NUMBER",
+    "comment": "DEFAULT_LINE_COMMENT",
+    "docTag": "DEFAULT_DOC_COMMENT_TAG",
+    "escape": "DEFAULT_VALID_STRING_ESCAPE",
+    "invalidEscape": "DEFAULT_INVALID_STRING_ESCAPE",
+    "metadata": "DEFAULT_METADATA",
+    "text": "TEXT",
+    "predefined": "DEFAULT_KEYWORD",
+    "control": "ReSharper.CONTROL_FLOW_KEYWORD",
+    "interface": "ReSharper.CSHARP_INTERFACE_IDENTIFIER",
+    "struct": "ReSharper.CSHARP_STRUCT_IDENTIFIER",
+    "enum": "ReSharper.CSHARP_ENUM_IDENTIFIER",
+    "delegate": "ReSharper.CSHARP_DELEGATE_IDENTIFIER",
+    "typeParameter": "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER",
+    "docComment": "ReSharper.CSHARP_DOC_COMMENT"
+  }
+}

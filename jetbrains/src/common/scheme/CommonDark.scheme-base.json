@@ -1,0 +1,388 @@
+{
+  "attributes": {
+    "CONSOLE_BLUE_OUTPUT": {
+      "FOREGROUND": "#5AA9E6",
+      "element": "Console blue on a dark console. Darcula's 2683BD is 4.0:1",
+      "status": "designed"
+    },
+    "LOG_VERBOSE_OUTPUT": {
+      "FOREGROUND": "#5AA9E6",
+      "element": "Verbose log line",
+      "status": "designed"
+    },
+    "CONSOLE_ERROR_OUTPUT": {
+      "FOREGROUND": "#F28B82",
+      "element": "Console error output. Darcula's D62525 is 3.3:1",
+      "status": "designed"
+    },
+    "CONSOLE_RED_OUTPUT": {
+      "FOREGROUND": "#F28B82",
+      "element": "Console red",
+      "status": "designed"
+    },
+    "LOG_ERROR_OUTPUT": {
+      "FOREGROUND": "#F28B82",
+      "element": "Log error line",
+      "status": "designed"
+    },
+    "CONSOLE_MAGENTA_OUTPUT": {
+      "FOREGROUND": "#D38AD6",
+      "element": "Console magenta. Darcula's AA3AAA is 3.1:1",
+      "status": "designed"
+    },
+    "CSS.URL": {
+      "FOREGROUND": "#5CA8F0",
+      "element": "URL in CSS",
+      "status": "designed"
+    },
+    "CTRL_CLICKABLE": {
+      "FOREGROUND": "#5CA8F0",
+      "element": "Ctrl+hover navigation link. Darcula's 287BDE is 4.0:1",
+      "status": "designed"
+    },
+    "HYPERLINK_ATTRIBUTES": {
+      "FOREGROUND": "#5CA8F0",
+      "element": "Link in the editor",
+      "status": "designed"
+    },
+    "FOLLOWED_HYPERLINK_ATTRIBUTES": {
+      "FOREGROUND": "#B39DDB",
+      "element": "Visited link",
+      "status": "designed"
+    },
+    "ReSharper.ST_PATH": {
+      "FOREGROUND": "#5CA8F0",
+      "element": "Path in a string template",
+      "status": "designed"
+    },
+    "CUSTOM_KEYWORD2_ATTRIBUTES": {
+      "FOREGROUND": "#C586C0",
+      "element": "Keyword group 2 in custom file types",
+      "status": "designed"
+    },
+    "CUSTOM_STRING_ATTRIBUTES": {
+      "FOREGROUND": "#9CC28A",
+      "element": "String in custom file types",
+      "status": "designed"
+    },
+    "CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES": {
+      "FOREGROUND": "#A5A5FF",
+      "element": "String escape in custom file types. 4646F1 is 2.7:1",
+      "status": "designed"
+    },
+    "DEFAULT_INVALID_STRING_ESCAPE": {
+      "FOREGROUND": "#F28B82",
+      "element": "Invalid string escape, in the error red",
+      "status": "designed"
+    },
+    "DEBUGGER_INLINED_VALUES": {
+      "FOREGROUND": "#9AA0A8",
+      "element": "Debugger inline values. 666D75 is 3.2:1",
+      "status": "designed"
+    },
+    "HTML_TAG": {
+      "FOREGROUND": "#A0A0A0",
+      "element": "HTML tag",
+      "status": "designed"
+    },
+    "XML_TAG": {
+      "FOREGROUND": "#A0A0A0",
+      "element": "XML tag",
+      "status": "designed"
+    },
+    "XML_PROLOGUE": {
+      "FOREGROUND": "#A0A0A0",
+      "element": "XML prologue",
+      "status": "designed"
+    },
+    "PROPERTIES.KEY_VALUE_SEPARATOR": {
+      "FOREGROUND": "#A0A0A0",
+      "element": "Properties key/value separator",
+      "status": "designed"
+    },
+    "INLINE_SUGGESTION": {
+      "FOREGROUND": "#A0A0A0",
+      "element": "AI inline completion (ghost text), italic",
+      "status": "designed",
+      "FONT_TYPE": 2
+    },
+    "INLAY_DEFAULT": {
+      "FOREGROUND": "#B0B0B0",
+      "element": "Inlay hints (C# parameter names, inferred types). Darcula's 787878 on 3B3B3B is 2.5:1",
+      "status": "designed",
+      "BACKGROUND": "#333333"
+    },
+    "INLINE_PARAMETER_HINT": {
+      "FOREGROUND": "#B0B0B0",
+      "element": "Parameter name hint",
+      "status": "designed",
+      "BACKGROUND": "#333333"
+    },
+    "INLINE_PARAMETER_HINT_HIGHLIGHTED": {
+      "FOREGROUND": "#E0E0E0",
+      "element": "Parameter hint of the argument at the caret",
+      "status": "designed",
+      "BACKGROUND": "#454545"
+    },
+    "INLINE_PARAMETER_HINT_CURRENT": {
+      "FOREGROUND": "#E6E6E6",
+      "element": "Parameter hint, current",
+      "status": "designed",
+      "BACKGROUND": "#305D78"
+    },
+    "INLAY_TEXT_WITHOUT_BACKGROUND": {
+      "FOREGROUND": "#A0A0A0",
+      "element": "Inlay hint text without a chip",
+      "status": "designed"
+    },
+    "CODE_VISION_DEFAULT": {
+      "FOREGROUND": "#A0A0A0",
+      "element": "Code Vision (usages, author). 787878 is 3.8:1",
+      "status": "designed"
+    },
+    "ReSharper.IL_CODE_LABEL": {
+      "FOREGROUND": "#A0A0A0",
+      "element": "IL viewer label",
+      "status": "designed"
+    },
+    "Scala Type Alias": {
+      "FOREGROUND": "#5FB3AE",
+      "element": "Scala type alias",
+      "status": "designed"
+    },
+    "Scala Type parameter": {
+      "FOREGROUND": "#5FB3AE",
+      "element": "Scala type parameter",
+      "status": "designed"
+    },
+    "Static method access": {
+      "FOREGROUND": "#B09CD4",
+      "element": "Static method access (generic)",
+      "status": "designed"
+    },
+    "TYPE_PARAMETER_NAME_ATTRIBUTES": {
+      "FOREGROUND": "#6FB3A8",
+      "element": "Type parameter, generic fallback",
+      "status": "designed"
+    },
+    "RAINBOW_COLOR2": {
+      "FOREGROUND": "#5FA8A8",
+      "element": "Semantic highlighting colour 3 of 5",
+      "status": "designed"
+    },
+    "RAINBOW_COLOR4": {
+      "FOREGROUND": "#C07AA6",
+      "element": "Semantic highlighting colour 5 of 5",
+      "status": "designed"
+    },
+    "RAINBOW_COLOR1": {
+      "FOREGROUND": "#D08585",
+      "element": "Semantic highlighting colour 2 of 5. BE7070 is 4.4:1 on a tinted dark editor",
+      "status": "designed"
+    },
+    "CONSOLE_CYAN_OUTPUT": {
+      "FOREGROUND": "#2FB8B8",
+      "element": "Console cyan. 009696 is 4.5:1 only on pure grey",
+      "status": "designed"
+    },
+    "WRONG_REFERENCES_ATTRIBUTES": {
+      "FOREGROUND": "#FF6B6B",
+      "element": "Unresolved reference. FF3333 is 4.4:1 on a tinted dark editor",
+      "status": "designed"
+    },
+    "ReSharper.IL_INSTRUCTION": {
+      "FOREGROUND": "#E0853D",
+      "element": "IL viewer instruction",
+      "status": "designed"
+    },
+    "CSS.IMPORTANT": {
+      "FOREGROUND": "#D9904E",
+      "element": "CSS.IMPORTANT: Darcula's orange CC7832, lifted to hold 4.5:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "CUSTOM_KEYWORD1_ATTRIBUTES": {
+      "FOREGROUND": "#D9904E",
+      "element": "CUSTOM_KEYWORD1_ATTRIBUTES: Darcula's orange CC7832, lifted to hold 4.5:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "JSP_DIRECTIVE_NAME": {
+      "FOREGROUND": "#D9904E",
+      "element": "JSP_DIRECTIVE_NAME: Darcula's orange CC7832, lifted to hold 4.5:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "PROPERTIES.KEY": {
+      "FOREGROUND": "#D9904E",
+      "element": "PROPERTIES.KEY: Darcula's orange CC7832, lifted to hold 4.5:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "REGEXP.ESC_CHARACTER": {
+      "FOREGROUND": "#D9904E",
+      "element": "REGEXP.ESC_CHARACTER: Darcula's orange CC7832, lifted to hold 4.5:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "REGEXP.META": {
+      "FOREGROUND": "#D9904E",
+      "element": "REGEXP.META: Darcula's orange CC7832, lifted to hold 4.5:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "REGEXP.QUOTE_CHARACTER": {
+      "FOREGROUND": "#D9904E",
+      "element": "REGEXP.QUOTE_CHARACTER: Darcula's orange CC7832, lifted to hold 4.5:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "SASS_DIRECTIVE": {
+      "FOREGROUND": "#D9904E",
+      "element": "SASS_DIRECTIVE: Darcula's orange CC7832, lifted to hold 4.5:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "XPATH.XPATH_NAME": {
+      "FOREGROUND": "#D9904E",
+      "element": "XPATH.XPATH_NAME: Darcula's orange CC7832, lifted to hold 4.5:1 on a tinted caret line",
+      "status": "designed"
+    },
+    "CUSTOM_KEYWORD3_ATTRIBUTES": {
+      "FOREGROUND": "#3FB5B2",
+      "element": "Keyword group 3 in custom file types",
+      "status": "designed"
+    },
+    "RAINBOW_COLOR0": {
+      "FOREGROUND": "#6FB86F",
+      "element": "Semantic highlighting colour 1 of 5",
+      "status": "designed"
+    },
+    "CONSOLE_DARKGRAY_OUTPUT": {
+      "FOREGROUND": "#9A9A9A",
+      "element": "Console dark grey. Darcula's 666666 is 2.9:1",
+      "status": "designed"
+    },
+    "LOG_EXPIRED_ENTRY": {
+      "FOREGROUND": "#9A9A9A",
+      "element": "Expired log entry",
+      "status": "designed"
+    },
+    "CONSOLE_GREEN_OUTPUT": {
+      "FOREGROUND": "#3DC23D",
+      "element": "Console green",
+      "status": "designed"
+    },
+    "CONSOLE_USER_INPUT": {
+      "FOREGROUND": "#3DC23D",
+      "element": "Console user input",
+      "status": "designed"
+    },
+    "LOG_INFO_OUTPUT": {
+      "FOREGROUND": "#3DC23D",
+      "element": "Log info line",
+      "status": "designed"
+    },
+    "CONSOLE_YELLOW_OUTPUT": {
+      "FOREGROUND": "#D1A516",
+      "element": "Console yellow",
+      "status": "designed"
+    },
+    "LOG_WARNING_OUTPUT": {
+      "FOREGROUND": "#D1A516",
+      "element": "Log warning line",
+      "status": "designed"
+    },
+    "CONSOLE_SYSTEM_OUTPUT": {
+      "FOREGROUND": "#9E9EE0",
+      "element": "Console system output",
+      "status": "designed"
+    },
+    "CSS.COLOR": {
+      "FOREGROUND": "#7DAAD0",
+      "element": "CSS colour value",
+      "status": "designed"
+    },
+    "DEBUGGER_INLINED_VALUES_EXECUTION_LINE": {
+      "FOREGROUND": "#8FA6C4",
+      "element": "Debugger inline values on the execution line",
+      "status": "designed"
+    },
+    "DEBUGGER_INLINED_VALUES_MODIFIED": {
+      "FOREGROUND": "#E09325",
+      "element": "Debugger inline value that changed",
+      "status": "designed"
+    },
+    "IDENTIFIER_UNDER_CARET_ATTRIBUTES": {
+      "BACKGROUND": "#36591A",
+      "element": "Other uses of the identifier under the caret. JetBrains' green 406F11 carries plain text at 4.4:1",
+      "status": "designed"
+    },
+    "WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES": {
+      "BACKGROUND": "#32521A",
+      "element": "Writes to the identifier under the caret",
+      "status": "designed"
+    },
+    "REGEXP_MATCHED_GROUPS": {
+      "BACKGROUND": "#555555",
+      "element": "Matched groups when checking a regular expression. 6B6B6B carries plain text at 3.9:1",
+      "status": "designed"
+    },
+    "CodeWithMe.USER_6_SELECTION": {
+      "BACKGROUND": "#645234",
+      "element": "Selection of collaborator 6 in Code With Me. 76623F carries plain text at 4.3:1",
+      "status": "designed"
+    },
+    "CodeWithMe.USER_1_MARKER": {
+      "FOREGROUND": "#0A0A0A",
+      "BACKGROUND": "#58903F",
+      "element": "Label and marker of collaborator 1's cursor in Code With Me",
+      "status": "designed"
+    },
+    "CodeWithMe.USER_2_MARKER": {
+      "FOREGROUND": "#0A0A0A",
+      "BACKGROUND": "#3985A1",
+      "element": "Label and marker of collaborator 2's cursor in Code With Me",
+      "status": "designed"
+    },
+    "CodeWithMe.USER_3_MARKER": {
+      "FOREGROUND": "#0A0A0A",
+      "BACKGROUND": "#AE7079",
+      "element": "Label and marker of collaborator 3's cursor in Code With Me",
+      "status": "designed"
+    },
+    "CodeWithMe.USER_4_MARKER": {
+      "FOREGROUND": "#0A0A0A",
+      "BACKGROUND": "#8876AE",
+      "element": "Label and marker of collaborator 4's cursor in Code With Me",
+      "status": "designed"
+    },
+    "CodeWithMe.USER_5_MARKER": {
+      "FOREGROUND": "#FFFFFF",
+      "BACKGROUND": "#A24E26",
+      "element": "Label and marker of collaborator 5's cursor in Code With Me",
+      "status": "designed"
+    },
+    "CodeWithMe.USER_6_MARKER": {
+      "FOREGROUND": "#0A0A0A",
+      "BACKGROUND": "#A47A36",
+      "element": "Label and marker of collaborator 6's cursor in Code With Me",
+      "status": "designed"
+    }
+  },
+  "contrastExempt": {
+    "CONSOLE_WHITE_OUTPUT": "ANSI black (named 'white' for light consoles) on a dark console; programs that print it are unreadable in every dark theme",
+    "INLINE_PROMPT_PROGRESS_DARK": "the shimmer of an AI prompt in progress, not text",
+    "LINE_FULL_COVERAGE": "a gutter marker colour for code coverage, not text",
+    "LINE_PARTIAL_COVERAGE": "a gutter marker colour for code coverage, not text",
+    "LINE_NONE_COVERAGE": "a gutter marker colour for code coverage, not text",
+    "BLOCK_TERMINAL_BLACK": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_BLACK_BRIGHT": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_RED": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_RED_BRIGHT": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_GREEN": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_GREEN_BRIGHT": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_YELLOW": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_YELLOW_BRIGHT": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_BLUE": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_BLUE_BRIGHT": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_MAGENTA": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_MAGENTA_BRIGHT": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_CYAN": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_CYAN_BRIGHT": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_WHITE": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill",
+    "BLOCK_TERMINAL_WHITE_BRIGHT": "terminal ANSI palette: FOREGROUND and BACKGROUND are the two uses of one colour, not text on a fill"
+  }
+}

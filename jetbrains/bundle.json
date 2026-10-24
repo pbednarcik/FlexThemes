@@ -1,0 +1,6 @@
+{
+  "Source": "src/bundle",
+  "Version": "VERSION",
+  "Output": "build/bundle/resources",
+  "Jar": "flex-themes"
+}

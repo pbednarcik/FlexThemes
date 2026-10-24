@@ -1,0 +1,602 @@
+{
+  "extends": "../common/theme/Common.theme-base.json",
+  "name": "Morning Mist",
+  "fileName": "MorningMist",
+  "providerId": "morning-mist",
+  "dark": false,
+  "parentTheme": "Islands Light",
+  "baseThemeFile": "platform/themes/islands/ManyIslandsLight.theme.json",
+  "vsBase": "Light",
+  "vsTint": "CoolBreeze",
+  "editorScheme": "Morning Mist",
+  "colors": {
+    "layer-0-bg": {
+      "value": "vs:ShellInternal|EnvironmentBackground",
+      "element": "Window background: menu bar, gaps between panels",
+      "status": "measured",
+      "measured": "A7C6DB",
+      "sample": "vs-1 menubar 1180,4-1270,12 (100%)"
+    },
+    "layer-0-bg-inline": {
+      "value": "vs:ShellInternal|EnvironmentLayeredBackground over $layer-0-bg",
+      "element": "Layered band on the window background: toolbar row, info bar",
+      "status": "measured",
+      "measured": "C8DBE9",
+      "sample": "vs-1 infobar 1130,108-1270,136 (100%); toolbar row scan x=400"
+    },
+    "main-window-bg-alt": {
+      "value": "$layer-0-bg-inline",
+      "element": "Alternate window background (Rider concept); uses the layered band",
+      "status": "inferred"
+    },
+    "layer-0-border": {
+      "value": "#ADADAD",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "layer-0-border-inline": {
+      "value": "vs:Shell|ControlStrokeDefault over $layer-0-bg",
+      "element": "Inline borders on the window background",
+      "status": "vs-data"
+    },
+    "layer-1-bg": {
+      "value": "vs:Shell|SolidBackgroundFillTertiary",
+      "element": "Dialog and settings-frame background. Measured in VS as the document-well header around the settings search box; its use for dialogs is by token name",
+      "status": "vs-data",
+      "note": "F7FAFC measured at vs-1 search_field scan y=155..160, but that is a document header, not a dialog"
+    },
+    "layer-1-bg-inline": {
+      "value": "vs:Shell|ControlFillDefault over $layer-1-bg",
+      "element": "Input controls on a dialog: combo box and text field fill",
+      "status": "measured",
+      "measured": "FDFDFE",
+      "sample": "vs-1 filter combo scan y=178 x=1162.."
+    },
+    "layer-1-border": {
+      "value": "vs:Shell|ControlStrokeDefault over $layer-1-bg",
+      "element": "Dialog borders",
+      "status": "vs-data"
+    },
+    "layer-1-border-inline": {
+      "value": "vs:Shell|ControlStrokeDefault over $layer-1-bg",
+      "element": "Separators inside dialogs",
+      "status": "vs-data"
+    },
+    "layer-2-bg": {
+      "value": "vs:Shell|SurfaceBackgroundFillDefault",
+      "element": "Flyout surfaces: menus, popups, notifications",
+      "status": "vs-data",
+      "note": "Visual Studio's Cool Breeze overrides this token, so VS draws something visible with it; which elements exactly is not verified"
+    },
+    "layer-2-bg-inline": {
+      "value": "vs:Shell|SolidBackgroundFillTertiary",
+      "element": "Inline areas inside popups (advertiser strip, headers)",
+      "status": "vs-data"
+    },
+    "layer-2-border": {
+      "value": "vs:Shell|SurfaceStrokeFlyout over $layer-2-bg",
+      "element": "Flyout border",
+      "status": "vs-data"
+    },
+    "layer-2-border-inline": {
+      "value": "vs:Shell|SurfaceStrokeFlyout over $layer-2-bg",
+      "element": "Separators inside flyouts",
+      "status": "vs-data"
+    },
+    "popup-border-windows": {
+      "value": "vs:Shell|SurfaceStrokeDefault over $layer-2-bg",
+      "element": "Outer popup border on Windows",
+      "status": "vs-data"
+    },
+    "editor-bg": {
+      "value": "#FFFFFF",
+      "element": "Editor background. VS Light leaves Plain Text background automatic (system window colour); FFFFFF is the Windows default, not a decoded value",
+      "status": "inferred"
+    },
+    "editor-bg-inline": {
+      "value": "vs:Shell|SolidBackgroundFillTertiary",
+      "element": "Inline editor chrome such as the in-editor search field",
+      "status": "vs-data"
+    },
+    "editor-border": {
+      "value": "#ADADAD",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border-inline": {
+      "value": "#ADADAD",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "editor-border-alt": {
+      "value": "#ADADAD",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "tool-window-bg": {
+      "value": "vs:ShellInternal|EnvironmentHeader",
+      "element": "Tool window body: the measured VS surface is retained; focused and inactive headers use the separate designed clarity colours",
+      "status": "measured",
+      "measured": "F7FAFC",
+      "sample": "vs-2-separations bottom tool window header 20,1124-300,1150 (100%)"
+    },
+    "tool-window-bg-inline": {
+      "value": "vs:Shell|ControlFillDefault over $tool-window-bg",
+      "element": "Controls inside a tool window",
+      "status": "vs-data"
+    },
+    "tool-window-bg-alt": {
+      "value": "$tool-window-bg",
+      "element": "Alternate tool window background (Rider concept)",
+      "status": "inferred"
+    },
+    "tool-window-border": {
+      "value": "#ADADAD",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "tool-window-border-inline": {
+      "value": "#ADADAD",
+      "element": "Pane boundary in this theme's own palette; clearer than the inherited low-contrast separator",
+      "status": "designed"
+    },
+    "text-default": {
+      "value": "vs:Shell|TextFillPrimary over #FFFFFF",
+      "element": "Primary text. VS blends 000000 at alpha 228 over whatever is behind it; Rider needs one opaque colour, so it is blended over white",
+      "status": "vs-data",
+      "note": "Model measured: the VS gear glyph on D3E3ED samples 161819 = 000000/228 over D3E3ED (vs-1 612,164-632,184), and menu text on A7C6DB samples 161A1D"
+    },
+    "text-muted": {
+      "value": "vs:Shell|TextFillSecondary over #FFFFFF",
+      "element": "Secondary text (Visual Studio's Cool Breeze overrides this token to alpha 178)",
+      "status": "vs-data"
+    },
+    "text-secondary": {
+      "value": "vs:Shell|TextFillSecondary over #FFFFFF",
+      "element": "Info text, shortcuts, counts",
+      "status": "vs-data"
+    },
+    "text-disabled": {
+      "value": "vs:Shell|TextFillDisabled over #FFFFFF",
+      "element": "Disabled text",
+      "status": "vs-data"
+    },
+    "text-over-accent": {
+      "value": "vs:Shell|TextOnAccentFillPrimary",
+      "element": "Text on the accent colour (default button)",
+      "status": "vs-data"
+    },
+    "text-link": {
+      "value": "vs:Shell|HyperlinkFillPrimary",
+      "element": "Hyperlinks",
+      "status": "vs-data"
+    },
+    "text-error": {
+      "value": "vs:Shell|SystemFillCritical",
+      "element": "Error text",
+      "status": "vs-data"
+    },
+    "text-warning": {
+      "value": "vs:Shell|SystemFillCaution",
+      "element": "Warning text",
+      "status": "vs-data"
+    },
+    "text-success": {
+      "value": "vs:Shell|SystemFillSuccess",
+      "element": "Success text",
+      "status": "vs-data"
+    },
+    "accent-brand-bg": {
+      "value": "vs:Shell|AccentFillDefault",
+      "element": "Accent: selection pill, focused field underline, default button",
+      "status": "measured",
+      "measured": "1E394A",
+      "sample": "vs-1 settings tree accent bar 661,231-664,254 (89.9%); search field underline scan y=193"
+    },
+    "accent-brand-border": {
+      "value": "vs:Shell|AccentFillDefault",
+      "element": "Accent border and focus ring",
+      "status": "vs-data"
+    },
+    "accent-brand-bg-secondary": {
+      "value": "vs:Shell|SystemFillSolidAttentionBackground",
+      "element": "Informational banner background",
+      "status": "vs-data"
+    },
+    "accent-brand-border-secondary": {
+      "value": "vs:Shell|ControlStrokeDefault over vs:Shell|SystemFillSolidAttentionBackground",
+      "element": "Informational banner border",
+      "status": "vs-data"
+    },
+    "accent-error-bg": {
+      "value": "vs:Shell|SystemFillCritical",
+      "element": "Error accent",
+      "status": "vs-data"
+    },
+    "accent-error-border": {
+      "value": "vs:Shell|SystemFillCritical",
+      "element": "Error accent border",
+      "status": "vs-data"
+    },
+    "accent-error-bg-secondary": {
+      "value": "vs:Shell|SystemFillCriticalBackground",
+      "element": "Error banner background",
+      "status": "vs-data"
+    },
+    "accent-warning-bg": {
+      "value": "vs:Shell|SystemFillCaution",
+      "element": "Warning accent",
+      "status": "vs-data"
+    },
+    "accent-warning-border": {
+      "value": "vs:Shell|SystemFillCaution",
+      "element": "Warning accent border",
+      "status": "vs-data"
+    },
+    "accent-warning-bg-secondary": {
+      "value": "vs:Shell|SystemFillCautionBackground",
+      "element": "Warning banner background",
+      "status": "vs-data"
+    },
+    "accent-success-bg": {
+      "value": "vs:Shell|SystemFillSuccess",
+      "element": "Success accent",
+      "status": "vs-data"
+    },
+    "accent-success-border": {
+      "value": "vs:Shell|SystemFillSuccess",
+      "element": "Success accent border",
+      "status": "vs-data"
+    },
+    "accent-success-bg-secondary": {
+      "value": "vs:Shell|SystemFillSuccessBackground",
+      "element": "Success banner background",
+      "status": "vs-data"
+    },
+    "accent-neutral-bg": {
+      "value": "vs:Shell|SystemFillSolidNeutral",
+      "element": "Neutral badge and counter (the notification count)",
+      "status": "vs-data",
+      "under": "#FFFFFF",
+      "contrastWaiver": "the exact Visual Studio colour; Morning Mist is the faithful copy, the designed themes use their secondary text colour"
+    },
+    "core-bg-transparent-hovered": {
+      "value": "vs:Shell|SubtleFillSecondary",
+      "element": "Hover fill on toolbar buttons and tabs (kept translucent, as in VS)",
+      "status": "vs-data",
+      "sample": "vs-3 (Visual Studio, downscaled WebP): hovered vertical document tab C8D6DF on the D3E3EE tab well; this token over D3E3ED composites to C7D6DF"
+    },
+    "core-bg-transparent-pressed": {
+      "value": "vs:Shell|SubtleFillTertiary",
+      "element": "Pressed fill. Fluent makes pressed lighter than hover",
+      "status": "vs-data"
+    },
+    "core-border-transparent": {
+      "value": "vs:Shell|DividerStrokeDefault",
+      "element": "Toolbar separators",
+      "status": "vs-data"
+    },
+    "control-border": {
+      "value": "vs:Shell|ControlStrokeDefault over $layer-1-bg",
+      "element": "Border of buttons, combo boxes and text fields. VS draws a stronger bottom edge on text fields; Rider draws one colour on all four sides",
+      "status": "vs-data"
+    },
+    "control-border-disabled": {
+      "value": "vs:Shell|ControlStrokeDefault over $layer-1-bg",
+      "element": "Disabled control border",
+      "status": "vs-data"
+    },
+    "control-border-raised": {
+      "value": "vs:Shell|ControlStrongStrokeDefault over $layer-1-bg",
+      "element": "Strong control border",
+      "status": "vs-data"
+    },
+    "control-border-small": {
+      "value": "vs:Shell|ControlStrongStrokeDefault over $layer-1-bg",
+      "element": "Check box and radio button border",
+      "status": "vs-data"
+    },
+    "control-bg-disabled": {
+      "value": "vs:Shell|ControlFillDisabled over $layer-1-bg",
+      "element": "Disabled control fill",
+      "status": "vs-data"
+    },
+    "toolbar-selected-bg": {
+      "value": "vs:Shell|SubtleFillSecondary over $layer-0-bg",
+      "element": "Selected tool window button, window unfocused (Rider concept)",
+      "status": "inferred"
+    },
+    "toolbar-selected-bg-hovered": {
+      "value": "vs:Shell|ControlAltFillQuaternary over $layer-0-bg",
+      "element": "Hovered selected tool window button (Rider concept)",
+      "status": "inferred"
+    },
+    "selection-bg-active": {
+      "value": "vs:Shell|SubtleFillSecondary over $tool-window-bg",
+      "element": "Selected row in trees and lists: SubtleFillSecondary over the tool window fill. The same token measures E7E7E7 over the settings page (F5F5F5) and C7D6DF over the tab well (D3E3ED) in VS. VS adds an accent pill at the left edge, which Rider cannot draw, so the selection is fainter here than it reads in VS",
+      "status": "vs-data",
+      "note": "model confirmed at vs-1 settings_selected_row 900,228-1080,256 = E7E7E7"
+    },
+    "selection-bg-active-muted": {
+      "value": "vs:Shell|SubtleFillTertiary over $tool-window-bg",
+      "element": "Light selection",
+      "status": "vs-data"
+    },
+    "selection-bg-inactive": {
+      "value": "vs:Shell|SubtleFillTertiary over $tool-window-bg",
+      "element": "Selected row when the tree is not focused",
+      "status": "vs-data"
+    },
+    "selection-bg-hovered": {
+      "value": "vs:Shell|SubtleFillTertiary",
+      "element": "Row hover",
+      "status": "vs-data"
+    },
+    "tab-selected-bg-active": {
+      "value": "$editor-bg",
+      "element": "Selected document tab: same fill as the document",
+      "status": "inferred"
+    },
+    "tab-selected-bg-inactive": {
+      "value": "$editor-bg",
+      "element": "Selected document tab in an unfocused group",
+      "status": "inferred"
+    },
+    "tab-selected-border-active": {
+      "value": "vs:Shell|AccentFillDefault",
+      "element": "Selected tab indicator",
+      "status": "vs-data"
+    },
+    "tab-selected-border-inactive": {
+      "value": "vs:ShellInternal|EnvironmentIndicator over vs:ShellInternal|EnvironmentTab",
+      "element": "Selected tab indicator, unfocused group",
+      "status": "vs-data"
+    },
+    "popup-completion-match-text": {
+      "value": "vs:EditorOverride|PopupHyperlink",
+      "element": "Matched characters in the completion list",
+      "status": "inferred"
+    },
+    "main-window-bg": {
+      "value": "$layer-0-bg",
+      "element": "Window frame and panel gaps use the frame layer, independently of dialog surfaces",
+      "status": "designed"
+    }
+  },
+  "ui": {
+    "Island.borderColor": {
+      "value": "#ADADAD",
+      "element": "Panel outlines: palette-specific clarity baseline",
+      "status": "designed"
+    },
+    "Island.borderWidth": {
+      "raw": 8,
+      "vsValue": "panel clarity rule",
+      "element": "Eight-pixel gap between panels",
+      "status": "designed"
+    },
+    "Island.borderWidth.compact": {
+      "raw": 8,
+      "vsValue": "panel clarity rule",
+      "element": "Eight-pixel gap between panels",
+      "status": "designed"
+    },
+    "MainToolbar.Dropdown.background": {
+      "value": "vs:Shell|ControlFillDefault over $layer-0-bg",
+      "element": "Pill on the title row (solution name in VS; project, branch and run widgets in Rider)",
+      "status": "measured",
+      "measured": "E4EEF4",
+      "sample": "vs-1 title pill scan y=22 x=1018.."
+    },
+    "MainToolbar.Dropdown.hoverBackground": {
+      "value": "vs:Shell|ControlFillSecondary over $layer-0-bg",
+      "element": "Title row pill, hovered",
+      "status": "vs-data"
+    },
+    "MainToolbar.Dropdown.transparentHoverBackground": {
+      "value": "vs:Shell|ControlFillSecondary over $layer-0-bg",
+      "element": "Title row pill, hovered",
+      "status": "vs-data"
+    },
+    "MainToolbar.Dropdown.pressedBackground": {
+      "value": "vs:Shell|ControlFillTertiary over $layer-0-bg",
+      "element": "Title row pill, pressed",
+      "status": "vs-data"
+    },
+    "EditorTabs.background": {
+      "value": "vs:Shell|LayerFillDefault over $layer-0-bg",
+      "element": "Document tab well. With vertical tabs this is the fill of that panel in VS",
+      "status": "measured",
+      "measured": "D3E3ED",
+      "sample": "vs-1 Tabs panel 450,210-630,640 (100%)"
+    },
+    "EditorTabs.underlineColor": {
+      "value": "vs:Shell|AccentFillDefault",
+      "element": "Selected tab indicator",
+      "status": "vs-data"
+    },
+    "EditorTabs.inactiveUnderlineColor": {
+      "value": "vs:ShellInternal|EnvironmentIndicator over vs:ShellInternal|EnvironmentTab",
+      "element": "Selected tab indicator, unfocused group",
+      "status": "vs-data"
+    },
+    "MemoryIndicator.allocatedBackground": {
+      "value": "vs:Shell|ControlFillDefault over $layer-0-bg-inline",
+      "element": "Memory indicator, allocated heap: the VS control fill on the band (the toolbar combo boxes in VS sample EEF4F8), so it stands out from the status bar",
+      "status": "inferred"
+    },
+    "MemoryIndicator.usedBackground": {
+      "value": "$layer-0-border",
+      "element": "Memory indicator, used heap: the hairline colour, darker than the allocated part",
+      "status": "inferred"
+    },
+    "CompletionPopup.foreground": {
+      "value": "vs:EditorOverride|PopupText",
+      "element": "IntelliSense list text",
+      "status": "vs-data"
+    },
+    "CompletionPopup.selectionBackground": {
+      "value": "vs:EditorOverride|PopupSelectedBackground",
+      "element": "IntelliSense selected item",
+      "status": "vs-data"
+    },
+    "CompletionPopup.selectionInactiveBackground": {
+      "value": "vs:EditorOverride|PopupSelectedBackground",
+      "element": "IntelliSense selected item, unfocused",
+      "status": "vs-data"
+    },
+    "CompletionPopup.matchForeground": {
+      "value": "vs:EditorOverride|PopupHyperlink",
+      "element": "IntelliSense matched characters",
+      "status": "inferred"
+    },
+    "Editor.ToolTip.background": {
+      "value": "vs:EditorOverride|PopupBackground",
+      "element": "Quick Info tooltip background",
+      "status": "vs-data"
+    },
+    "Editor.ToolTip.foreground": {
+      "value": "vs:EditorOverride|PopupText",
+      "element": "Quick Info tooltip text",
+      "status": "vs-data"
+    },
+    "Editor.ToolTip.border": {
+      "value": "vs:EditorOverride|PopupBorder",
+      "element": "Quick Info tooltip border",
+      "status": "vs-data"
+    },
+    "ParameterInfo.background": {
+      "value": "vs:EditorOverride|PopupBackground",
+      "element": "Signature Help background",
+      "status": "vs-data"
+    },
+    "ParameterInfo.foreground": {
+      "value": "vs:EditorOverride|PopupText",
+      "element": "Signature Help text",
+      "status": "vs-data"
+    },
+    "ParameterInfo.borderColor": {
+      "value": "vs:EditorOverride|PopupBorder",
+      "element": "Signature Help border",
+      "status": "vs-data"
+    },
+    "ParameterInfo.infoForeground": {
+      "value": "vs:EditorOverride|PopupSubtleText",
+      "element": "Signature Help secondary text",
+      "status": "vs-data"
+    },
+    "ParameterInfo.currentOverloadBackground": {
+      "value": "vs:EditorOverride|PopupSelectedBackground",
+      "element": "Signature Help current overload",
+      "status": "vs-data"
+    },
+    "MenuItem.selectionBackground": {
+      "value": "vs:Shell|SubtleFillSecondary over $layer-2-bg",
+      "element": "Hovered menu item",
+      "status": "vs-data"
+    },
+    "Menu.selectionBackground": {
+      "value": "vs:Shell|SubtleFillSecondary over $layer-2-bg",
+      "element": "Hovered submenu item",
+      "status": "vs-data"
+    },
+    "ProgressBar.trackColor": {
+      "value": "vs:Shell|ControlStrongStrokeDefault over $layer-1-bg",
+      "element": "Progress bar track",
+      "status": "vs-data"
+    },
+    "StatusBar.background": {
+      "value": "$layer-0-bg-inline",
+      "element": "Status bar. Rider-only chrome with no VS counterpart. In VS the full-strength window colour shows only in the menu row and the gaps; toolbar rows use the layered band (C8DBE9, measured). With everything at A7C6DB the blue frame read as too strong (rider-4-full.webp), so this chrome takes the band colour. VS's own status bar is dark; see the deviations table",
+      "status": "inferred"
+    },
+    "EditorTabs.underlinedTabBackground": {
+      "value": "vs:Shell|AccentFillDefault@51 over $editor-bg",
+      "element": "Selected document tab, fill. Visual Studio tints a selected document tab with the tab's colour at about 21 % over white and outlines it in that colour (sampled on a project-coloured tab: fill E0F3EC, outline 6BC7A4). Tab colours are per project in Visual Studio; the stock build applies the same recipe to the theme accent",
+      "status": "inferred"
+    },
+    "EditorTabs.underlinedBorderColor": {
+      "value": "vs:ShellInternal|EnvironmentBorder",
+      "element": "Selected document tab, outline: the active border token",
+      "status": "vs-data"
+    },
+    "EditorTabs.inactiveUnderlinedTabBackground": {
+      "value": "#EDF0F2",
+      "element": "Quieter selected-tab fill after focus leaves the pane; readable with its native tab text",
+      "status": "designed"
+    },
+    "EditorTabs.inactiveUnderlinedTabBorderColor": {
+      "value": "vs:ShellInternal|EnvironmentBorderInactive",
+      "element": "Selected document tab when the editor is not focused, outline: VS's inactive border token (VS state not sampled)",
+      "status": "inferred"
+    },
+    "Tree.selectionBackground": {
+      "value": "vs:Shell|AccentFillDefault@51 over $tool-window-bg",
+      "element": "Selected row in a focused tree. Visual Studio marks it with a faint fill plus an accent pill that Rider cannot draw; the faint fill alone (E8EBED on F7FAFC) is too hard to find, so the accent tint recipe of the selected tab is used",
+      "status": "inferred"
+    },
+    "ToolWindow.Header.inactiveBackground": {
+      "value": "#E4EDF4",
+      "element": "Inactive header remains distinct from its pane body",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "ToolWindow.Header.background": {
+      "value": "#C6D9E7",
+      "element": "Focused header in this theme's original hue",
+      "status": "designed",
+      "under": "$text-default"
+    },
+    "EditorTabs.underlinedTabForeground": {
+      "value": "#1B1B1B",
+      "element": "Selected tab text: preserve this theme's foreground explicitly",
+      "status": "designed",
+      "on": "#D2D7DB"
+    },
+    "List.selectionBackground": {
+      "value": "$selection-bg-active",
+      "element": "Explicit focused selection fill using this theme's own palette",
+      "status": "designed"
+    },
+    "Tree.selectionForeground": {
+      "value": "#1B1B1B",
+      "element": "Focused file-selection text in this appearance's own palette",
+      "status": "designed",
+      "on": "#CCD3D8"
+    },
+    "Tree.selectionInactiveBackground": {
+      "value": "#EDF0F2",
+      "element": "Quieter file selection after focus leaves the project tree",
+      "status": "designed"
+    },
+    "ToolWindow.HeaderTab.underlinedTabForeground": {
+      "value": "#1B1B1B",
+      "element": "Native tool-window tab text matches the focused editor-tab foreground",
+      "status": "designed",
+      "on": "#D2D7DB"
+    },
+    "ToolWindow.HeaderTab.underlinedTabInactiveForeground": {
+      "value": "#1B1B1B",
+      "element": "Native inactive tool-window tab text remains readable on the inactive fill",
+      "status": "designed",
+      "on": "#EDF0F2"
+    }
+  },
+  "deviations": [
+    {
+      "vs": "ShellInternal.StatusBarBackgroundFillRest = 000000/139 over EnvironmentBackground = 4C5A64, with white text",
+      "rider": "StatusBar.background is the light layered band C8DBE9 with dark text",
+      "reason": "Tried and measured in Rider: Rider draws status bar icons as 6C707E for light themes, about 1.4:1 contrast on 4C5A64, and the memory indicator paints its unallocated part with the light panel background under white text. A theme cannot recolour only the status bar icons, so the Visual Studio look is not usable here"
+    }
+  ],
+  "iconPalette": {
+    "#6C707E": {
+      "value": "vs:Shell|TextFillPrimary over #FFFFFF",
+      "element": "Icon stroke colour. Rider's new-UI icons are drawn in 6C707E (sampled in a Rider screenshot), which blends into the tinted window colour on the tool window strip. VS draws glyphs in its primary text colour: the search magnifier on white samples 212121 and the gear on D3E3ED samples 161819, exactly TextFillPrimary over that fill. Replaces the grey in every icon, IDE-wide",
+      "status": "vs-data",
+      "note": "vs-1 text samples: magnifier 1032,168-1054,190 = 212121; gear 612,164-632,184 = 161819"
+    }
+  },
+  "author": "Peter Bednarčík. Colours from Visual Studio 2026 theme data; structure from JetBrains' Islands Light theme (Apache-2.0)",
+  "sourceNote": " Panel/header separation follows the Periwinkle Night clarity rules using this theme's own hue; those UI adjustments are marked designed, while the existing syntax palette is preserved."
+}

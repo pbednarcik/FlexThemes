@@ -1,0 +1,477 @@
+{
+  "extends": "../../common/scheme/CommonDark.scheme-base.json",
+  "name": "Periwinkle Night",
+  "fileName": "PeriwinkleNight",
+  "baseSchemeFile": "theme-pack/colorSchemes/VisualStudioDark.xml",
+  "vsBase": "Blue",
+  "snapshot": "Blue",
+  "platformDefault": "Darcula",
+  "defaultOn": "#1E2030",
+  "colors": {
+    "LINE_NUMBERS_COLOR": {
+      "value": "#8A8DA8",
+      "element": "line numbers color",
+      "status": "designed"
+    },
+    "LINE_NUMBER_ON_CARET_ROW_COLOR": {
+      "value": "#B4A2F5",
+      "element": "line number on caret row color",
+      "status": "designed"
+    },
+    "CARET_ROW_COLOR": {
+      "value": "#222538",
+      "element": "caret row color",
+      "status": "designed"
+    },
+    "CARET_COLOR": {
+      "value": "#B4A2F5",
+      "element": "caret color",
+      "status": "designed"
+    },
+    "SELECTION_BACKGROUND": {
+      "value": "#33385A",
+      "element": "selection background",
+      "status": "designed"
+    },
+    "GUTTER_BACKGROUND": {
+      "value": "#23263A",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "EDITOR_GUTTER_BACKGROUND": {
+      "value": "#23263A",
+      "element": "Faint gutter using this family's existing UI surface palette; supported classic and New UI keys match",
+      "status": "designed"
+    },
+    "INDENT_GUIDE": {
+      "value": "#44495F",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    },
+    "SELECTED_INDENT_GUIDE": {
+      "value": "#626B94",
+      "status": "designed",
+      "element": "Contrast refinement using this family's muted palette"
+    }
+  },
+  "attributes": {
+    "TEXT": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Plain text: Blue's text colour on white",
+      "status": "designed",
+      "BACKGROUND": "#1E2030"
+    },
+    "DEFAULT_KEYWORD": {
+      "FOREGROUND": "#C7A8FE",
+      "element": "Keyword in the theme's deep purple. Periwinkle Night palette: keyword lilac (control flow too), 8.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CONTROL_FLOW_KEYWORD": {
+      "FOREGROUND": "#C7A8FE",
+      "element": "Control-flow keyword in blue, swapped with the keyword colour. Periwinkle Night palette: keyword lilac (control flow too), 8.0:1",
+      "status": "designed"
+    },
+    "ReSharper.CONTROL_TRANSFER_KEYWORD": {
+      "FOREGROUND": "#C7A8FE",
+      "element": "Control-transfer keyword in blue. Periwinkle Night palette: keyword lilac (control flow too), 8.0:1",
+      "status": "designed"
+    },
+    "DEFAULT_STRING": {
+      "FOREGROUND": "#FE9F73",
+      "element": "String. Periwinkle Night palette: string peach, 8.0:1",
+      "status": "designed"
+    },
+    "DEFAULT_NUMBER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Number: pin the existing inherited Visual Studio Dark colour for shared language roles. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "DEFAULT_LINE_COMMENT": {
+      "FOREGROUND": "#64B868",
+      "element": "Line comment. Periwinkle Night palette: comment green, 6.6:1",
+      "status": "designed"
+    },
+    "DEFAULT_BLOCK_COMMENT": {
+      "FOREGROUND": "#64B868",
+      "element": "Block comment. Periwinkle Night palette: comment green, 6.6:1",
+      "status": "designed"
+    },
+    "DEFAULT_DOC_COMMENT": {
+      "FOREGROUND": "#64B868",
+      "element": "Doc comment text. Periwinkle Night palette: comment green, 6.6:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT": {
+      "FOREGROUND": "#64B868",
+      "element": "C# doc comment text. Periwinkle Night palette: comment green, 6.6:1",
+      "status": "designed"
+    },
+    "DEFAULT_DOC_COMMENT_TAG": {
+      "FOREGROUND": "#9A9DB8",
+      "element": "Doc comment tag",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DOC_COMMENT_TAG_NAME": {
+      "FOREGROUND": "#9A9DB8",
+      "element": "C# doc comment tag name",
+      "status": "designed"
+    },
+    "TODO_DEFAULT_ATTRIBUTES": {
+      "FOREGROUND": "#8FC1F0",
+      "element": "TODO comment, bold",
+      "status": "designed",
+      "FONT_TYPE": 1
+    },
+    "ReSharper.CSHARP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Class name. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Static class name. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.STATIC_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Static class name (generic). Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Record name. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Struct name. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Struct name (generic). Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_RECORD_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Record struct name. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_INTERFACE_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Interface name. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Enum name. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.ENUM_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Enum name (generic). Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Delegate name. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.DELEGATE_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Delegate name (generic). Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Type parameter. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.TYPE_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "Type parameter (generic). Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#D3B63B",
+      "element": "Method name. Periwinkle Night palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "DEFAULT_INSTANCE_METHOD": {
+      "FOREGROUND": "#D3B63B",
+      "element": "Generic method name. Rider drew C# methods in this key's inherited DCDCA9 (seen in a capture), not in the ReSharper method key. Periwinkle Night palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "DEFAULT_STATIC_METHOD": {
+      "FOREGROUND": "#D3B63B",
+      "element": "Generic static method name, as above. Periwinkle Night palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#D3B63B",
+      "element": "Static method name. Periwinkle Night palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_LOCAL_FUNCTION_IDENTIFIER": {
+      "FOREGROUND": "#D3B63B",
+      "element": "Local function name. Periwinkle Night palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#D3B63B",
+      "element": "Extension method name. Periwinkle Night palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "ReSharper.EXTENSION_METHOD_IDENTIFIER": {
+      "FOREGROUND": "#D3B63B",
+      "element": "Extension method name (generic). Periwinkle Night palette: method gold, 8.1:1",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Local variable. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Mutable local variable. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Mutable local variable (generic). Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_PARAMETER_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Parameter, in plum so values from outside the method stand apart from locals (Visual Studio colours both navy). Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "DEFAULT_PARAMETER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Parameter, generic fallback. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_FIELD_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Field, in jade (Visual Studio leaves members as plain text). Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_FIELD_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Static field. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_CONSTANT_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Constant. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Property. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_STATIC_PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Static property. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_EVENT_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Event. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.PROPERTY_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Property (generic). Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.EVENT_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Event (generic). Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "DEFAULT_INSTANCE_FIELD": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Field, generic fallback. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "DEFAULT_STATIC_FIELD": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Static field, generic fallback. Periwinkle Night palette: names and numbers in the plain text colour",
+      "status": "designed"
+    },
+    "ReSharper.CSHARP_NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Namespace",
+      "status": "designed"
+    },
+    "ReSharper.NAMESPACE_IDENTIFIER": {
+      "FOREGROUND": "#DCDDEB",
+      "element": "Namespace (generic)",
+      "status": "designed"
+    },
+    "INLAY_TEXT_WITHOUT_BACKGROUND": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "Inlay hint text without a chip",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_DEFAULT": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "Inlay button",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_FOCUSED": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "Inlay button, focused",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_HOVERED": {
+      "FOREGROUND": "#9A9DB8",
+      "element": "Inlay button, hovered",
+      "status": "designed"
+    },
+    "INLAY_BUTTON_HINT": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "Inlay button hint",
+      "status": "designed"
+    },
+    "INLINE_SUGGESTION": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "AI inline completion (ghost text), italic",
+      "status": "designed",
+      "FONT_TYPE": 2
+    },
+    "CODE_VISION_DEFAULT": {
+      "element": "code vision default",
+      "status": "designed",
+      "FOREGROUND": "#A8ABC6"
+    },
+    "ReSharper.CPP_CLASS_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "C++ class. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_ENUM_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "C++ enum. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_LOCAL_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "C++ local typedef. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "C++ overloaded operator. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_STRUCT_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "C++ struct. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_TYPEDEF_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "C++ typedef. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "ReSharper.CPP_UNION_IDENTIFIER": {
+      "FOREGROUND": "#05D2F4",
+      "element": "C++ union. Periwinkle Night palette: type cyan, 8.8:1",
+      "status": "designed"
+    },
+    "HYPERLINK_ATTRIBUTES": {
+      "FOREGROUND": "#C0B0F8",
+      "element": "Link in the editor, in the accent",
+      "status": "designed"
+    },
+    "CTRL_CLICKABLE": {
+      "FOREGROUND": "#C0B0F8",
+      "element": "Ctrl+hover navigation link",
+      "status": "designed"
+    },
+    "CUSTOM_LINE_COMMENT_ATTRIBUTES": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "Line comment in custom file types",
+      "status": "designed"
+    },
+    "CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "Block comment in custom file types",
+      "status": "designed"
+    },
+    "DEBUGGER_INLINED_VALUES": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "Debugger inline values",
+      "status": "designed"
+    },
+    "ReSharper.IL_CODE_LABEL": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "IL viewer label",
+      "status": "designed"
+    },
+    "ReSharper.JS_XML_DOCUMENTATION_COMMENT": {
+      "FOREGROUND": "#9A9DB8",
+      "element": "JavaScript XML doc comment",
+      "status": "designed"
+    },
+    "ReSharper.LATE_BOUND_IDENTIFIER": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "Late-bound identifier (VB)",
+      "status": "designed"
+    },
+    "CONSOLE_GRAY_OUTPUT": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "Console grey (run and test output)",
+      "status": "designed"
+    },
+    "LOG_EXPIRED_ENTRY": {
+      "FOREGROUND": "#8A8DA8",
+      "element": "Expired log entry",
+      "status": "designed"
+    },
+    "DEFAULT_VALID_STRING_ESCAPE": {
+      "element": "default valid string escape",
+      "status": "designed",
+      "FOREGROUND": "#F0A6D6"
+    },
+    "IDENTIFIER_UNDER_CARET_ATTRIBUTES": {
+      "element": "identifier under caret attributes",
+      "status": "designed",
+      "BACKGROUND": "#3A3F66"
+    },
+    "WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES": {
+      "element": "write identifier under caret attributes",
+      "status": "designed",
+      "BACKGROUND": "#3F4570"
+    }
+  },
+  "languageMappings": "src/common/language-mappings.json",
+  "semanticRoles": {
+    "keyword": "DEFAULT_KEYWORD",
+    "type": "ReSharper.CSHARP_CLASS_IDENTIFIER",
+    "function": "ReSharper.CSHARP_METHOD_IDENTIFIER",
+    "local": "ReSharper.CSHARP_LOCAL_VARIABLE_IDENTIFIER",
+    "parameter": "ReSharper.CSHARP_PARAMETER_IDENTIFIER",
+    "member": "ReSharper.CSHARP_FIELD_IDENTIFIER",
+    "string": "DEFAULT_STRING",
+    "number": "DEFAULT_NUMBER",
+    "comment": "DEFAULT_LINE_COMMENT",
+    "docTag": "DEFAULT_DOC_COMMENT_TAG",
+    "escape": "DEFAULT_VALID_STRING_ESCAPE",
+    "invalidEscape": "DEFAULT_INVALID_STRING_ESCAPE",
+    "metadata": "DEFAULT_KEYWORD",
+    "text": "TEXT",
+    "predefined": "DEFAULT_KEYWORD",
+    "control": "ReSharper.CONTROL_FLOW_KEYWORD",
+    "interface": "ReSharper.CSHARP_INTERFACE_IDENTIFIER",
+    "struct": "ReSharper.CSHARP_STRUCT_IDENTIFIER",
+    "enum": "ReSharper.CSHARP_ENUM_IDENTIFIER",
+    "delegate": "ReSharper.CSHARP_DELEGATE_IDENTIFIER",
+    "typeParameter": "ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER",
+    "docComment": "ReSharper.CSHARP_DOC_COMMENT"
+  }
+}
