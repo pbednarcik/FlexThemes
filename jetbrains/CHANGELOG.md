@@ -1,5 +1,9 @@
 # Changelog: Morning Mist
 
+## 0.7.1
+
+- No theme changes; version aligned with the FlexThemes bundle.
+
 ## 0.7.0
 
 - First public release: Morning Mist, a light theme with the colours of Visual Studio 2026's Cool Breeze theme: a tinted window, light rounded panels with clear outlines and Visual Studio's C# syntax colours.

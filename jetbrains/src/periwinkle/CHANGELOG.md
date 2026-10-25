@@ -1,5 +1,9 @@
 # Changelog: Periwinkle Islands
 
+## 0.7.1
+
+- No theme changes; version aligned with the FlexThemes bundle.
+
 ## 0.7.0
 
 - First public release: a light theme that pairs the soft periwinkle chrome of the classic Visual Studio Blue theme with deep purple accents: purple-tinted focused tabs, purple selection text and purple keywords.

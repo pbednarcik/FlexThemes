@@ -1,5 +1,9 @@
 # Changelog: Blue Mist
 
+## 0.7.1
+
+- No theme changes; version aligned with the FlexThemes bundle.
+
 ## 0.7.0
 
 - First public release: the classic Visual Studio Blue theme, which Visual Studio 2026 no longer ships, in the Islands layout: a periwinkle frame, cool white panels, Blue's periwinkle selection and its gold active tab.

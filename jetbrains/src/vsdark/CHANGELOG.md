@@ -1,5 +1,9 @@
 # Changelog: Graphite
 
+## 0.7.1
+
+- No theme changes; version aligned with the FlexThemes bundle.
+
 ## 0.7.0
 
 - First public release: Graphite, a neutral dark theme with the colours of Visual Studio 2026's Dark theme, decoded from Visual Studio's own theme data: grey chrome, Visual Studio's purple accent and its dark C# colours.

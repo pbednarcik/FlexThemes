@@ -4,25 +4,22 @@
   <vendor url="https://github.com/pbednarcik">Peter Bednarčík</vendor>
   <version>@VERSION@</version>
   <description><![CDATA[
-    <p>FlexThemes is the collection of Visual Studio-inspired themes JetBrains tools have always been missing:
-    calm colors, clear panel edges and easy-to-read code.</p>
-    <p>Nine light and dark appearances and eight editor schemes for Rider, IntelliJ IDEA, GoLand and
-    PyCharm: Morning Mist, Lavender Mist Gold, Indigo and Blue, Blue Mist, Periwinkle Islands, Graphite,
-    Periwinkle Night and Abyss, plus the alternative Lavender Mist Purple editor scheme.</p>
-    <p>Code colours are shared across C#, Java, Kotlin, Go and Python, and every text colour is checked for
-    contrast. Requires JetBrains IDEs 2026.2 or later with the Islands UI.</p>
-    <p>If you installed any of the single-family theme plugins, uninstall them first; they register the same themes.</p>
+    <p>Visual Studio-inspired light and dark themes for JetBrains IDEs, with calm colors, clear panel edges and
+    easy-to-read code.</p>
+    <ul>
+      <li><b>Light:</b> Morning Mist, Lavender Mist (Gold, Indigo and Blue), Blue Mist, Periwinkle Islands</li>
+      <li><b>Dark:</b> Graphite, Periwinkle Night, Abyss</li>
+      <li>A matching editor scheme for each, plus an alternative Lavender Mist Purple scheme</li>
+      <li>Shared code colors for C#, Java, Kotlin, Go and Python</li>
+      <li>Every text color checked for contrast</li>
+      <li>Tested in Rider, IntelliJ IDEA, GoLand and PyCharm 2026.2 with the Islands UI</li>
+    </ul>
+    <p>Pick a theme under Settings | Appearance &amp; Behavior | Appearance.</p>
     <p><i>Not affiliated with or endorsed by Microsoft or JetBrains. Visual Studio is a trademark of Microsoft
     Corporation; JetBrains, Rider, IntelliJ IDEA, GoLand and PyCharm are trademarks of JetBrains s.r.o.</i></p>
   ]]></description>
   <change-notes><![CDATA[
-    <p>First public release: nine light and dark appearances and eight editor schemes for Rider, IntelliJ IDEA, GoLand and PyCharm with the Islands UI.</p>
-    <ul>
-      <li>Visual Studio-inspired panel separation, focus cues and editor gutters, each theme with its own palette.</li>
-      <li>Shared language colours for C#, Java, Kotlin, Go and Python, checked against the installed IDEs' own declarations.</li>
-      <li>Every text colour is checked for contrast when the bundle is built, and every appearance is checked in native screenshots of all four IDEs.</li>
-    </ul>
-    <p>Uninstall the corresponding standalone theme plugins before installing the bundle.</p>
+    <p>First release on JetBrains Marketplace: nine light and dark appearances and eight editor schemes for Rider, IntelliJ IDEA, GoLand and PyCharm with the Islands UI. Same themes as 0.7.0 on GitHub, with a clearer plugin description.</p>
   ]]></change-notes>
   <depends>com.intellij.modules.platform</depends>
   <idea-version @COMPATIBILITY@ />

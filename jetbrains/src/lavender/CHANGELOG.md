@@ -1,5 +1,9 @@
 # Changelog: Lavender Mist
 
+## 0.7.1
+
+- No theme changes; version aligned with the FlexThemes bundle.
+
 ## 0.7.0
 
 - First public release: a light theme family with a soft lavender frame, cool white panels and deep purple accents, inspired by the classic Visual Studio Blue theme. Gold has Blue's gold active tab, Indigo a lavender selected tab with purple text and outline, Blue the periwinkle selection.

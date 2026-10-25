@@ -1,5 +1,9 @@
 # Changelog: Periwinkle Night
 
+## 0.7.1
+
+- No theme changes; version aligned with the FlexThemes bundle.
+
 ## 0.7.0
 
 - First public release: the dark sibling of Periwinkle Islands, with deep indigo chrome, clearly separated panels and soft white text.

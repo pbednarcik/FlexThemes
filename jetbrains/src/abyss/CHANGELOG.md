@@ -1,5 +1,9 @@
 # Changelog: Abyss
 
+## 0.7.1
+
+- No theme changes; version aligned with the FlexThemes bundle.
+
 ## 0.7.0
 
 - First public release: a deep ocean dark theme with blue-green chrome and code colours like glowing sea life: coral keywords, mint types, gold methods, sky-blue strings, italic sage comments and names in plain text.

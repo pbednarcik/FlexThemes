@@ -1,5 +1,9 @@
 # Changelog: FlexThemes
 
+## 0.7.1
+
+- First release on JetBrains Marketplace: the same themes and schemes as 0.7.0, with a shorter, clearer plugin description.
+
 ## 0.7.0
 
 - First public release: one plugin with all nine appearances (Morning Mist, Lavender Mist Gold, Indigo and Blue, Blue Mist, Periwinkle Islands, Graphite, Periwinkle Night and Abyss) and eight editor schemes, including the alternative Lavender Mist Purple scheme.
