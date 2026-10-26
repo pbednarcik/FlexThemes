@@ -17,9 +17,9 @@ are dark designs of their own.
 
 ## Install
 
-1. Download `flex-themes-<version>.jar` from the [GitHub Releases page](https://github.com/pbednarcik/FlexThemes/releases), or [build the bundle](#build) (it is written to `dist/`). Standalone jars for each family are attached to the same release if you prefer just one family.
-2. Uninstall any of the corresponding standalone theme plugins before installing the bundle; they register the same themes and editor schemes. The bundle declares those plugin IDs incompatible to prevent duplicates.
-3. In your JetBrains IDE: `Settings > Plugins > gear icon > Install Plugin from Disk…`, choose the jar, restart if asked.
+1. In your JetBrains IDE: `Settings > Plugins > Marketplace`, search for **FlexThemes** and install it, or install it from its [JetBrains Marketplace page](https://plugins.jetbrains.com/plugin/35464-flexthemes). Updates then arrive through the IDE.
+2. Or download `flex-themes-<version>.jar` from the [GitHub Releases page](https://github.com/pbednarcik/FlexThemes/releases), or [build the bundle](#build) (it is written to `dist/`), and install it with `Settings > Plugins > gear icon > Install Plugin from Disk…`, restarting if asked. Standalone jars for each family are attached to the same release if you prefer just one family; they are not on the Marketplace.
+3. Uninstall any of the corresponding standalone theme plugins before installing the bundle; they register the same themes and editor schemes. The bundle declares those plugin IDs incompatible to prevent duplicates.
 4. Choose the theme under `Settings > Appearance & Behavior > Appearance > Theme`. Its editor scheme switches with it; Lavender Mist also offers a separate Purple editor scheme.
 
 Requires JetBrains IDEs 2026.2 or later with the Islands UI.

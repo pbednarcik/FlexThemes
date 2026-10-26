@@ -1,5 +1,8 @@
 # FlexThemes
 
+[![JetBrains Marketplace](https://img.shields.io/jetbrains/plugin/v/35464?label=JetBrains%20Marketplace)](https://plugins.jetbrains.com/plugin/35464-flexthemes)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/35464)](https://plugins.jetbrains.com/plugin/35464-flexthemes)
+
 FlexThemes is the collection of Visual Studio-inspired themes JetBrains tools have always been missing: calm colors,
 clear panel edges and easy-to-read code. JetBrains comes first; Visual Studio and VS Code themes are planned.
 
@@ -23,7 +26,7 @@ edits: C# in Rider, Java in IntelliJ IDEA, Go in GoLand and Python in PyCharm.
 
 | Platform | Folder | Status |
 |---|---|---|
-| JetBrains IDEs | [jetbrains/](jetbrains/README.md) | FlexThemes 0.7.0: one bundle with every theme, or one plugin per theme family |
+| JetBrains IDEs | [jetbrains/](jetbrains/README.md) | FlexThemes 0.7.1 on [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/35464-flexthemes): one bundle with every theme. [GitHub Releases](https://github.com/pbednarcik/FlexThemes/releases) also have one plugin per theme family |
 | Visual Studio, VS Code | | planned |
 
 The JetBrains themes need a 2026.2 IDE with the Islands UI. They are tested in Rider, IntelliJ IDEA, GoLand and
